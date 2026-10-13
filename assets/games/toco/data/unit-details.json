@@ -1,5 +1,67 @@
 [
   {
+    "id": 99,
+    "name": "指揮官",
+    "group": "指揮官",
+    "slot": 0,
+    "promotions": [
+      1,
+      6,
+      11,
+      15,
+      18,
+      24,
+      28
+    ],
+    "skills": [
+      {
+        "id": 25,
+        "name": "飛刀術",
+        "exe_offset": 196374,
+        "raw_hex": "adb8a44db34e000000000000000000000000000000000300190002000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 3,
+        "base_power": 25,
+        "cast_range": 2,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 26,
+        "name": "武士拳",
+        "exe_offset": 196404,
+        "raw_hex": "aa5aa468aeb10000000000000000000000000000000005001e0001000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 5,
+        "base_power": 30,
+        "cast_range": 1,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "recruit_cost": null,
+    "protagonist": true,
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 50,
+      "技法": 15,
+      "防禦": 17,
+      "智慧": 10,
+      "攻擊": 20,
+      "反應": 18
+    },
+    "image": "assets/games/toco/units/commander.png"
+  },
+  {
     "table_index": 0,
     "group": "僧侶系",
     "slot": 0,
@@ -51,6 +113,7 @@
       "反應": 10
     },
     "template_offset": 199218,
+    "recruit_cost": 5,
     "image": "assets/games/toco/units/1.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -118,6 +181,7 @@
       "反應": 12
     },
     "template_offset": 199258,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/2.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -209,6 +273,7 @@
       "反應": 14
     },
     "template_offset": 199298,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/3.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -289,6 +354,7 @@
       "反應": 12
     },
     "template_offset": 199338,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/4.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -406,6 +472,7 @@
       "反應": 14
     },
     "template_offset": 199378,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/5.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -447,6 +514,7 @@
       "反應": 12
     },
     "template_offset": 199418,
+    "recruit_cost": 2,
     "image": "assets/games/toco/units/6.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -501,6 +569,7 @@
       "反應": 22
     },
     "template_offset": 199458,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/7.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -566,6 +635,7 @@
       "反應": 20
     },
     "template_offset": 199498,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/8.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -620,6 +690,7 @@
       "反應": 15
     },
     "template_offset": 199538,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/9.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -685,6 +756,7 @@
       "反應": 17
     },
     "template_offset": 199578,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/10.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -725,6 +797,7 @@
       "反應": 13
     },
     "template_offset": 199618,
+    "recruit_cost": 3,
     "image": "assets/games/toco/units/11.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -780,6 +853,7 @@
       "反應": 15
     },
     "template_offset": 199658,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/12.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -845,6 +919,7 @@
       "反應": 23
     },
     "template_offset": 199698,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/13.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -910,6 +985,7 @@
       "反應": 17
     },
     "template_offset": 199738,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/14.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -950,6 +1026,7 @@
       "反應": 8
     },
     "template_offset": 199778,
+    "recruit_cost": 9,
     "image": "assets/games/toco/units/15.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1004,6 +1081,7 @@
       "反應": 10
     },
     "template_offset": 199818,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/16.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1056,6 +1134,7 @@
       "反應": 12
     },
     "template_offset": 199858,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/17.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1110,6 +1189,7 @@
       "反應": 10
     },
     "template_offset": 199898,
+    "recruit_cost": 6,
     "image": "assets/games/toco/units/18.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1217,6 +1297,7 @@
       "反應": 12
     },
     "template_offset": 199938,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/19.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1336,6 +1417,7 @@
       "反應": 14
     },
     "template_offset": 199978,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/20.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1466,6 +1548,7 @@
       "反應": 16
     },
     "template_offset": 200018,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/21.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1585,6 +1668,7 @@
       "反應": 14
     },
     "template_offset": 200058,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/22.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1728,6 +1812,7 @@
       "反應": 16
     },
     "template_offset": 200098,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/23.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1768,6 +1853,7 @@
       "反應": 15
     },
     "template_offset": 200138,
+    "recruit_cost": 4,
     "image": "assets/games/toco/units/24.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1809,6 +1895,7 @@
       "反應": 17
     },
     "template_offset": 200178,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/25.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1861,6 +1948,7 @@
       "反應": 22
     },
     "template_offset": 200218,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/26.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1913,6 +2001,7 @@
       "反應": 34
     },
     "template_offset": 200258,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/27.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1953,6 +2042,7 @@
       "反應": 18
     },
     "template_offset": 200298,
+    "recruit_cost": 7,
     "image": "assets/games/toco/units/28.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -1993,6 +2083,7 @@
       "反應": 23
     },
     "template_offset": 200338,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/29.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -2047,6 +2138,7 @@
       "反應": 28
     },
     "template_offset": 200378,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/30.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   },
@@ -2112,6 +2204,7 @@
       "反應": 33
     },
     "template_offset": 200418,
+    "recruit_cost": null,
     "image": "assets/games/toco/units/31.png",
     "image_palette": "WOMAN.PIC fallback; combat colors unverified"
   }

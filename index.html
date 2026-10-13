@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#14151a">
-  <meta name="description" content="老遊戲收藏館，重訪精靈幻界的經典像素畫面。">
-  <title>老遊戲收藏館</title>
+  <meta name="description" content="探索精靈幻界與臥龍傳的武將、城池、兵種及原始地圖。">
+  <title>灰灰的老遊戲資料館</title>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
@@ -14,23 +14,23 @@
     <nav aria-label="主要導覽">
       <a class="nav-link" href="#home" data-page="home"><span aria-hidden="true">⌂</span>首頁</a>
       <p class="nav-label">遊戲</p>
+      <a class="nav-link" href="#wdragon" data-page="wdragon"><span class="game-dot" aria-hidden="true"></span>臥龍傳</a>
       <a class="nav-link" href="#toco" data-page="toco"><span class="game-dot" aria-hidden="true"></span>精靈幻界</a>
     </nav>
   </aside>
   <main id="main">
-    <section id="home" aria-labelledby="home-title">
-      <header class="page-header"><h1 id="home-title">首頁</h1></header>
+    <section id="home" aria-label="首頁">
+      <a class="game-card" href="#wdragon"><div class="cover"><img src="assets/games/wdragon/title.png" alt="臥龍傳標題畫面" width="640" height="400"></div><div class="card-info"><div><h3>臥龍傳</h3></div><span class="card-arrow" aria-label="查看遊戲">↗</span></div></a>
       <a class="game-card" href="#toco"><div class="cover"><img src="assets/games/toco/title.png" alt="精靈幻界原始遊戲標題畫面" width="640" height="349"></div><div class="card-info"><div><h3>精靈幻界</h3></div><span class="card-arrow" aria-label="查看遊戲">↗</span></div></a>
     </section>
     <section id="toco" aria-label="精靈幻界" hidden>
       <nav class="game-tabs" aria-label="精靈幻界分頁"><a href="#toco" data-tab="overview">首頁</a><a href="#toco/units" data-tab="units">兵種</a><a href="#toco/enemies" data-tab="enemies">敵人</a><a href="#toco/stages" data-tab="stages">關卡</a><a href="#toco/skills" data-tab="skills">技能</a><a href="#toco/formulas" data-tab="formulas">公式</a></nav>
       <div id="panel-overview" data-panel="overview">
       <figure class="title-art"><img src="assets/games/toco/title.png" alt="精靈幻界標題畫面，包含開始新遊戲與繼續遊戲選項" width="640" height="349"></figure>
-      <div class="game-description"><h2>遊戲簡介</h2><p>《精靈幻界》是一款 DOS 時代的奇幻老遊戲，採用 16 色像素畫面。</p></div>
       </div>
       <p id="data-status" role="status">載入遊戲資料…</p>
       <section id="units-section" data-panel="units" class="data-section" hidden aria-labelledby="units-title">
-        <h2 id="units-title">兵種與轉職</h2><p class="data-note">一般升級為隨機加值；轉職加成另列。移動力以點數表示，與「反應」共用同一數值，實際格數依地形耗點計算。圖像使用暫代調色盤。</p><nav id="unit-tabs" class="unit-tabs" aria-label="兵種系別"></nav><div id="unit-groups" class="unit-groups"></div>
+        <h2 id="units-title">兵種與轉職</h2><p class="data-note">反應/移動以點數表示，實際格數依地形耗點計算。圖像色彩待確認。</p><nav id="unit-tabs" class="unit-tabs" aria-label="兵種系別"></nav><div id="unit-groups" class="unit-groups"></div>
       </section>
       <section id="stages-section" data-panel="stages" class="data-section" hidden aria-labelledby="stages-title">
         <h2 id="stages-title">關卡</h2>
@@ -50,48 +50,81 @@
       </section>
       <section id="formulas-section" data-panel="formulas" class="data-section" hidden aria-labelledby="formulas-title">
         <h2 id="formulas-title">公式</h2>
-        <p class="data-note">以下依目前遊戲版本的程式解析整理。⌊x⌋ 表示無條件捨去；隨機區間包含上下限。</p>
         <article class="formula-card">
-          <h3>移動格數</h3><span class="formula-status">已確認移動點與地形扣點</span>
-          <p>兵種的移動值是可消耗的點數。每經過一格，扣除該地形對應的點數；不同路徑的耗點可能不同。</p>
+          <h3>兵種點數</h3>
+          <pre>初始兵種點數 = 50
+勝利後點數 = 原有點數 + 5
+招募後點數 = 原有點數 − 該兵種招募費用
+遣散後點數 = 原有點數 + 該系初階兵種招募費用</pre>
+          <p>僧侶 5、戰士 2、弓箭手 3、巨弩 9、術士 6、騎兵 4、飛鷹騎士 7。擊倒敵人不會逐隻增加兵種點數。</p>
+        </article>
+        <article class="formula-card">
+          <h3>移動格數</h3>
+          <p>兵種的反應/移動是可消耗的移動點數。每經過一格，扣除該地形對應的點數；不同路徑的耗點可能不同。</p>
           <pre>路徑耗點 = 沿途每格的地形耗點總和
-可走條件：路徑耗點 ≤ 單位目前移動值
-同一種地形的直線格數 = ⌊移動值 ÷ 每格耗點⌋</pre>
-          <p>例如移動值 10、每格耗點 3，平坦且無阻擋的路徑可走 3 格。不能把移動值 10 直接解讀成 10 格。</p>
+可走條件：路徑耗點 ≤ 單位目前反應/移動
+同一種地形的直線格數 = ⌊反應/移動 ÷ 每格耗點⌋</pre>
+
           <p>地形表依野外／城內及地面／飛行分開。不可通行的地形、其他單位與地圖邊界也會限制可達位置。</p>
-          <p class="data-note">目前兵種資料中的「反應」對應到程式用來計算移動點的同一欄位；遊戲的升級文字與狀態畫面使用不同名稱。</p>
+          <pre>轉職後反應/移動 = 轉職前反應/移動 + 轉入加成</pre>
         </article>
         <article class="formula-card">
-          <h3>攻擊傷害</h3><span class="formula-status pending">修正倍率尚待完整核對</span>
-          <pre>候選傷害 = 取整（修正後攻擊 − 修正後防禦）</pre>
-          <p>攻擊與防禦會受到包圍、支援及地形修正。不是單純拿兵種預設攻擊減掉預設防禦。</p>
-          <p>已確認傷害例程含兩種低傷害處理：先手候選差值大於 0、但取整後小於 15 時，改取隨機 15–25；差值不大於 0 時，改取隨機 10–15。目標實際扣血不超過其剩餘生命。</p>
-          <p class="data-note">不同出手方向使用不同程式分支；修正倍率與浮點取整仍需實戰核對，這裡不將候選式當成可精確預測戰鬥結果的完整公式。</p>
+          <h3>攻擊傷害</h3>
+          <p>先算包圍、支援與地形修正，再扣除修正防禦。整數除法與最後的傷害取整均向零取整。</p>
+          <pre>修正係數 K = 向零取整（(包圍 + 支援 + 向零取整(地形 ÷ 2)) ÷ 80）
+修正防禦 = 防禦 × (1 + 向零取整(地形 ÷ 80))
+候選傷害 = 向零取整（修正攻擊 − 修正防禦）</pre>
+          <p>先手差值為正、候選傷害小於 15 時，改取隨機 15–25；未超過防禦判定時，改取隨機 10–15。實際扣血最多為目標剩餘生命。</p>
+          <details><summary>出手分支公式</summary>
+            <p>A、B 是例程收到的兩個攻擊輸入；D₀、D₁ 是兩個單位的防禦，K₀、K₁ 與 T₀、T₁ 是其修正係數與地形值。</p>
+            <pre>分支 0：
+P = A × (1 + K₁ ÷ 80)
+E = D₀ × (1 + 向零取整(T₀ ÷ 80))
+D₀ ≥ P → 隨機 10–15
+否則取向零取整(P − E)；小於 15 → 隨機 15–25
+
+分支 1：
+P = A + U × K₀
+E = D₁ × (1 + 向零取整(T₁ ÷ 80))
+P ≤ E → 隨機 10–15
+否則取向零取整(P − E)；小於 15 → 隨機 15–25</pre>
+            <p>U 為不固定值，因此此分支無法只由兵種屬性確定傷害。分支 0 以防禦 D₀ 判定，計算傷害時扣除修正防禦 E。</p>
+          </details>
         </article>
         <article class="formula-card">
-          <h3>反擊傷害</h3><span class="formula-status pending">已確認條件與下限，倍率待核對</span>
-          <pre>反擊候選傷害 = 取整（修正後反擊攻擊 − 修正後防禦）
-先手致死，或不符合反擊條件 → 反擊傷害 0</pre>
-          <p>反擊不是把先手傷害直接乘上固定比例。程式另算反擊威力，並檢查職業、狀態及是否正在施放技能；射擊系與投擲系參與時會走不反擊的條件。</p>
-          <p>反擊差值大於 0、但取整後小於 10 時，改取隨機 10–15；差值不大於 0 時，改取隨機 5–10。</p>
+          <h3>反擊傷害</h3>
+          <pre>反擊威力 = B × (1 + K ÷ 80) ÷ 80
+反擊候選傷害 = 向零取整（反擊威力 − 修正防禦）</pre>
+          <p>K 使用反擊方對應的修正係數。兩次除以 80 分開計算。</p>
+          <p>反擊差值為正、候選傷害小於 10 時，改取隨機 10–15；差值不為正時，改取隨機 5–10。</p>
+          <p>正在使用技能、任一方為射擊系或投擲系，以及特定狀態會禁止反擊。當「先手傷害大於被擊者生命」時禁止；恰好相等仍會進入後續判定。</p>
         </article>
         <article class="formula-card">
-          <h3>法術傷害</h3><span class="formula-status">已確認輸入威力</span>
-          <pre>法術輸入威力 = 技能傷害基值 + ⌊施術者智慧 ÷ 2⌋
-實際扣血 = min（戰鬥傷害例程的結果，目標剩餘生命）</pre>
-          <p>例如「魔焱」基值 80、智慧 27，送進傷害例程的威力是 80 + 13 = 93。93 並非保證扣血量，後續還有戰鬥修正。</p>
-          <p>耗魔直接取技能耗魔值；剩餘技法不足時不能施放。施放距離與影響範圍使用技能頁列出的數值。痲痺術、石化術另走狀態效果處理，不能套用普通傷害式。</p>
-          <p class="data-note">完整法術減傷與各出手方向的倍率尚待確認，未以一般 RPG 常見公式代替。</p>
+          <h3>法術傷害</h3>
+          <pre>A = 技能傷害基值 + 向零取整（施術者智慧 ÷ 2）
+B = 0
+將 A、B 代入攻擊傷害例程
+實際扣血 = min（例程傷害，目標剩餘生命）</pre>
+          <p>法術共用上述兩個出手分支，並非「基值加智慧後直接扣血」；其中一個分支會受到不固定值 U 影響。B 為 0，且技能施放會禁止反擊。</p>
+          <p>耗魔直接扣除技能頁的數值。痲痺與石化另走狀態效果流程，不套用普通傷害公式。</p>
         </article>
         <article class="formula-card">
-          <h3>治療</h3><span class="formula-status">已確認</span>
+          <h3>治療</h3>
           <pre>計算治療量 = 技能治療基值 + ⌊施術者智慧 ÷ 2⌋
 實際恢復量 = min（計算治療量，目標最大生命 − 目標目前生命）
 治療後生命 = min（目標最大生命，目標目前生命 + 計算治療量）</pre>
-          <p>例如「回復術」基值 50、智慧 27，計算治療量為 63。目標只缺 20 點生命時，實際恢復 20 點。</p>
+
           <p>範圍治療對每個符合條件的友方目標分別套用生命上限，不把治療基值平均分攤給目標。</p>
         </article>
       </section>
+    </section>
+    <section id="wdragon" aria-label="臥龍傳" hidden>
+      <nav class="game-tabs" aria-label="臥龍傳分頁">
+        <a href="#wdragon" data-wd-tab="overview">首頁</a><a href="#wdragon/characters" data-wd-tab="characters">武將</a><a href="#wdragon/cities" data-wd-tab="cities">城池</a><a href="#wdragon/factions" data-wd-tab="factions">勢力</a><a href="#wdragon/troops" data-wd-tab="troops">兵種</a><a href="#wdragon/formulas" data-wd-tab="formulas">公式</a><a href="#wdragon/map" data-wd-tab="map">地圖</a>
+      </nav>
+      <p id="wd-status" role="status">載入臥龍傳資料…</p>
+      <div class="wd-controls"><label for="wd-chapter">劇本</label><select id="wd-chapter" disabled></select></div>
+      <div id="wd-content"></div>
     </section>
   </main>
 </body>

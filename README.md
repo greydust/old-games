@@ -25,6 +25,14 @@ npm run build
 
 ## 遊戲資料
 
+《臥龍傳》提供四劇本切換、角色能力與搜尋、城池資料與搜尋、兵種、公式及可選城池的戰略地圖。
+勢力頁列出君主、軍師、首都、資金與預備兵；城池頁包含生產力／城兵上限，徵兵計算式列於公式頁。
+本機其他版本的比較可執行 `python tools/compare_wdragon_versions.py`，結論見 `tools/WDRAGON_VERSIONS.md`。
+執行 `python tools/unpack_wdragon.py` 可解包原始資源；
+執行 `python tools/extract_wdragon_data.py` 可重新產生網站所需的
+`assets/games/wdragon/` 資料與圖片。網站不依賴 `local/`。
+解析依據、欄位位址與尚未確認的部分見 `tools/WDRAGON_FORMAT.md`。
+
 `local/` 已加入 `.gitignore`，存放原始遊戲與解包成果，不會加入版本控制。
 網站使用的標題圖獨立存於 `assets/games/toco/title.png`。
 解包工具為 `tools/unpack_toco.py`；解包時需要本機的 `local/binary/TOCO`。

@@ -37,6 +37,14 @@ for stage in stages:
   if terrain==12:
    x,y=i%w,i//w
    if not any(abs(g['x']-x)<2 and abs(g['y']-y)<2 for g in guard):guard.append(dict(x=x,y=y))
+ cells=[]
+ marked={(p['x'],p['y']) for p in deployment}
+ for y in range(0,h-1,2):
+  for x in range((y//2)%2,w-1,2):
+   group={(x,y),(x+1,y),(x,y+1),(x+1,y+1)}
+   if group<=marked:cells.append(dict(x=x,y=y,width=2,height=2))
+ assert sum(4 for cell in cells)==len(deployment),stage['id']
+ deployment=cells
  manifest[stage['id']]=dict(width=w,height=h,image=f"assets/games/toco/maps/{stage['id']}.png",positions=positions,guard=guard,deployment=deployment)
 
 print('31 maps exported')

@@ -60,11 +60,24 @@ def main():
         u['level_growth'] = dict(zip(ATTRS,['7–10','7–10','1–2','1–2','2–3','0']))
         u['template_stats'] = dict(zip(ATTRS,[struct.unpack_from('<H',r,13)[0],struct.unpack_from('<H',r,17)[0],r[22],r[24],r[21],r[23]]))
         u['template_offset'] = 0x30a32+i*40
+        u['recruit_cost'] = exe[0x3091a+r[4]*40+27] if u['slot'] == 0 else None
         u['image'] = f'assets/games/toco/units/{i+1}.png'
         u['image_palette'] = 'WOMAN.PIC fallback; combat colors unverified'
         export_portrait(SOURCE/f'GROUP/FTEAM{i+1}.GRP', DEST/'units'/f'{i+1}.png', palette)
     ids={u['id'] for u in units}
     assert all(set(u['promotions'])<=ids for u in units)
+    # Recruitment subtracts base-template byte 27, not the experience word at 11.
+    assert exe[0x1fd75:0x1fd7f] == bytes.fromhex('8a 87 95 15 b4 00 29 06 e3 20')
+    assert exe[0x27f97:0x27f9c] == bytes.fromhex('83 06 e3 20 05')
+    r = exe[0x30279:0x302a1]
+    assert r == exe[0x308f2:0x3091a] and r[4] == 7
+    commander = dict(id=99, name='指揮官', group='指揮官', slot=0,
+        promotions=[1,6,11,15,18,24,28], skills=[skills[x] for x in r[28:40] if x],
+        recruit_cost=None, protagonist=True, level_growth=units[0]['level_growth'],
+        template_stats=dict(zip(ATTRS,[struct.unpack_from('<H',r,13)[0],struct.unpack_from('<H',r,17)[0],r[22],r[24],r[21],r[23]])),
+        image='assets/games/toco/units/commander.png')
+    export_portrait(SOURCE/'GROUP/FROLE.GRP', DEST/'units/commander.png', palette)
+    units.insert(0, commander)
     (DEST/'data/unit-details.json').write_text(json.dumps(units,ensure_ascii=False,indent=2),encoding='utf-8')
     (DEST/'data/skills.json').write_text(json.dumps(list(skills.values()),ensure_ascii=False,indent=2),encoding='utf-8')
     enemy_names=json.loads((DEST/'data/enemy-names.json').read_text(encoding='utf-8'))
