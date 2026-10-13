@@ -1,0 +1,2118 @@
+[
+  {
+    "table_index": 0,
+    "group": "僧侶系",
+    "slot": 0,
+    "name": "僧侶",
+    "placeholder": false,
+    "exe_offset": 202251,
+    "id": 1,
+    "promotions": [
+      2,
+      4
+    ],
+    "skills": [
+      {
+        "id": 10,
+        "name": "回復術",
+        "exe_offset": 195924,
+        "raw_hex": "a65eb45fb34e000000000000000000000000000003000800320004000100",
+        "effect_type": 3,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "治療基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 15,
+      "技法": 25,
+      "防禦": 7,
+      "智慧": 15,
+      "攻擊": 13,
+      "反應": 10
+    },
+    "template_offset": 199218,
+    "image": "assets/games/toco/units/1.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 1,
+    "group": "僧侶系",
+    "slot": 1,
+    "name": "戰鬥僧侶",
+    "placeholder": false,
+    "exe_offset": 202256,
+    "id": 2,
+    "promotions": [
+      3
+    ],
+    "skills": [
+      {
+        "id": 10,
+        "name": "回復術",
+        "exe_offset": 195924,
+        "raw_hex": "a65eb45fb34e000000000000000000000000000003000800320004000100",
+        "effect_type": 3,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 11,
+        "name": "全體回復",
+        "exe_offset": 195954,
+        "raw_hex": "a5fec5e9a65eb45f00000000000000000000000003012300960003000200",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 35,
+        "base_power": 150,
+        "cast_range": 3,
+        "area_value": 2,
+        "effect_label": "治療基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 40,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 8,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 135,
+      "技法": 120,
+      "防禦": 22,
+      "智慧": 27,
+      "攻擊": 28,
+      "反應": 12
+    },
+    "template_offset": 199258,
+    "image": "assets/games/toco/units/2.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 2,
+    "group": "僧侶系",
+    "slot": 2,
+    "name": "法祭師",
+    "placeholder": false,
+    "exe_offset": 202265,
+    "id": 3,
+    "promotions": [],
+    "skills": [
+      {
+        "id": 10,
+        "name": "回復術",
+        "exe_offset": 195924,
+        "raw_hex": "a65eb45fb34e000000000000000000000000000003000800320004000100",
+        "effect_type": 3,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 11,
+        "name": "全體回復",
+        "exe_offset": 195954,
+        "raw_hex": "a5fec5e9a65eb45f00000000000000000000000003012300960003000200",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 35,
+        "base_power": 150,
+        "cast_range": 3,
+        "area_value": 2,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 12,
+        "name": "聖光術",
+        "exe_offset": 195984,
+        "raw_hex": "b874a5fab34e0000000000000000000000000000030146002c0104000300",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 70,
+        "base_power": 300,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 7,
+        "name": "落葉術",
+        "exe_offset": 195834,
+        "raw_hex": "b8a8b8adb34e000000000000000000000000000000000800320002000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 2,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 65,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 230,
+      "技法": 265,
+      "防禦": 34,
+      "智慧": 39,
+      "攻擊": 40,
+      "反應": 14
+    },
+    "template_offset": 199298,
+    "image": "assets/games/toco/units/3.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 3,
+    "group": "僧侶系",
+    "slot": 3,
+    "name": "聖僧",
+    "placeholder": false,
+    "exe_offset": 202272,
+    "id": 4,
+    "promotions": [
+      5
+    ],
+    "skills": [
+      {
+        "id": 10,
+        "name": "回復術",
+        "exe_offset": 195924,
+        "raw_hex": "a65eb45fb34e000000000000000000000000000003000800320004000100",
+        "effect_type": 3,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 11,
+        "name": "全體回復",
+        "exe_offset": 195954,
+        "raw_hex": "a5fec5e9a65eb45f00000000000000000000000003012300960003000200",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 35,
+        "base_power": 150,
+        "cast_range": 3,
+        "area_value": 2,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 7,
+        "name": "落葉術",
+        "exe_offset": 195834,
+        "raw_hex": "b8a8b8adb34e000000000000000000000000000000000800320002000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 2,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 40,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 110,
+      "技法": 145,
+      "防禦": 19,
+      "智慧": 27,
+      "攻擊": 25,
+      "反應": 12
+    },
+    "template_offset": 199338,
+    "image": "assets/games/toco/units/4.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 4,
+    "group": "僧侶系",
+    "slot": 4,
+    "name": "理祭師",
+    "placeholder": false,
+    "exe_offset": 202277,
+    "id": 5,
+    "promotions": [],
+    "skills": [
+      {
+        "id": 10,
+        "name": "回復術",
+        "exe_offset": 195924,
+        "raw_hex": "a65eb45fb34e000000000000000000000000000003000800320004000100",
+        "effect_type": 3,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 11,
+        "name": "全體回復",
+        "exe_offset": 195954,
+        "raw_hex": "a5fec5e9a65eb45f00000000000000000000000003012300960003000200",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 35,
+        "base_power": 150,
+        "cast_range": 3,
+        "area_value": 2,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 12,
+        "name": "聖光術",
+        "exe_offset": 195984,
+        "raw_hex": "b874a5fab34e0000000000000000000000000000030146002c0104000300",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 70,
+        "base_power": 300,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 7,
+        "name": "落葉術",
+        "exe_offset": 195834,
+        "raw_hex": "b8a8b8adb34e000000000000000000000000000000000800320002000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 2,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 8,
+        "name": "死亡之吻",
+        "exe_offset": 195864,
+        "raw_hex": "a6baa460a4a7a76b00000000000000000000000000001900640003000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 25,
+        "base_power": 100,
+        "cast_range": 3,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 4,
+        "name": "聖光箭",
+        "exe_offset": 195744,
+        "raw_hex": "b874a5fabd62000000000000000000000000000000000f00500004000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 15,
+        "base_power": 80,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 65,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 205,
+      "技法": 290,
+      "防禦": 31,
+      "智慧": 39,
+      "攻擊": 37,
+      "反應": 14
+    },
+    "template_offset": 199378,
+    "image": "assets/games/toco/units/5.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 6,
+    "group": "步兵系",
+    "slot": 0,
+    "name": "戰士",
+    "placeholder": false,
+    "exe_offset": 202291,
+    "id": 6,
+    "promotions": [
+      7,
+      9
+    ],
+    "skills": [],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 30,
+      "技法": 2,
+      "防禦": 12,
+      "智慧": 7,
+      "攻擊": 23,
+      "反應": 12
+    },
+    "template_offset": 199418,
+    "image": "assets/games/toco/units/6.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 7,
+    "group": "步兵系",
+    "slot": 1,
+    "name": "魔劍士",
+    "placeholder": false,
+    "exe_offset": 202296,
+    "id": 7,
+    "promotions": [
+      8
+    ],
+    "skills": [
+      {
+        "id": 13,
+        "name": "光電斬",
+        "exe_offset": 196014,
+        "raw_hex": "a5fab971b1d9000000000000000000000000000000000f00320003000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 15,
+        "base_power": 50,
+        "cast_range": 3,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 40,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 5
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 125,
+      "技法": 122,
+      "防禦": 40,
+      "智慧": 22,
+      "攻擊": 50,
+      "反應": 22
+    },
+    "template_offset": 199458,
+    "image": "assets/games/toco/units/7.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 8,
+    "group": "步兵系",
+    "slot": 2,
+    "name": "聖劍士",
+    "placeholder": false,
+    "exe_offset": 202303,
+    "id": 8,
+    "promotions": [],
+    "skills": [
+      {
+        "id": 13,
+        "name": "光電斬",
+        "exe_offset": 196014,
+        "raw_hex": "a5fab971b1d9000000000000000000000000000000000f00320003000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 15,
+        "base_power": 50,
+        "cast_range": 3,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 14,
+        "name": "獅吼劍",
+        "exe_offset": 196044,
+        "raw_hex": "b7e0a771bc43000000000000000000000000000000001e00640004000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 30,
+        "base_power": 100,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 40,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 220,
+      "技法": 242,
+      "防禦": 36,
+      "智慧": 34,
+      "攻擊": 47,
+      "反應": 20
+    },
+    "template_offset": 199498,
+    "image": "assets/games/toco/units/8.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 9,
+    "group": "步兵系",
+    "slot": 3,
+    "name": "裝甲戰士",
+    "placeholder": false,
+    "exe_offset": 202310,
+    "id": 9,
+    "promotions": [
+      10
+    ],
+    "skills": [
+      {
+        "id": 16,
+        "name": "大斧頭",
+        "exe_offset": 196104,
+        "raw_hex": "a46aa9f2c059000000000000000000000000000000001400500001000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 20,
+        "base_power": 80,
+        "cast_range": 1,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 40,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 11,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 150,
+      "技法": 97,
+      "防禦": 27,
+      "智慧": 19,
+      "攻擊": 41,
+      "反應": 15
+    },
+    "template_offset": 199538,
+    "image": "assets/games/toco/units/9.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 10,
+    "group": "步兵系",
+    "slot": 4,
+    "name": "重裝戰士",
+    "placeholder": false,
+    "exe_offset": 202319,
+    "id": 10,
+    "promotions": [],
+    "skills": [
+      {
+        "id": 16,
+        "name": "大斧頭",
+        "exe_offset": 196104,
+        "raw_hex": "a46aa9f2c059000000000000000000000000000000001400500001000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 20,
+        "base_power": 80,
+        "cast_range": 1,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 15,
+        "name": "狙擊斬",
+        "exe_offset": 196074,
+        "raw_hex": "aaaec0bbb1d9000000000000000000000000000000002300640001000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 35,
+        "base_power": 100,
+        "cast_range": 1,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 8,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 245,
+      "技法": 192,
+      "防禦": 42,
+      "智慧": 31,
+      "攻擊": 56,
+      "反應": 17
+    },
+    "template_offset": 199578,
+    "image": "assets/games/toco/units/10.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 12,
+    "group": "射擊系",
+    "slot": 0,
+    "name": "弓箭手",
+    "placeholder": false,
+    "exe_offset": 202335,
+    "id": 11,
+    "promotions": [
+      12
+    ],
+    "skills": [],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 20,
+      "技法": 4,
+      "防禦": 9,
+      "智慧": 8,
+      "攻擊": 38,
+      "反應": 13
+    },
+    "template_offset": 199618,
+    "image": "assets/games/toco/units/11.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 13,
+    "group": "射擊系",
+    "slot": 1,
+    "name": "神箭手",
+    "placeholder": false,
+    "exe_offset": 202342,
+    "id": 12,
+    "promotions": [
+      13,
+      14
+    ],
+    "skills": [
+      {
+        "id": 19,
+        "name": "連續箭",
+        "exe_offset": 196194,
+        "raw_hex": "b373c4f2bd62000000000000000000000000000000000f00500004000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 15,
+        "base_power": 80,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 8,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 115,
+      "技法": 99,
+      "防禦": 24,
+      "智慧": 20,
+      "攻擊": 53,
+      "反應": 15
+    },
+    "template_offset": 199658,
+    "image": "assets/games/toco/units/12.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 14,
+    "group": "射擊系",
+    "slot": 2,
+    "name": "馬上射手",
+    "placeholder": false,
+    "exe_offset": 202349,
+    "id": 13,
+    "promotions": [],
+    "skills": [
+      {
+        "id": 19,
+        "name": "連續箭",
+        "exe_offset": 196194,
+        "raw_hex": "b373c4f2bd62000000000000000000000000000000000f00500004000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 15,
+        "base_power": 80,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 20,
+        "name": "扇形射擊",
+        "exe_offset": 196224,
+        "raw_hex": "aeb0a7ceae67c0bb00000000000000000000000000012d00500003000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 45,
+        "base_power": 80,
+        "cast_range": 3,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 8,
+      "反應": 8
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 210,
+      "技法": 194,
+      "防禦": 36,
+      "智慧": 32,
+      "攻擊": 58,
+      "反應": 23
+    },
+    "template_offset": 199698,
+    "image": "assets/games/toco/units/13.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 15,
+    "group": "射擊系",
+    "slot": 3,
+    "name": "弩擊手",
+    "placeholder": false,
+    "exe_offset": 202358,
+    "id": 14,
+    "promotions": [],
+    "skills": [
+      {
+        "id": 19,
+        "name": "連續箭",
+        "exe_offset": 196194,
+        "raw_hex": "b373c4f2bd62000000000000000000000000000000000f00500004000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 15,
+        "base_power": 80,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 20,
+        "name": "扇形射擊",
+        "exe_offset": 196224,
+        "raw_hex": "aeb0a7ceae67c0bb00000000000000000000000000012d00500003000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 45,
+        "base_power": 80,
+        "cast_range": 3,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 14,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 210,
+      "技法": 194,
+      "防禦": 39,
+      "智慧": 32,
+      "攻擊": 63,
+      "反應": 17
+    },
+    "template_offset": 199738,
+    "image": "assets/games/toco/units/14.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 18,
+    "group": "投擲系",
+    "slot": 0,
+    "name": "巨弩",
+    "placeholder": false,
+    "exe_offset": 202379,
+    "id": 15,
+    "promotions": [
+      16
+    ],
+    "skills": [],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 30,
+      "技法": 4,
+      "防禦": 10,
+      "智慧": 8,
+      "攻擊": 45,
+      "反應": 8
+    },
+    "template_offset": 199778,
+    "image": "assets/games/toco/units/15.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 19,
+    "group": "投擲系",
+    "slot": 1,
+    "name": "投石器",
+    "placeholder": false,
+    "exe_offset": 202384,
+    "id": 16,
+    "promotions": [
+      17
+    ],
+    "skills": [
+      {
+        "id": 23,
+        "name": "火燄彈",
+        "exe_offset": 196314,
+        "raw_hex": "a4f5bf56bc75000000000000000000000000000000001e00640005000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 30,
+        "base_power": 100,
+        "cast_range": 5,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 14,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 150,
+      "技法": 120,
+      "防禦": 29,
+      "智慧": 20,
+      "攻擊": 66,
+      "反應": 10
+    },
+    "template_offset": 199818,
+    "image": "assets/games/toco/units/16.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 20,
+    "group": "投擲系",
+    "slot": 2,
+    "name": "連投石器",
+    "placeholder": false,
+    "exe_offset": 202391,
+    "id": 17,
+    "promotions": [],
+    "skills": [
+      {
+        "id": 24,
+        "name": "圓形投射",
+        "exe_offset": 196344,
+        "raw_hex": "b6eaa7cea7ebae6700000000000000000000000000016400960003000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 100,
+        "base_power": 150,
+        "cast_range": 3,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 14,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 245,
+      "技法": 215,
+      "防禦": 41,
+      "智慧": 32,
+      "攻擊": 87,
+      "反應": 12
+    },
+    "template_offset": 199858,
+    "image": "assets/games/toco/units/17.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 24,
+    "group": "術士系",
+    "slot": 0,
+    "name": "術士",
+    "placeholder": false,
+    "exe_offset": 202421,
+    "id": 18,
+    "promotions": [
+      19
+    ],
+    "skills": [
+      {
+        "id": 7,
+        "name": "落葉術",
+        "exe_offset": 195834,
+        "raw_hex": "b8a8b8adb34e000000000000000000000000000000000800320002000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 2,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 20,
+      "技法": 30,
+      "防禦": 8,
+      "智慧": 18,
+      "攻擊": 16,
+      "反應": 10
+    },
+    "template_offset": 199898,
+    "image": "assets/games/toco/units/18.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 25,
+    "group": "術士系",
+    "slot": 1,
+    "name": "魔術士",
+    "placeholder": false,
+    "exe_offset": 202426,
+    "id": 19,
+    "promotions": [
+      20,
+      22
+    ],
+    "skills": [
+      {
+        "id": 7,
+        "name": "落葉術",
+        "exe_offset": 195834,
+        "raw_hex": "b8a8b8adb34e000000000000000000000000000000000800320002000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 2,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 8,
+        "name": "死亡之吻",
+        "exe_offset": 195864,
+        "raw_hex": "a6baa460a4a7a76b00000000000000000000000000001900640003000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 25,
+        "base_power": 100,
+        "cast_range": 3,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 10,
+        "name": "回復術",
+        "exe_offset": 195924,
+        "raw_hex": "a65eb45fb34e000000000000000000000000000003000800320004000100",
+        "effect_type": 3,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 4,
+        "name": "聖光箭",
+        "exe_offset": 195744,
+        "raw_hex": "b874a5fabd62000000000000000000000000000000000f00500004000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 15,
+        "base_power": 80,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 1,
+        "name": "魔焱",
+        "exe_offset": 195654,
+        "raw_hex": "c55dda5d0000000000000000000000000000000000011e00500003000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 30,
+        "base_power": 80,
+        "cast_range": 3,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 40,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 115,
+      "技法": 145,
+      "防禦": 19,
+      "智慧": 28,
+      "攻擊": 25,
+      "反應": 12
+    },
+    "template_offset": 199938,
+    "image": "assets/games/toco/units/19.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 26,
+    "group": "術士系",
+    "slot": 2,
+    "name": "黑魔術士",
+    "placeholder": false,
+    "exe_offset": 202433,
+    "id": 20,
+    "promotions": [
+      21
+    ],
+    "skills": [
+      {
+        "id": 7,
+        "name": "落葉術",
+        "exe_offset": 195834,
+        "raw_hex": "b8a8b8adb34e000000000000000000000000000000000800320002000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 2,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 8,
+        "name": "死亡之吻",
+        "exe_offset": 195864,
+        "raw_hex": "a6baa460a4a7a76b00000000000000000000000000001900640003000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 25,
+        "base_power": 100,
+        "cast_range": 3,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 10,
+        "name": "回復術",
+        "exe_offset": 195924,
+        "raw_hex": "a65eb45fb34e000000000000000000000000000003000800320004000100",
+        "effect_type": 3,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 4,
+        "name": "聖光箭",
+        "exe_offset": 195744,
+        "raw_hex": "b874a5fabd62000000000000000000000000000000000f00500004000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 15,
+        "base_power": 80,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 1,
+        "name": "魔焱",
+        "exe_offset": 195654,
+        "raw_hex": "c55dda5d0000000000000000000000000000000000011e00500003000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 30,
+        "base_power": 80,
+        "cast_range": 3,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 2,
+        "name": "無名之火",
+        "exe_offset": 195684,
+        "raw_hex": "b54ca657a4a7a4f500000000000000000000000000013200820004000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 50,
+        "base_power": 130,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 65,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 210,
+      "技法": 290,
+      "防禦": 31,
+      "智慧": 40,
+      "攻擊": 37,
+      "反應": 14
+    },
+    "template_offset": 199978,
+    "image": "assets/games/toco/units/20.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 27,
+    "group": "術士系",
+    "slot": 3,
+    "name": "黑魔法師",
+    "placeholder": false,
+    "exe_offset": 202442,
+    "id": 21,
+    "promotions": [],
+    "skills": [
+      {
+        "id": 7,
+        "name": "落葉術",
+        "exe_offset": 195834,
+        "raw_hex": "b8a8b8adb34e000000000000000000000000000000000800320002000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 2,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 8,
+        "name": "死亡之吻",
+        "exe_offset": 195864,
+        "raw_hex": "a6baa460a4a7a76b00000000000000000000000000001900640003000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 25,
+        "base_power": 100,
+        "cast_range": 3,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 10,
+        "name": "回復術",
+        "exe_offset": 195924,
+        "raw_hex": "a65eb45fb34e000000000000000000000000000003000800320004000100",
+        "effect_type": 3,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 4,
+        "name": "聖光箭",
+        "exe_offset": 195744,
+        "raw_hex": "b874a5fabd62000000000000000000000000000000000f00500004000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 15,
+        "base_power": 80,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 1,
+        "name": "魔焱",
+        "exe_offset": 195654,
+        "raw_hex": "c55dda5d0000000000000000000000000000000000011e00500003000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 30,
+        "base_power": 80,
+        "cast_range": 3,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 2,
+        "name": "無名之火",
+        "exe_offset": 195684,
+        "raw_hex": "b54ca657a4a7a4f500000000000000000000000000013200820004000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 50,
+        "base_power": 130,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 3,
+        "name": "死神招喚",
+        "exe_offset": 195714,
+        "raw_hex": "a6baafaba9dbb3ea00000000000000000000000000014600c80005000200",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 70,
+        "base_power": 200,
+        "cast_range": 5,
+        "area_value": 2,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 40,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 305,
+      "技法": 410,
+      "防禦": 43,
+      "智慧": 52,
+      "攻擊": 49,
+      "反應": 16
+    },
+    "template_offset": 200018,
+    "image": "assets/games/toco/units/21.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 28,
+    "group": "術士系",
+    "slot": 4,
+    "name": "白魔術士",
+    "placeholder": false,
+    "exe_offset": 202451,
+    "id": 22,
+    "promotions": [
+      23
+    ],
+    "skills": [
+      {
+        "id": 7,
+        "name": "落葉術",
+        "exe_offset": 195834,
+        "raw_hex": "b8a8b8adb34e000000000000000000000000000000000800320002000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 2,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 8,
+        "name": "死亡之吻",
+        "exe_offset": 195864,
+        "raw_hex": "a6baa460a4a7a76b00000000000000000000000000001900640003000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 25,
+        "base_power": 100,
+        "cast_range": 3,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 9,
+        "name": "雷神之怒",
+        "exe_offset": 195894,
+        "raw_hex": "b970afaba4a7abe300000000000000000000000000002d00a00004000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 45,
+        "base_power": 160,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 4,
+        "name": "聖光箭",
+        "exe_offset": 195744,
+        "raw_hex": "b874a5fabd62000000000000000000000000000000000f00500004000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 15,
+        "base_power": 80,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 5,
+        "name": "亂石崩",
+        "exe_offset": 195774,
+        "raw_hex": "b6c3a5dbb1590000000000000000000000000000000132006e0004000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 50,
+        "base_power": 110,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 10,
+        "name": "回復術",
+        "exe_offset": 195924,
+        "raw_hex": "a65eb45fb34e000000000000000000000000000003000800320004000100",
+        "effect_type": 3,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "治療基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 40,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 210,
+      "技法": 265,
+      "防禦": 31,
+      "智慧": 40,
+      "攻擊": 37,
+      "反應": 14
+    },
+    "template_offset": 200058,
+    "image": "assets/games/toco/units/22.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 29,
+    "group": "術士系",
+    "slot": 5,
+    "name": "白魔法師",
+    "placeholder": false,
+    "exe_offset": 202460,
+    "id": 23,
+    "promotions": [],
+    "skills": [
+      {
+        "id": 7,
+        "name": "落葉術",
+        "exe_offset": 195834,
+        "raw_hex": "b8a8b8adb34e000000000000000000000000000000000800320002000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 2,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 8,
+        "name": "死亡之吻",
+        "exe_offset": 195864,
+        "raw_hex": "a6baa460a4a7a76b00000000000000000000000000001900640003000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 25,
+        "base_power": 100,
+        "cast_range": 3,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 9,
+        "name": "雷神之怒",
+        "exe_offset": 195894,
+        "raw_hex": "b970afaba4a7abe300000000000000000000000000002d00a00004000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 45,
+        "base_power": 160,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 4,
+        "name": "聖光箭",
+        "exe_offset": 195744,
+        "raw_hex": "b874a5fabd62000000000000000000000000000000000f00500004000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 15,
+        "base_power": 80,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 5,
+        "name": "亂石崩",
+        "exe_offset": 195774,
+        "raw_hex": "b6c3a5dbb1590000000000000000000000000000000132006e0004000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 50,
+        "base_power": 110,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 6,
+        "name": "巨靈掌",
+        "exe_offset": 195804,
+        "raw_hex": "a5a8c646b478000000000000000000000000000000003200960005000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 50,
+        "base_power": 150,
+        "cast_range": 5,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 10,
+        "name": "回復術",
+        "exe_offset": 195924,
+        "raw_hex": "a65eb45fb34e000000000000000000000000000003000800320004000100",
+        "effect_type": 3,
+        "area_flag": 0,
+        "mana_cost": 8,
+        "base_power": 50,
+        "cast_range": 4,
+        "area_value": 1,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 11,
+        "name": "全體回復",
+        "exe_offset": 195954,
+        "raw_hex": "a5fec5e9a65eb45f00000000000000000000000003012300960003000200",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 35,
+        "base_power": 150,
+        "cast_range": 3,
+        "area_value": 2,
+        "effect_label": "治療基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 40,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 305,
+      "技法": 385,
+      "防禦": 43,
+      "智慧": 52,
+      "攻擊": 49,
+      "反應": 16
+    },
+    "template_offset": 200098,
+    "image": "assets/games/toco/units/23.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 30,
+    "group": "騎兵系",
+    "slot": 0,
+    "name": "騎兵",
+    "placeholder": false,
+    "exe_offset": 202469,
+    "id": 24,
+    "promotions": [
+      25
+    ],
+    "skills": [],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 25,
+      "技法": 2,
+      "防禦": 10,
+      "智慧": 8,
+      "攻擊": 21,
+      "反應": 15
+    },
+    "template_offset": 200138,
+    "image": "assets/games/toco/units/24.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 31,
+    "group": "騎兵系",
+    "slot": 1,
+    "name": "裝甲騎兵",
+    "placeholder": false,
+    "exe_offset": 202474,
+    "id": 25,
+    "promotions": [
+      26,
+      27
+    ],
+    "skills": [],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 8,
+      "反應": 5
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 145,
+      "技法": 97,
+      "防禦": 25,
+      "智慧": 20,
+      "攻擊": 36,
+      "反應": 17
+    },
+    "template_offset": 200178,
+    "image": "assets/games/toco/units/25.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 32,
+    "group": "騎兵系",
+    "slot": 2,
+    "name": "長槍騎兵",
+    "placeholder": false,
+    "exe_offset": 202483,
+    "id": 26,
+    "promotions": [],
+    "skills": [
+      {
+        "id": 17,
+        "name": "衝擊波",
+        "exe_offset": 196134,
+        "raw_hex": "bdc4c0bbaa69000000000000000000000000000000001e00640002000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 30,
+        "base_power": 100,
+        "cast_range": 2,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 11,
+      "反應": 5
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 240,
+      "技法": 192,
+      "防禦": 40,
+      "智慧": 32,
+      "攻擊": 54,
+      "反應": 22
+    },
+    "template_offset": 200218,
+    "image": "assets/games/toco/units/26.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 33,
+    "group": "騎兵系",
+    "slot": 3,
+    "name": "重裝騎兵",
+    "placeholder": false,
+    "exe_offset": 202492,
+    "id": 27,
+    "promotions": [],
+    "skills": [
+      {
+        "id": 18,
+        "name": "火風車",
+        "exe_offset": 196164,
+        "raw_hex": "a4f5adb7a8ae000000000000000000000000000000001e00320001000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 30,
+        "base_power": 50,
+        "cast_range": 1,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 8,
+      "反應": 5
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 335,
+      "技法": 295,
+      "防禦": 55,
+      "智慧": 15,
+      "攻擊": 50,
+      "反應": 34
+    },
+    "template_offset": 200258,
+    "image": "assets/games/toco/units/27.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 36,
+    "group": "飛行系",
+    "slot": 0,
+    "name": "飛鷹騎士",
+    "placeholder": false,
+    "exe_offset": 202515,
+    "id": 28,
+    "promotions": [
+      29
+    ],
+    "skills": [],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 25,
+      "技法": 4,
+      "防禦": 11,
+      "智慧": 8,
+      "攻擊": 21,
+      "反應": 18
+    },
+    "template_offset": 200298,
+    "image": "assets/games/toco/units/28.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 37,
+    "group": "飛行系",
+    "slot": 1,
+    "name": "飛馬騎士",
+    "placeholder": false,
+    "exe_offset": 202524,
+    "id": 29,
+    "promotions": [
+      30
+    ],
+    "skills": [],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 5,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 145,
+      "技法": 99,
+      "防禦": 26,
+      "智慧": 20,
+      "攻擊": 33,
+      "反應": 23
+    },
+    "template_offset": 200338,
+    "image": "assets/games/toco/units/29.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 38,
+    "group": "飛行系",
+    "slot": 2,
+    "name": "龍騎士",
+    "placeholder": false,
+    "exe_offset": 202533,
+    "id": 30,
+    "promotions": [
+      31
+    ],
+    "skills": [
+      {
+        "id": 21,
+        "name": "龍涎",
+        "exe_offset": 196254,
+        "raw_hex": "c073b2430000000000000000000000000000000000001e00640005000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 30,
+        "base_power": 100,
+        "cast_range": 5,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 8,
+      "反應": 5
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 240,
+      "技法": 194,
+      "防禦": 41,
+      "智慧": 32,
+      "攻擊": 48,
+      "反應": 28
+    },
+    "template_offset": 200378,
+    "image": "assets/games/toco/units/30.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  },
+  {
+    "table_index": 39,
+    "group": "飛行系",
+    "slot": 3,
+    "name": "火龍騎士",
+    "placeholder": false,
+    "exe_offset": 202540,
+    "id": 31,
+    "promotions": [],
+    "skills": [
+      {
+        "id": 21,
+        "name": "龍涎",
+        "exe_offset": 196254,
+        "raw_hex": "c073b2430000000000000000000000000000000000001e00640005000100",
+        "effect_type": 0,
+        "area_flag": 0,
+        "mana_cost": 30,
+        "base_power": 100,
+        "cast_range": 5,
+        "area_value": 1,
+        "effect_label": "傷害基值"
+      },
+      {
+        "id": 22,
+        "name": "龍燄",
+        "exe_offset": 196284,
+        "raw_hex": "c073bf560000000000000000000000000000000000016400960004000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 100,
+        "base_power": 150,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "promotion_bonus": {
+      "生命": 15,
+      "技法": 15,
+      "防禦": 0,
+      "智慧": 0,
+      "攻擊": 8,
+      "反應": 2
+    },
+    "level_growth": {
+      "生命": "7–10",
+      "技法": "7–10",
+      "防禦": "1–2",
+      "智慧": "1–2",
+      "攻擊": "2–3",
+      "反應": "0"
+    },
+    "template_stats": {
+      "生命": 335,
+      "技法": 289,
+      "防禦": 56,
+      "智慧": 44,
+      "攻擊": 63,
+      "反應": 33
+    },
+    "template_offset": 200418,
+    "image": "assets/games/toco/units/31.png",
+    "image_palette": "WOMAN.PIC fallback; combat colors unverified"
+  }
+]

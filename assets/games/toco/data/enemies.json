@@ -1,0 +1,738 @@
+[
+  {
+    "id": 1,
+    "name": "綠膚祭司",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-1.png",
+    "template_stats": {
+      "生命": 75,
+      "技法": 45,
+      "防禦": 10,
+      "智慧": 15,
+      "攻擊": 10,
+      "反應": 10
+    },
+    "skills": [
+      {
+        "id": 27,
+        "name": "修復術",
+        "exe_offset": 196434,
+        "raw_hex": "add7b45fb34e000000000000000000000000000003010500460004000300",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 5,
+        "base_power": 70,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "治療基值"
+      }
+    ],
+    "template_offset": 200458
+  },
+  {
+    "id": 2,
+    "name": "兜帽祭司",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-2.png",
+    "template_stats": {
+      "生命": 175,
+      "技法": 135,
+      "防禦": 27,
+      "智慧": 22,
+      "攻擊": 23,
+      "反應": 12
+    },
+    "skills": [
+      {
+        "id": 28,
+        "name": "邪魔之力",
+        "exe_offset": 196464,
+        "raw_hex": "a8b8c55da4a7a44f00000000000000000000000003010a00c80004000300",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 10,
+        "base_power": 200,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "治療基值"
+      }
+    ],
+    "template_offset": 200498
+  },
+  {
+    "id": 3,
+    "name": "角冠祭司",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-3.png",
+    "template_stats": {
+      "生命": 200,
+      "技法": 135,
+      "防禦": 35,
+      "智慧": 22,
+      "攻擊": 44,
+      "反應": 14
+    },
+    "skills": [
+      {
+        "id": 28,
+        "name": "邪魔之力",
+        "exe_offset": 196464,
+        "raw_hex": "a8b8c55da4a7a44f00000000000000000000000003010a00c80004000300",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 10,
+        "base_power": 200,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "治療基值"
+      }
+    ],
+    "template_offset": 200538
+  },
+  {
+    "id": 4,
+    "name": "黑袍祭司",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-4.png",
+    "template_stats": {
+      "生命": 275,
+      "技法": 250,
+      "防禦": 54,
+      "智慧": 30,
+      "攻擊": 65,
+      "反應": 16
+    },
+    "skills": [
+      {
+        "id": 29,
+        "name": "回魂術",
+        "exe_offset": 196494,
+        "raw_hex": "a65ebbeeb34e000000000000000000000000000003010a00fa0004000300",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 10,
+        "base_power": 250,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "治療基值"
+      }
+    ],
+    "template_offset": 200578
+  },
+  {
+    "id": 5,
+    "name": "骷髏刀兵",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-5.png",
+    "template_stats": {
+      "生命": 110,
+      "技法": 0,
+      "防禦": 12,
+      "智慧": 7,
+      "攻擊": 15,
+      "反應": 15
+    },
+    "skills": [],
+    "template_offset": 200618
+  },
+  {
+    "id": 6,
+    "name": "狼頭劍兵",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-6.png",
+    "template_stats": {
+      "生命": 200,
+      "技法": 0,
+      "防禦": 22,
+      "智慧": 7,
+      "攻擊": 38,
+      "反應": 17
+    },
+    "skills": [],
+    "template_offset": 200658
+  },
+  {
+    "id": 7,
+    "name": "獅頭鏈鎚兵",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-7.png",
+    "template_stats": {
+      "生命": 350,
+      "技法": 0,
+      "防禦": 35,
+      "智慧": 7,
+      "攻擊": 55,
+      "反應": 19
+    },
+    "skills": [],
+    "template_offset": 200698
+  },
+  {
+    "id": 8,
+    "name": "骷髏劍士",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-8.png",
+    "template_stats": {
+      "生命": 420,
+      "技法": 0,
+      "防禦": 46,
+      "智慧": 7,
+      "攻擊": 83,
+      "反應": 21
+    },
+    "skills": [],
+    "template_offset": 200738
+  },
+  {
+    "id": 9,
+    "name": "獨眼鎚兵",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-9.png",
+    "template_stats": {
+      "生命": 550,
+      "技法": 0,
+      "防禦": 73,
+      "智慧": 7,
+      "攻擊": 120,
+      "反應": 23
+    },
+    "skills": [],
+    "template_offset": 200778
+  },
+  {
+    "id": 10,
+    "name": "投擲小鬼",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-10.png",
+    "template_stats": {
+      "生命": 50,
+      "技法": 0,
+      "防禦": 9,
+      "智慧": 8,
+      "攻擊": 18,
+      "反應": 13
+    },
+    "skills": [],
+    "template_offset": 200818
+  },
+  {
+    "id": 11,
+    "name": "狼頭弓手",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-11.png",
+    "template_stats": {
+      "生命": 150,
+      "技法": 0,
+      "防禦": 16,
+      "智慧": 8,
+      "攻擊": 35,
+      "反應": 15
+    },
+    "skills": [],
+    "template_offset": 200858
+  },
+  {
+    "id": 12,
+    "name": "獅頭弓手",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-12.png",
+    "template_stats": {
+      "生命": 250,
+      "技法": 0,
+      "防禦": 33,
+      "智慧": 8,
+      "攻擊": 85,
+      "反應": 17
+    },
+    "skills": [],
+    "template_offset": 200898
+  },
+  {
+    "id": 13,
+    "name": "巨蠍",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-13.png",
+    "template_stats": {
+      "生命": 450,
+      "技法": 0,
+      "防禦": 58,
+      "智慧": 8,
+      "攻擊": 127,
+      "反應": 17
+    },
+    "skills": [],
+    "template_offset": 200938
+  },
+  {
+    "id": 14,
+    "name": "觸手怪",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-14.png",
+    "template_stats": {
+      "生命": 60,
+      "技法": 0,
+      "防禦": 15,
+      "智慧": 8,
+      "攻擊": 30,
+      "反應": 8
+    },
+    "skills": [],
+    "template_offset": 200978
+  },
+  {
+    "id": 15,
+    "name": "火砲兵",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-15.png",
+    "template_stats": {
+      "生命": 160,
+      "技法": 0,
+      "防禦": 27,
+      "智慧": 8,
+      "攻擊": 57,
+      "反應": 12
+    },
+    "skills": [],
+    "template_offset": 201018
+  },
+  {
+    "id": 16,
+    "name": "投彈小丑",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-16.png",
+    "template_stats": {
+      "生命": 260,
+      "技法": 0,
+      "防禦": 54,
+      "智慧": 8,
+      "攻擊": 94,
+      "反應": 12
+    },
+    "skills": [],
+    "template_offset": 201058
+  },
+  {
+    "id": 17,
+    "name": "火焰石塔",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-17.png",
+    "template_stats": {
+      "生命": 420,
+      "技法": 0,
+      "防禦": 72,
+      "智慧": 8,
+      "攻擊": 135,
+      "反應": 14
+    },
+    "skills": [],
+    "template_offset": 201098
+  },
+  {
+    "id": 18,
+    "name": "綠膚法師",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-18.png",
+    "template_stats": {
+      "生命": 80,
+      "技法": 50,
+      "防禦": 11,
+      "智慧": 18,
+      "攻擊": 14,
+      "反應": 10
+    },
+    "skills": [
+      {
+        "id": 30,
+        "name": "妖魔藤蔓",
+        "exe_offset": 196524,
+        "raw_hex": "a7afc55dc3c3bdaf00000000000000000000000000011400500006000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 20,
+        "base_power": 80,
+        "cast_range": 6,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "template_offset": 201138
+  },
+  {
+    "id": 19,
+    "name": "兜帽法師",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-19.png",
+    "template_stats": {
+      "生命": 140,
+      "技法": 50,
+      "防禦": 28,
+      "智慧": 18,
+      "攻擊": 24,
+      "反應": 10
+    },
+    "skills": [
+      {
+        "id": 31,
+        "name": "魍魎之火",
+        "exe_offset": 196554,
+        "raw_hex": "c353c352a4a7a4f500000000000000000000000000010500640005000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 5,
+        "base_power": 100,
+        "cast_range": 5,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "template_offset": 201178
+  },
+  {
+    "id": 20,
+    "name": "尖耳術士",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-20.png",
+    "template_stats": {
+      "生命": 250,
+      "技法": 140,
+      "防禦": 42,
+      "智慧": 25,
+      "攻擊": 41,
+      "反應": 12
+    },
+    "skills": [
+      {
+        "id": 32,
+        "name": "痲痺術",
+        "exe_offset": 196584,
+        "raw_hex": "b7f2b7f4b34e0000000000000000000000000000040105005a0004000300",
+        "effect_type": 4,
+        "area_flag": 1,
+        "mana_cost": 5,
+        "base_power": 90,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "痲痺效果值"
+      }
+    ],
+    "template_offset": 201218
+  },
+  {
+    "id": 21,
+    "name": "蛇髮女妖",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-21.png",
+    "template_stats": {
+      "生命": 400,
+      "技法": 240,
+      "防禦": 65,
+      "智慧": 72,
+      "攻擊": 68,
+      "反應": 16
+    },
+    "skills": [
+      {
+        "id": 33,
+        "name": "冥蝠術",
+        "exe_offset": 196614,
+        "raw_hex": "addfbdbbb34e000000000000000000000000000000010a00780005000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 10,
+        "base_power": 120,
+        "cast_range": 5,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "template_offset": 201258
+  },
+  {
+    "id": 22,
+    "name": "飛行怪獸",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-22.png",
+    "template_stats": {
+      "生命": 500,
+      "技法": 350,
+      "防禦": 81,
+      "智慧": 80,
+      "攻擊": 85,
+      "反應": 18
+    },
+    "skills": [
+      {
+        "id": 34,
+        "name": "石化術",
+        "exe_offset": 196644,
+        "raw_hex": "a5dba4c6b34e0000000000000000000000000000050014005a0006000100",
+        "effect_type": 5,
+        "area_flag": 0,
+        "mana_cost": 20,
+        "base_power": 90,
+        "cast_range": 6,
+        "area_value": 1,
+        "effect_label": "石化效果值"
+      }
+    ],
+    "template_offset": 201298
+  },
+  {
+    "id": 23,
+    "name": "雙頭狼",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-23.png",
+    "template_stats": {
+      "生命": 70,
+      "技法": 0,
+      "防禦": 10,
+      "智慧": 8,
+      "攻擊": 14,
+      "反應": 18
+    },
+    "skills": [],
+    "template_offset": 201338
+  },
+  {
+    "id": 24,
+    "name": "巨蟲",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-24.png",
+    "template_stats": {
+      "生命": 150,
+      "技法": 0,
+      "防禦": 27,
+      "智慧": 8,
+      "攻擊": 24,
+      "反應": 23
+    },
+    "skills": [],
+    "template_offset": 201378
+  },
+  {
+    "id": 25,
+    "name": "重裝斧兵",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-25.png",
+    "template_stats": {
+      "生命": 450,
+      "技法": 0,
+      "防禦": 64,
+      "智慧": 70,
+      "攻擊": 61,
+      "反應": 27
+    },
+    "skills": [],
+    "template_offset": 201418
+  },
+  {
+    "id": 26,
+    "name": "重裝弩兵",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-26.png",
+    "template_stats": {
+      "生命": 560,
+      "技法": 0,
+      "防禦": 81,
+      "智慧": 90,
+      "攻擊": 128,
+      "反應": 32
+    },
+    "skills": [],
+    "template_offset": 201458
+  },
+  {
+    "id": 27,
+    "name": "怪鳥",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-27.png",
+    "template_stats": {
+      "生命": 100,
+      "技法": 0,
+      "防禦": 10,
+      "智慧": 8,
+      "攻擊": 14,
+      "反應": 15
+    },
+    "skills": [],
+    "template_offset": 201498
+  },
+  {
+    "id": 28,
+    "name": "飛行水母",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-28.png",
+    "template_stats": {
+      "生命": 230,
+      "技法": 50,
+      "防禦": 28,
+      "智慧": 8,
+      "攻擊": 33,
+      "反應": 17
+    },
+    "skills": [],
+    "template_offset": 201538
+  },
+  {
+    "id": 29,
+    "name": "翼槍兵",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-29.png",
+    "template_stats": {
+      "生命": 420,
+      "技法": 200,
+      "防禦": 68,
+      "智慧": 60,
+      "攻擊": 95,
+      "反應": 20
+    },
+    "skills": [
+      {
+        "id": 35,
+        "name": "地獄SM",
+        "exe_offset": 196674,
+        "raw_hex": "a661babb534d000000000000000000000000000000011900a00005000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 25,
+        "base_power": 160,
+        "cast_range": 5,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "template_offset": 201578
+  },
+  {
+    "id": 30,
+    "name": "翼爪兵",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-30.png",
+    "template_stats": {
+      "生命": 600,
+      "技法": 300,
+      "防禦": 96,
+      "智慧": 80,
+      "攻擊": 132,
+      "反應": 22
+    },
+    "skills": [
+      {
+        "id": 36,
+        "name": "落雷爆",
+        "exe_offset": 196704,
+        "raw_hex": "b8a8b970c37a000000000000000000000000000000010a00c80004000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 10,
+        "base_power": 200,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "template_offset": 201618
+  },
+  {
+    "id": 31,
+    "name": "黑袍魔人",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-31.png",
+    "template_stats": {
+      "生命": 1200,
+      "技法": 600,
+      "防禦": 126,
+      "智慧": 120,
+      "攻擊": 152,
+      "反應": 22
+    },
+    "skills": [
+      {
+        "id": 29,
+        "name": "回魂術",
+        "exe_offset": 196494,
+        "raw_hex": "a65ebbeeb34e000000000000000000000000000003010a00fa0004000300",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 10,
+        "base_power": 250,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 35,
+        "name": "地獄SM",
+        "exe_offset": 196674,
+        "raw_hex": "a661babb534d000000000000000000000000000000011900a00005000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 25,
+        "base_power": 160,
+        "cast_range": 5,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "template_offset": 201658
+  },
+  {
+    "id": 32,
+    "name": "巨斧獸人",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-32.png",
+    "template_stats": {
+      "生命": 2000,
+      "技法": 800,
+      "防禦": 150,
+      "智慧": 180,
+      "攻擊": 182,
+      "反應": 22
+    },
+    "skills": [
+      {
+        "id": 29,
+        "name": "回魂術",
+        "exe_offset": 196494,
+        "raw_hex": "a65ebbeeb34e000000000000000000000000000003010a00fa0004000300",
+        "effect_type": 3,
+        "area_flag": 1,
+        "mana_cost": 10,
+        "base_power": 250,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "治療基值"
+      },
+      {
+        "id": 36,
+        "name": "落雷爆",
+        "exe_offset": 196704,
+        "raw_hex": "b8a8b970c37a000000000000000000000000000000010a00c80004000300",
+        "effect_type": 0,
+        "area_flag": 1,
+        "mana_cost": 10,
+        "base_power": 200,
+        "cast_range": 4,
+        "area_value": 3,
+        "effect_label": "傷害基值"
+      }
+    ],
+    "template_offset": 201698
+  },
+  {
+    "id": 33,
+    "name": "劍士",
+    "name_status": "descriptive_unverified",
+    "image": "assets/games/toco/units/enemy-33.png",
+    "template_stats": {
+      "生命": 15,
+      "技法": 25,
+      "防禦": 7,
+      "智慧": 15,
+      "攻擊": 8,
+      "反應": 10
+    },
+    "skills": [],
+    "template_offset": 201738
+  }
+]

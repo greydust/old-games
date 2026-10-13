@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "綠膚祭司",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 2,
+    "name": "兜帽祭司",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 3,
+    "name": "角冠祭司",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 4,
+    "name": "黑袍祭司",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 5,
+    "name": "骷髏刀兵",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 6,
+    "name": "狼頭劍兵",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 7,
+    "name": "獅頭鏈鎚兵",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 8,
+    "name": "骷髏劍士",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 9,
+    "name": "獨眼鎚兵",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 10,
+    "name": "投擲小鬼",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 11,
+    "name": "狼頭弓手",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 12,
+    "name": "獅頭弓手",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 13,
+    "name": "巨蠍",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 14,
+    "name": "觸手怪",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 15,
+    "name": "火砲兵",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 16,
+    "name": "投彈小丑",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 17,
+    "name": "火焰石塔",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 18,
+    "name": "綠膚法師",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 19,
+    "name": "兜帽法師",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 20,
+    "name": "尖耳術士",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 21,
+    "name": "蛇髮女妖",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 22,
+    "name": "飛行怪獸",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 23,
+    "name": "雙頭狼",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 24,
+    "name": "巨蟲",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 25,
+    "name": "重裝斧兵",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 26,
+    "name": "重裝弩兵",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 27,
+    "name": "怪鳥",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 28,
+    "name": "飛行水母",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 29,
+    "name": "翼槍兵",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 30,
+    "name": "翼爪兵",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 31,
+    "name": "黑袍魔人",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 32,
+    "name": "巨斧獸人",
+    "status": "descriptive_unverified"
+  },
+  {
+    "id": 33,
+    "name": "劍士",
+    "status": "descriptive_unverified"
+  }
+]

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14151a">
+  <meta name="description" content="老遊戲收藏館，重訪精靈幻界的經典像素畫面。">
+  <title>老遊戲收藏館</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <nav aria-label="主要導覽">
+      <a class="nav-link" href="#home" data-page="home"><span aria-hidden="true">⌂</span>首頁</a>
+      <p class="nav-label">遊戲</p>
+      <a class="nav-link" href="#toco" data-page="toco"><span class="game-dot" aria-hidden="true"></span>精靈幻界</a>
+    </nav>
+  </aside>
+  <main id="main">
+    <section id="home" aria-labelledby="home-title">
+      <header class="page-header"><h1 id="home-title">首頁</h1></header>
+      <a class="game-card" href="#toco"><div class="cover"><img src="assets/games/toco/title.png" alt="精靈幻界原始遊戲標題畫面" width="640" height="349"></div><div class="card-info"><div><h3>精靈幻界</h3></div><span class="card-arrow" aria-label="查看遊戲">↗</span></div></a>
+    </section>
+    <section id="toco" aria-label="精靈幻界" hidden>
+      <nav class="game-tabs" aria-label="精靈幻界分頁"><a href="#toco" data-tab="overview">首頁</a><a href="#toco/units" data-tab="units">兵種</a><a href="#toco/enemies" data-tab="enemies">敵人</a><a href="#toco/stages" data-tab="stages">關卡</a><a href="#toco/skills" data-tab="skills">技能</a><a href="#toco/formulas" data-tab="formulas">公式</a></nav>
+      <div id="panel-overview" data-panel="overview">
+      <figure class="title-art"><img src="assets/games/toco/title.png" alt="精靈幻界標題畫面，包含開始新遊戲與繼續遊戲選項" width="640" height="349"></figure>
+      <div class="game-description"><h2>遊戲簡介</h2><p>《精靈幻界》是一款 DOS 時代的奇幻老遊戲，採用 16 色像素畫面。</p></div>
+      </div>
+      <p id="data-status" role="status">載入遊戲資料…</p>
+      <section id="units-section" data-panel="units" class="data-section" hidden aria-labelledby="units-title">
+        <h2 id="units-title">兵種與轉職</h2><p class="data-note">一般升級為隨機加值；轉職加成另列。移動力以點數表示，與「反應」共用同一數值，實際格數依地形耗點計算。圖像使用暫代調色盤。</p><nav id="unit-tabs" class="unit-tabs" aria-label="兵種系別"></nav><div id="unit-groups" class="unit-groups"></div>
+      </section>
+      <section id="stages-section" data-panel="stages" class="data-section" hidden aria-labelledby="stages-title">
+        <h2 id="stages-title">關卡</h2>
+        <label for="stage-select">選擇關卡</label>
+        <select id="stage-select" disabled></select>
+        <div id="stage-detail" aria-live="polite"></div>
+      </section>
+      <section id="enemies-section" data-panel="enemies" class="data-section" hidden aria-labelledby="enemies-title">
+        <h2 id="enemies-title">敵人</h2>
+        <p class="data-note">名稱依圖像特徵暫定，非已核對的官方名稱。屬性為兵種預設值，實戰可能依難度調整。</p>
+        <div id="enemy-cards" class="unit-cards"></div>
+      </section>
+      <section id="skills-section" data-panel="skills" class="data-section" hidden aria-labelledby="skills-title">
+        <h2 id="skills-title">技能</h2>
+        <p class="data-note">傷害與治療顯示技能基值，實際效果另受施術者智慧等戰鬥計算影響。</p>
+        <div id="skill-cards" class="skill-cards"></div>
+      </section>
+      <section id="formulas-section" data-panel="formulas" class="data-section" hidden aria-labelledby="formulas-title">
+        <h2 id="formulas-title">公式</h2>
+        <p class="data-note">以下依目前遊戲版本的程式解析整理。⌊x⌋ 表示無條件捨去；隨機區間包含上下限。</p>
+        <article class="formula-card">
+          <h3>移動格數</h3><span class="formula-status">已確認移動點與地形扣點</span>
+          <p>兵種的移動值是可消耗的點數。每經過一格，扣除該地形對應的點數；不同路徑的耗點可能不同。</p>
+          <pre>路徑耗點 = 沿途每格的地形耗點總和
+可走條件：路徑耗點 ≤ 單位目前移動值
+同一種地形的直線格數 = ⌊移動值 ÷ 每格耗點⌋</pre>
+          <p>例如移動值 10、每格耗點 3，平坦且無阻擋的路徑可走 3 格。不能把移動值 10 直接解讀成 10 格。</p>
+          <p>地形表依野外／城內及地面／飛行分開。不可通行的地形、其他單位與地圖邊界也會限制可達位置。</p>
+          <p class="data-note">目前兵種資料中的「反應」對應到程式用來計算移動點的同一欄位；遊戲的升級文字與狀態畫面使用不同名稱。</p>
+        </article>
+        <article class="formula-card">
+          <h3>攻擊傷害</h3><span class="formula-status pending">修正倍率尚待完整核對</span>
+          <pre>候選傷害 = 取整（修正後攻擊 − 修正後防禦）</pre>
+          <p>攻擊與防禦會受到包圍、支援及地形修正。不是單純拿兵種預設攻擊減掉預設防禦。</p>
+          <p>已確認傷害例程含兩種低傷害處理：先手候選差值大於 0、但取整後小於 15 時，改取隨機 15–25；差值不大於 0 時，改取隨機 10–15。目標實際扣血不超過其剩餘生命。</p>
+          <p class="data-note">不同出手方向使用不同程式分支；修正倍率與浮點取整仍需實戰核對，這裡不將候選式當成可精確預測戰鬥結果的完整公式。</p>
+        </article>
+        <article class="formula-card">
+          <h3>反擊傷害</h3><span class="formula-status pending">已確認條件與下限，倍率待核對</span>
+          <pre>反擊候選傷害 = 取整（修正後反擊攻擊 − 修正後防禦）
+先手致死，或不符合反擊條件 → 反擊傷害 0</pre>
+          <p>反擊不是把先手傷害直接乘上固定比例。程式另算反擊威力，並檢查職業、狀態及是否正在施放技能；射擊系與投擲系參與時會走不反擊的條件。</p>
+          <p>反擊差值大於 0、但取整後小於 10 時，改取隨機 10–15；差值不大於 0 時，改取隨機 5–10。</p>
+        </article>
+        <article class="formula-card">
+          <h3>法術傷害</h3><span class="formula-status">已確認輸入威力</span>
+          <pre>法術輸入威力 = 技能傷害基值 + ⌊施術者智慧 ÷ 2⌋
+實際扣血 = min（戰鬥傷害例程的結果，目標剩餘生命）</pre>
+          <p>例如「魔焱」基值 80、智慧 27，送進傷害例程的威力是 80 + 13 = 93。93 並非保證扣血量，後續還有戰鬥修正。</p>
+          <p>耗魔直接取技能耗魔值；剩餘技法不足時不能施放。施放距離與影響範圍使用技能頁列出的數值。痲痺術、石化術另走狀態效果處理，不能套用普通傷害式。</p>
+          <p class="data-note">完整法術減傷與各出手方向的倍率尚待確認，未以一般 RPG 常見公式代替。</p>
+        </article>
+        <article class="formula-card">
+          <h3>治療</h3><span class="formula-status">已確認</span>
+          <pre>計算治療量 = 技能治療基值 + ⌊施術者智慧 ÷ 2⌋
+實際恢復量 = min（計算治療量，目標最大生命 − 目標目前生命）
+治療後生命 = min（目標最大生命，目標目前生命 + 計算治療量）</pre>
+          <p>例如「回復術」基值 50、智慧 27，計算治療量為 63。目標只缺 20 點生命時，實際恢復 20 點。</p>
+          <p>範圍治療對每個符合條件的友方目標分別套用生命上限，不把治療基值平均分攤給目標。</p>
+        </article>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
