@@ -89,6 +89,7 @@ def export():
         for character in characters:
             faction = character['captor_code'] if character['captor_code'] != 255 else character['faction_code']
             character['faction'] = faction_names.get(faction, '中立' if faction == 24 else '無所屬')
+            character['preferred_faction'] = faction_names.get(character['preferred_faction_code'])
         for city in cities:
             city['faction'] = faction_names.get(city['faction_code'])
             assert city['production'] <= city['production_limit'] and city['garrison'] <= city['garrison_limit']
@@ -142,7 +143,7 @@ def export():
         chapter['characters'] = [{key: record[key] for key in
             ('id', 'name', 'faction', 'role', 'martial', 'leadership', 'politics',
              'city_combat_proficiency', 'land_combat_proficiency', 'sea_combat_proficiency',
-             'suicide_on_faction_defeat')} for record in chapter['characters']]
+             'suicide_on_faction_defeat', 'preferred_faction')} for record in chapter['characters']]
         chapter['cities'] = [{key: record[key] for key in
             ('id', 'name', 'type', 'x', 'y', 'production', 'production_limit', 'growth', 'disaster_prevention',
              'garrison', 'garrison_limit', 'administrator_id', 'administrator', 'faction', 'neighbors', 'neighbor_names')} for record in chapter['cities']]

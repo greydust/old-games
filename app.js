@@ -147,7 +147,7 @@ function renderWdragon() {
     wdSearch(parent, '搜尋武將姓名', [], (output, query) => {
       output.replaceChildren();
       const records = chapter.characters.filter(c => c.name.includes(query));
-      wdTable(output, records, [['遊戲內 ID',c=>c.id,'id'],['武將',c=>c.name,'name'],['勢力',c=>c.faction,'faction'],['身分',c=>c.role,'role'],['武術',c=>c.martial,'martial'],['統率',c=>c.leadership,'leadership'],['政治',c=>c.politics,'politics'],['城塞戰適性',c=>c.city_combat_proficiency,'city_combat_proficiency'],['野戰適性',c=>c.land_combat_proficiency,'land_combat_proficiency'],['海戰適性',c=>c.sea_combat_proficiency,'sea_combat_proficiency'],['自刎',c=>{
+      wdTable(output, records, [['遊戲內 ID',c=>c.id,'id'],['武將',c=>c.name,'name'],['勢力',c=>c.faction,'faction'],['身分',c=>c.role,'role'],['預定加入勢力',c=>c.preferred_faction || '未指定','preferred_faction'],['武術',c=>c.martial,'martial'],['統率',c=>c.leadership,'leadership'],['政治',c=>c.politics,'politics'],['城塞戰適性',c=>c.city_combat_proficiency,'city_combat_proficiency'],['野戰適性',c=>c.land_combat_proficiency,'land_combat_proficiency'],['海戰適性',c=>c.sea_combat_proficiency,'sea_combat_proficiency'],['自刎',c=>{
         const value = element('span', c.suicide_on_faction_defeat ? '是' : '否');
         value.title = '進入被俘處理且原勢力已滅亡時，是否自刎。';
         return value;
@@ -195,15 +195,56 @@ function renderWdragon() {
     combat.append(element('pre','武將戰術能力基值 = 4W + 2S\n部隊戰術能力基值 = ⌊[3(L + S) + 兵種補正] ÷ 4⌋\n兵種補正：騎兵 30；弓兵 4；步兵 12。'));
     combat.append(element('p','適性每增加 1，武將戰術能力基值增加 2；部隊戰術能力基值約增加 0.75，實際依取整結果而定。這些基值另參與戰鬥判定，並非直接造成的傷亡人數。'));
     combat.append(element('h3','自動結算'));
-    combat.append(element('pre','r = 隨機值的低兩位（0～3）\nW ≥ L 且 r ≠ 0：C = 2W\nW ≥ L 且 r = 0：C = W − ⌊W ÷ 4⌋ + L\nW < L：C = 2L − ⌊L ÷ 4⌋\n\n能力修正 K = ⌊16C ÷ (16 − S)⌋\n修正後戰力 = ⌊B × K ÷ 1024⌋\nB = 兵力編制加權後再經士氣修正的基數'));
+    combat.append(element('pre','r = 隨機 0～3\nW ≥ L 且 r ≠ 0：C = 2W\nW ≥ L 且 r = 0：C = W − ⌊W ÷ 4⌋ + L\nW < L：C = 2L − ⌊L ÷ 4⌋\n\n能力修正 K = ⌊16C ÷ (16 − S)⌋\n修正後戰力 = ⌊B × K ÷ 1024⌋\nB = 兵力編制加權後再經士氣修正的基數'));
     combat.append(element('p','自動結算的據點交戰選城塞戰適性，軍團交戰固定選野戰適性。適性越高，修正增幅越大；例如 C = 20 時，S = 0／4／8／10 的 K 分別為 20／26／40／53。修正後戰力仍需經雙方比較與後續損失計算。'));
+    combat.append(element('h3','自動結算：兵力基數 B'));
+    combat.append(element('pre',`騎 = 軍團騎兵人數 ÷ 10
+弓 = 軍團弓兵人數 ÷ 10
+步 = 軍團步兵人數 ÷ 10
+城 = 城兵人數 ÷ 10
+M = 士氣（此式以 0～255 計）
+
+野戰雙方：A = 3騎 + 2弓 + 步
+城塞戰攻方：A = 2騎 + 弓 + 2步
+城塞戰守方：A = 2騎 + 3弓 + 3步 + 城
+
+B = A × ⌊M ÷ 8⌋
+乘積超過 65535 時，取除以 65536 的餘數。`));
+    combat.append(element('h3','自動結算：勝負與損兵'));
+    combat.append(element('pre','戰力較高者為勝方；同值時取比較順序中的第一方。\n\n強方值 = 強方戰力 + 8\n弱方值 = 弱方戰力 + 8\nQ = min（100，⌊8 × 強方值 ÷ 弱方值⌋）\n\n依序處理六個編制，i = 1～6：\n勝方扣兵單位 = 隨機 2～9\n敗方扣兵單位 = 8 +〔隨機 0～255 除以（Q + i）的餘數〕\n每單位 = 10 人'));
+    combat.append(element('p','各編制扣至不足時歸零，但雙方第一個編制至少保留 1 單位（10 人）。'));
+    combat.append(element('h3','自動結算：士氣'));
+    combat.append(element('pre','士氣以 0～255 計。\n\n原士氣 ≥ 100，且戰前兵力 > 0：\n  勝方新士氣 = ⌊原士氣 × 戰後兵力 ÷ 戰前兵力⌋\n  敗方新士氣 = ⌊100 × 戰後兵力 ÷ 戰前兵力⌋\n\n原士氣 < 100，或戰前兵力 = 0 → 新士氣為 0'));
+    combat.append(element('p','勝方仍會損兵；士氣歸零時仍會進入潰敗處理。'));
     parent.append(combat);
+    const tactical = element('article',undefined,'formula-card');
+    tactical.append(element('h2','戰術戰鬥：近戰、射擊與戰後兵力'));
+    tactical.append(element('pre','E = 攻擊單位的戰術能力基值\n武將：E = 4 × 武術 + 2 × 適性\n部隊：E = ⌊[3 ×（統率 + 適性）+ 兵種補正] ÷ 4⌋\n場上單位的初始士氣由軍團士氣建立。'));
+    tactical.append(element('h3','近戰：攻擊部隊'));
+    tactical.append(element('pre','U = 隨機 0～127\n判定值 = U + E\n\n局勢不利：判定值 = max（0，判定值 − 50）\n判定值 ≥ 70 → 成功\n判定值 < 70 → 失敗\n\n成功時扣減目標單位士氣：\n  一般：扣 E\n  局勢有利：扣 min（255，E + 64）\n  攻擊方處於特殊動作狀態時另有加值（動作名稱待確認）。\n目標士氣扣至 0 → 該單位失效'));
+    tactical.append(element('h3','近戰：攻擊武將'));
+    tactical.append(element('pre','目標士氣 ≤ 1 時，不進行此分支。\nD = min（24，max（0，攻方 E − 守方 E））\nR = 隨機 0～255\n\nR < 25 → 成功\n否則另取 U = 隨機 0～127，U < D → 成功\n成功扣減士氣 = max（1，⌊攻方 E ÷ 8⌋）\n目標士氣最低保留 1'));
+    tactical.append(element('h3','投射物命中'));
+    tactical.append(element('pre','兩條投射物生成流程的基本扣減量分別為 28、32（投射物名稱待確認）。\n命中騎兵、弓兵：扣基本量\n命中步兵：扣 ⌊基本量 ÷ 4⌋，即 7 或 8\n命中武將：依武將狀態忽略命中，或扣 ⌊基本量 ÷ 4⌋\n\n部隊士氣扣盡 → 該單位失效\n武將士氣最低保留 1'));
+    tactical.append(element('h3','戰後兵力與軍團士氣'));
+    tactical.append(element('pre','各編制戰後兵力 = 10 ×（尚未投入的兵力單位 + 場上有效單位數）\n軍團戰後兵力 = 六個編制戰後兵力合計\n損兵 = 戰前兵力 − 戰後兵力\n\n勝方士氣基準 = 原軍團士氣\n敗方：原軍團士氣 > 99 → 士氣基準 = 99\n      原軍團士氣 ≤ 99 → 士氣基準 = 0\n新軍團士氣 = ⌊士氣基準 × 戰後兵力 ÷ 戰前兵力⌋\n兵力為 0 時，新士氣為 0'));
+    tactical.append(element('p','場上單位士氣的扣減不會立即等量扣除軍團兵數；戰後依有效單位數回算兵力。局勢判定、特殊動作與完整勝負條件仍待確認。'));
+    parent.append(tactical);
     const capture = element('article',undefined,'formula-card');
     capture.append(element('h2','潰敗：撤退、被俘與自刎'));
     capture.append(element('pre','Q = 2 × 武術 + 2 × 統率 + 城塞戰適性 + 野戰適性 + 海戰適性\n撤退門檻 = 40 + ⌊Q ÷ 2⌋\nR = 隨機值（0～127）\n\n一般武將，所屬勢力仍有首都：\n  R ≤ 撤退門檻 → 撤退\n  R > 撤退門檻 → 進入被俘處理\n\n君主，所屬勢力仍有首都 → 撤退\n所屬勢力已無首都 → 進入被俘處理'));
     capture.append(element('p','以上用於軍團潰敗處理。解除軍團時的同勢力處理，以及對中立勢力的處理，直接走撤退分支。政治不參與撤退門檻計算。'));
     capture.append(element('pre','進入被俘處理後：\n  原勢力已滅亡，且武將「自刎」為「是」 → 自刎\n  其他情況 → 成為俘虜\n\n君主成為俘虜後，會失去君主身分。'));
     parent.append(capture);
+    const joining = element('article',undefined,'formula-card');
+    joining.append(element('h2','武將加入與俘虜歸降'));
+    joining.append(element('p','每月更新時，等待計數大於 0 則減 1，當月不進行加入或俘虜處理；計數已為 0 才進行下列判定。'));
+    joining.append(element('h3','未指定勢力的武將'));
+    joining.append(element('pre','先選出武將數最少的有效勢力。\nN = 隨機整數除以 64 的餘數 + 1（1～64）\n\nN = 1～23：\n  從武將最少的勢力開始，依勢力順序循環，加入第 N 個有效勢力。\nN = 24～47：\n  加入武將最少的勢力。\nN = 48～64：\n  玩家武將數 < ⌊玩家據點數 ÷ 4⌋ + 1 → 加入玩家勢力\n  否則 → 本月不加入'));
+    joining.append(element('p','武將數最少的勢力若有多個，取勢力順序較後者。武術、統率、政治與適性不參與這個加入判定。'));
+    joining.append(element('h3','俘虜歸降與逃走'));
+    joining.append(element('pre','R = 隨機值（0～255）\n\nR = 0～31 → 逃走\nR = 32～63，且扣押勢力等於預定加入勢力 → 歸降\n其他情況 → 維持俘虜'));
+    parent.append(joining);
   } else if (tab === 'map') {
     const controls = element('div',undefined,'wd-controls');
     const label = element('label','選擇據點'); label.htmlFor = 'wd-map-city';

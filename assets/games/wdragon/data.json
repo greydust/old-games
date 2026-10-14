@@ -16,7 +16,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉勳"
         },
         {
           "id": 1,
@@ -29,7 +30,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 2,
@@ -42,7 +44,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 3,
@@ -55,7 +58,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "袁紹"
         },
         {
           "id": 4,
@@ -68,7 +72,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 5,
@@ -81,7 +86,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 6,
@@ -94,7 +100,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 7,
@@ -107,7 +114,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉表"
         },
         {
           "id": 8,
@@ -120,7 +128,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "袁術"
         },
         {
           "id": 9,
@@ -133,7 +142,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉表"
         },
         {
           "id": 10,
@@ -146,7 +156,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 5,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 11,
@@ -159,7 +170,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 12,
@@ -172,7 +184,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 13,
@@ -185,7 +198,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 14,
@@ -198,7 +212,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 15,
@@ -211,7 +226,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 16,
@@ -224,7 +240,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 17,
@@ -237,7 +254,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫策"
         },
         {
           "id": 18,
@@ -250,7 +268,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 19,
@@ -263,7 +282,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 6,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 20,
@@ -276,7 +296,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 21,
@@ -289,7 +310,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫策"
         },
         {
           "id": 22,
@@ -302,7 +324,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉表"
         },
         {
           "id": 23,
@@ -315,7 +338,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "張魯"
         },
         {
           "id": 24,
@@ -328,7 +352,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "張魯"
         },
         {
           "id": 25,
@@ -341,7 +366,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "張魯"
         },
         {
           "id": 26,
@@ -354,7 +380,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 27,
@@ -367,7 +394,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 28,
@@ -380,7 +408,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉表"
         },
         {
           "id": 29,
@@ -393,7 +422,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉璋"
         },
         {
           "id": 30,
@@ -406,7 +436,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 31,
@@ -419,7 +450,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉表"
         },
         {
           "id": 32,
@@ -432,7 +464,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉表"
         },
         {
           "id": 33,
@@ -445,7 +478,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 34,
@@ -458,7 +492,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 35,
@@ -471,7 +506,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 10,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 36,
@@ -484,7 +520,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉表"
         },
         {
           "id": 37,
@@ -497,7 +534,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 38,
@@ -510,7 +548,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 39,
@@ -523,7 +562,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 40,
@@ -536,7 +576,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉表"
         },
         {
           "id": 41,
@@ -549,7 +590,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 42,
@@ -562,7 +604,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫策"
         },
         {
           "id": 43,
@@ -575,7 +618,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 44,
@@ -588,7 +632,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 45,
@@ -601,7 +646,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 46,
@@ -614,7 +660,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 47,
@@ -627,7 +674,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "韓玄"
         },
         {
           "id": 48,
@@ -640,7 +688,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 49,
@@ -653,7 +702,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 50,
@@ -666,7 +716,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 8,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 51,
@@ -679,7 +730,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 52,
@@ -692,7 +744,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 53,
@@ -705,7 +758,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 54,
@@ -718,7 +772,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 8,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 55,
@@ -731,7 +786,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 56,
@@ -744,7 +800,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 57,
@@ -757,7 +814,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 10,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 58,
@@ -770,7 +828,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 59,
@@ -783,7 +842,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫策"
         },
         {
           "id": 60,
@@ -796,7 +856,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 6,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 61,
@@ -809,7 +870,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 62,
@@ -822,7 +884,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 63,
@@ -835,7 +898,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 64,
@@ -848,7 +912,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 65,
@@ -861,7 +926,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 9,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 66,
@@ -874,7 +940,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫策"
         },
         {
           "id": 67,
@@ -887,7 +954,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 68,
@@ -900,7 +968,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 69,
@@ -913,7 +982,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 70,
@@ -926,7 +996,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 71,
@@ -939,7 +1010,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉表"
         },
         {
           "id": 72,
@@ -952,7 +1024,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫策"
         },
         {
           "id": 73,
@@ -965,7 +1038,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 74,
@@ -978,7 +1052,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 75,
@@ -991,7 +1066,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 76,
@@ -1004,7 +1080,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 77,
@@ -1017,7 +1094,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 78,
@@ -1030,7 +1108,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 79,
@@ -1043,7 +1122,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 80,
@@ -1056,7 +1136,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉表"
         },
         {
           "id": 81,
@@ -1069,7 +1150,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 82,
@@ -1082,7 +1164,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 83,
@@ -1095,7 +1178,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 84,
@@ -1108,7 +1192,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 85,
@@ -1121,7 +1206,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 86,
@@ -1134,7 +1220,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 87,
@@ -1147,7 +1234,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫策"
         },
         {
           "id": 88,
@@ -1160,7 +1248,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 89,
@@ -1173,7 +1262,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 90,
@@ -1186,7 +1276,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 91,
@@ -1199,7 +1290,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 92,
@@ -1212,7 +1304,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 9,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 93,
@@ -1225,7 +1318,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 94,
@@ -1238,7 +1332,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 95,
@@ -1251,7 +1346,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 96,
@@ -1264,7 +1360,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "張魯"
         },
         {
           "id": 97,
@@ -1277,7 +1374,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 98,
@@ -1290,7 +1388,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 99,
@@ -1303,7 +1402,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 100,
@@ -1316,7 +1416,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 101,
@@ -1329,7 +1430,8 @@
           "city_combat_proficiency": 8,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 10,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫策"
         },
         {
           "id": 102,
@@ -1342,7 +1444,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 103,
@@ -1355,7 +1458,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 104,
@@ -1368,7 +1472,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫策"
         },
         {
           "id": 105,
@@ -1381,7 +1486,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫策"
         },
         {
           "id": 106,
@@ -1394,7 +1500,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 107,
@@ -1407,7 +1514,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫策"
         },
         {
           "id": 108,
@@ -1420,7 +1528,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 109,
@@ -1433,7 +1542,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 110,
@@ -1446,7 +1556,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 111,
@@ -1459,7 +1570,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 112,
@@ -1472,7 +1584,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 113,
@@ -1485,7 +1598,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 114,
@@ -1498,7 +1612,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 115,
@@ -1511,7 +1626,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 8,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 116,
@@ -1524,7 +1640,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 5,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "嚴白虎"
         },
         {
           "id": 117,
@@ -1537,7 +1654,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 118,
@@ -1550,7 +1668,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 119,
@@ -1563,7 +1682,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 120,
@@ -1576,7 +1696,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 121,
@@ -1589,7 +1710,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 122,
@@ -1602,7 +1724,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "韓玄"
         },
         {
           "id": 123,
@@ -1615,7 +1738,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 124,
@@ -1628,7 +1752,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 125,
@@ -1641,7 +1766,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 126,
@@ -1654,7 +1780,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         }
       ],
       "cities": [
@@ -6885,7 +7012,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 1,
@@ -6898,7 +7026,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 2,
@@ -6911,7 +7040,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 3,
@@ -6924,7 +7054,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 4,
@@ -6937,7 +7068,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 5,
@@ -6950,7 +7082,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 6,
@@ -6963,7 +7096,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 7,
@@ -6976,7 +7110,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 8,
@@ -6989,7 +7124,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 9,
@@ -7002,7 +7138,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 10,
@@ -7015,7 +7152,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 11,
@@ -7028,7 +7166,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 12,
@@ -7041,7 +7180,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "張魯"
         },
         {
           "id": 13,
@@ -7054,7 +7194,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "張魯"
         },
         {
           "id": 14,
@@ -7067,7 +7208,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "張魯"
         },
         {
           "id": 15,
@@ -7080,7 +7222,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 16,
@@ -7093,7 +7236,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 17,
@@ -7106,7 +7250,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉璋"
         },
         {
           "id": 18,
@@ -7119,7 +7264,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 19,
@@ -7132,7 +7278,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 20,
@@ -7145,7 +7292,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 21,
@@ -7158,7 +7306,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 22,
@@ -7171,7 +7320,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 9,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 23,
@@ -7184,7 +7334,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 24,
@@ -7197,7 +7348,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 25,
@@ -7210,7 +7362,8 @@
           "city_combat_proficiency": 8,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 26,
@@ -7223,7 +7376,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 27,
@@ -7236,7 +7390,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 28,
@@ -7249,7 +7404,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 29,
@@ -7262,7 +7418,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 30,
@@ -7275,7 +7432,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 10,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 31,
@@ -7288,7 +7446,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 32,
@@ -7301,7 +7460,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 5,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 33,
@@ -7314,7 +7474,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 34,
@@ -7327,7 +7488,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 35,
@@ -7340,7 +7502,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 36,
@@ -7353,7 +7516,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 37,
@@ -7366,7 +7530,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 38,
@@ -7379,7 +7544,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 39,
@@ -7392,7 +7558,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 40,
@@ -7405,7 +7572,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 41,
@@ -7418,7 +7586,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 42,
@@ -7431,7 +7600,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 8,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 43,
@@ -7444,7 +7614,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 44,
@@ -7457,7 +7628,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 45,
@@ -7470,7 +7642,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 8,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 46,
@@ -7483,7 +7656,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 47,
@@ -7496,7 +7670,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 48,
@@ -7509,7 +7684,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 49,
@@ -7522,7 +7698,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 50,
@@ -7535,7 +7712,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 10,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 51,
@@ -7548,7 +7726,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫權"
         },
         {
           "id": 52,
@@ -7561,7 +7740,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 53,
@@ -7574,7 +7754,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫權"
         },
         {
           "id": 54,
@@ -7587,7 +7768,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 55,
@@ -7600,7 +7782,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 6,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 56,
@@ -7613,7 +7796,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 57,
@@ -7626,7 +7810,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 58,
@@ -7639,7 +7824,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 59,
@@ -7652,7 +7838,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 9,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 60,
@@ -7665,7 +7852,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 61,
@@ -7678,7 +7866,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 62,
@@ -7691,7 +7880,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 63,
@@ -7704,7 +7894,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 64,
@@ -7717,7 +7908,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 65,
@@ -7730,7 +7922,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 66,
@@ -7743,7 +7936,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 67,
@@ -7756,7 +7950,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 68,
@@ -7769,7 +7964,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 69,
@@ -7782,7 +7978,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 70,
@@ -7795,7 +7992,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 71,
@@ -7808,7 +8006,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 72,
@@ -7821,7 +8020,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 73,
@@ -7834,7 +8034,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 74,
@@ -7847,7 +8048,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 75,
@@ -7860,7 +8062,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 76,
@@ -7873,7 +8076,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 77,
@@ -7886,7 +8090,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 78,
@@ -7899,7 +8104,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 79,
@@ -7912,7 +8118,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 80,
@@ -7925,7 +8132,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 81,
@@ -7938,7 +8146,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 82,
@@ -7951,7 +8160,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 83,
@@ -7964,7 +8174,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 84,
@@ -7977,7 +8188,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 85,
@@ -7990,7 +8202,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 86,
@@ -8003,7 +8216,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 87,
@@ -8016,7 +8230,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 88,
@@ -8029,7 +8244,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 89,
@@ -8042,7 +8258,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 90,
@@ -8055,7 +8272,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 91,
@@ -8068,7 +8286,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 92,
@@ -8081,7 +8300,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 93,
@@ -8094,7 +8314,8 @@
           "city_combat_proficiency": 8,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 10,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 94,
@@ -8107,7 +8328,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 95,
@@ -8120,7 +8342,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 96,
@@ -8133,7 +8356,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 97,
@@ -8146,7 +8370,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 98,
@@ -8159,7 +8384,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 99,
@@ -8172,7 +8398,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 100,
@@ -8185,7 +8412,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 101,
@@ -8198,7 +8426,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 102,
@@ -8211,7 +8440,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 8,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": "劉備"
         },
         {
           "id": 103,
@@ -8224,7 +8454,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 104,
@@ -8237,7 +8468,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 105,
@@ -8250,7 +8482,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 106,
@@ -8263,7 +8496,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 107,
@@ -8276,7 +8510,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孟獲"
         },
         {
           "id": 108,
@@ -8289,7 +8524,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孟獲"
         },
         {
           "id": 109,
@@ -8302,7 +8538,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 110,
@@ -8315,7 +8552,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 111,
@@ -8328,7 +8566,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 112,
@@ -8341,7 +8580,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 113,
@@ -8354,7 +8594,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 5,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 114,
@@ -8367,7 +8608,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 6,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 115,
@@ -8380,7 +8622,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 10,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 116,
@@ -8393,7 +8636,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 117,
@@ -8406,7 +8650,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 118,
@@ -8419,7 +8664,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 119,
@@ -8432,7 +8678,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 120,
@@ -8445,7 +8692,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 121,
@@ -8458,7 +8706,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 9,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 122,
@@ -8471,7 +8720,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 123,
@@ -8484,7 +8734,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 124,
@@ -8497,7 +8748,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 125,
@@ -8510,7 +8762,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 5,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 126,
@@ -8523,7 +8776,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         }
       ],
       "cities": [
@@ -13578,7 +13832,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 1,
@@ -13591,7 +13846,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 2,
@@ -13604,7 +13860,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 3,
@@ -13617,7 +13874,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 4,
@@ -13630,7 +13888,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 5,
@@ -13643,7 +13902,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 6,
@@ -13656,7 +13916,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 7,
@@ -13669,7 +13930,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 8,
@@ -13682,7 +13944,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 9,
@@ -13695,7 +13958,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 10,
@@ -13708,7 +13972,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "張魯"
         },
         {
           "id": 11,
@@ -13721,7 +13986,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 12,
@@ -13734,7 +14000,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 13,
@@ -13747,7 +14014,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉璋"
         },
         {
           "id": 14,
@@ -13760,7 +14028,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 15,
@@ -13773,7 +14042,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 16,
@@ -13786,7 +14056,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 17,
@@ -13799,7 +14070,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 9,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 18,
@@ -13812,7 +14084,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 19,
@@ -13825,7 +14098,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 20,
@@ -13838,7 +14112,8 @@
           "city_combat_proficiency": 8,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 21,
@@ -13851,7 +14126,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 22,
@@ -13864,7 +14140,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 23,
@@ -13877,7 +14154,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 24,
@@ -13890,7 +14168,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 25,
@@ -13903,7 +14182,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 10,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 26,
@@ -13916,7 +14196,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 27,
@@ -13929,7 +14210,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 5,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 28,
@@ -13942,7 +14224,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 29,
@@ -13955,7 +14238,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 30,
@@ -13968,7 +14252,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 31,
@@ -13981,7 +14266,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 32,
@@ -13994,7 +14280,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 33,
@@ -14007,7 +14294,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 34,
@@ -14020,7 +14308,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 35,
@@ -14033,7 +14322,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 36,
@@ -14046,7 +14336,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 37,
@@ -14059,7 +14350,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 38,
@@ -14072,7 +14364,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 39,
@@ -14085,7 +14378,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 40,
@@ -14098,7 +14392,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 41,
@@ -14111,7 +14406,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 42,
@@ -14124,7 +14420,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 43,
@@ -14137,7 +14434,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫權"
         },
         {
           "id": 44,
@@ -14150,7 +14448,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 45,
@@ -14163,7 +14462,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫權"
         },
         {
           "id": 46,
@@ -14176,7 +14476,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 47,
@@ -14189,7 +14490,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 6,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 48,
@@ -14202,7 +14504,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 49,
@@ -14215,7 +14518,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 50,
@@ -14228,7 +14532,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 9,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 51,
@@ -14241,7 +14546,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 52,
@@ -14254,7 +14560,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 53,
@@ -14267,7 +14574,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 54,
@@ -14280,7 +14588,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 55,
@@ -14293,7 +14602,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 56,
@@ -14306,7 +14616,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 57,
@@ -14319,7 +14630,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 58,
@@ -14332,7 +14644,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 59,
@@ -14345,7 +14658,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 60,
@@ -14358,7 +14672,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 61,
@@ -14371,7 +14686,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 62,
@@ -14384,7 +14700,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 63,
@@ -14397,7 +14714,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 64,
@@ -14410,7 +14728,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 65,
@@ -14423,7 +14742,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 66,
@@ -14436,7 +14756,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 67,
@@ -14449,7 +14770,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 68,
@@ -14462,7 +14784,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 69,
@@ -14475,7 +14798,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 70,
@@ -14488,7 +14812,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 71,
@@ -14501,7 +14826,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹操"
         },
         {
           "id": 72,
@@ -14514,7 +14840,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 73,
@@ -14527,7 +14854,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 74,
@@ -14540,7 +14868,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 75,
@@ -14553,7 +14882,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 76,
@@ -14566,7 +14896,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 77,
@@ -14579,7 +14910,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 78,
@@ -14592,7 +14924,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 79,
@@ -14605,7 +14938,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 80,
@@ -14618,7 +14952,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 81,
@@ -14631,7 +14966,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 82,
@@ -14644,7 +14980,8 @@
           "city_combat_proficiency": 8,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 10,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 83,
@@ -14657,7 +14994,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 84,
@@ -14670,7 +15008,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 85,
@@ -14683,7 +15022,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 86,
@@ -14696,7 +15036,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 87,
@@ -14709,7 +15050,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 88,
@@ -14722,7 +15064,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 89,
@@ -14735,7 +15078,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 90,
@@ -14748,7 +15092,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 8,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": "劉備"
         },
         {
           "id": 91,
@@ -14761,7 +15106,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 92,
@@ -14774,7 +15120,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 93,
@@ -14787,7 +15134,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉備"
         },
         {
           "id": 94,
@@ -14800,7 +15148,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 95,
@@ -14813,7 +15162,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 96,
@@ -14826,7 +15176,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 97,
@@ -14839,7 +15190,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 98,
@@ -14852,7 +15204,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 99,
@@ -14865,7 +15218,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 5,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 100,
@@ -14878,7 +15232,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 6,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 101,
@@ -14891,7 +15246,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 102,
@@ -14904,7 +15260,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 10,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 103,
@@ -14917,7 +15274,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 104,
@@ -14930,7 +15288,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 105,
@@ -14943,7 +15302,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 8,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 106,
@@ -14956,7 +15316,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 107,
@@ -14969,7 +15330,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 108,
@@ -14982,7 +15344,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 109,
@@ -14995,7 +15358,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 9,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 110,
@@ -15008,7 +15372,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 111,
@@ -15021,7 +15386,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 112,
@@ -15034,7 +15400,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 113,
@@ -15047,7 +15414,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 5,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 114,
@@ -15060,7 +15428,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 115,
@@ -15073,7 +15442,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 116,
@@ -15086,7 +15456,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 117,
@@ -15099,7 +15470,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 118,
@@ -15112,7 +15484,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 119,
@@ -15125,7 +15498,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 120,
@@ -15138,7 +15512,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 121,
@@ -15151,7 +15526,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 122,
@@ -15164,7 +15540,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 123,
@@ -15177,7 +15554,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 124,
@@ -15190,7 +15568,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 125,
@@ -15203,7 +15582,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 126,
@@ -15216,7 +15596,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         }
       ],
       "cities": [
@@ -20191,7 +20572,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 1,
@@ -20204,7 +20586,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 2,
@@ -20217,7 +20600,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 3,
@@ -20230,7 +20614,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 4,
@@ -20243,7 +20628,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 5,
@@ -20256,7 +20642,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 6,
@@ -20269,7 +20656,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 7,
@@ -20282,7 +20670,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 8,
@@ -20295,7 +20684,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 9,
@@ -20308,7 +20698,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉禪"
         },
         {
           "id": 10,
@@ -20321,7 +20712,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 9,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹丕"
         },
         {
           "id": 11,
@@ -20334,7 +20726,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 12,
@@ -20347,7 +20740,8 @@
           "city_combat_proficiency": 8,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 13,
@@ -20360,7 +20754,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 14,
@@ -20373,7 +20768,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 15,
@@ -20386,7 +20782,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 10,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 16,
@@ -20399,7 +20796,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 5,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 17,
@@ -20412,7 +20810,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 18,
@@ -20425,7 +20824,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉禪"
         },
         {
           "id": 19,
@@ -20438,7 +20838,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 20,
@@ -20451,7 +20852,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 21,
@@ -20464,7 +20866,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 22,
@@ -20477,7 +20880,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 23,
@@ -20490,7 +20894,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹丕"
         },
         {
           "id": 24,
@@ -20503,7 +20908,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹丕"
         },
         {
           "id": 25,
@@ -20516,7 +20922,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 26,
@@ -20529,7 +20936,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 27,
@@ -20542,7 +20950,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "孫權"
         },
         {
           "id": 28,
@@ -20555,7 +20964,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 29,
@@ -20568,7 +20978,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 6,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 30,
@@ -20581,7 +20992,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 31,
@@ -20594,7 +21006,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 9,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 32,
@@ -20607,7 +21020,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 33,
@@ -20620,7 +21034,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 34,
@@ -20633,7 +21048,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 35,
@@ -20646,7 +21062,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 36,
@@ -20659,7 +21076,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 37,
@@ -20672,7 +21090,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 38,
@@ -20685,7 +21104,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉禪"
         },
         {
           "id": 39,
@@ -20698,7 +21118,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 40,
@@ -20711,7 +21132,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉禪"
         },
         {
           "id": 41,
@@ -20724,7 +21146,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": true
+          "suicide_on_faction_defeat": true,
+          "preferred_faction": null
         },
         {
           "id": 42,
@@ -20737,7 +21160,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 43,
@@ -20750,7 +21174,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 44,
@@ -20763,7 +21188,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹丕"
         },
         {
           "id": 45,
@@ -20776,7 +21202,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 46,
@@ -20789,7 +21216,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 3,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 47,
@@ -20802,7 +21230,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 48,
@@ -20815,7 +21244,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 49,
@@ -20828,7 +21258,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 50,
@@ -20841,7 +21272,8 @@
           "city_combat_proficiency": 8,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 10,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 51,
@@ -20854,7 +21286,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 52,
@@ -20867,7 +21300,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 53,
@@ -20880,7 +21314,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉禪"
         },
         {
           "id": 54,
@@ -20893,7 +21328,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "劉禪"
         },
         {
           "id": 55,
@@ -20906,7 +21342,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 56,
@@ -20919,7 +21356,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 57,
@@ -20932,7 +21370,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 58,
@@ -20945,7 +21384,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 59,
@@ -20958,7 +21398,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 60,
@@ -20971,7 +21412,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 5,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 61,
@@ -20984,7 +21426,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 62,
@@ -20997,7 +21440,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 6,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 63,
@@ -21010,7 +21454,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 64,
@@ -21023,7 +21468,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 65,
@@ -21036,7 +21482,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 66,
@@ -21049,7 +21496,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 67,
@@ -21062,7 +21510,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 10,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 68,
@@ -21075,7 +21524,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 69,
@@ -21088,7 +21538,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 70,
@@ -21101,7 +21552,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 71,
@@ -21114,7 +21566,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 72,
@@ -21127,7 +21580,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 73,
@@ -21140,7 +21594,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 74,
@@ -21153,7 +21608,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 75,
@@ -21166,7 +21622,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 8,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 76,
@@ -21179,7 +21636,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 77,
@@ -21192,7 +21650,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 78,
@@ -21205,7 +21664,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 79,
@@ -21218,7 +21678,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 80,
@@ -21231,7 +21692,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 81,
@@ -21244,7 +21706,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 82,
@@ -21257,7 +21720,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 83,
@@ -21270,7 +21734,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 84,
@@ -21283,7 +21748,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 85,
@@ -21296,7 +21762,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 86,
@@ -21309,7 +21776,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 9,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 87,
@@ -21322,7 +21790,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": "曹丕"
         },
         {
           "id": 88,
@@ -21335,7 +21804,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 89,
@@ -21348,7 +21818,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 90,
@@ -21361,7 +21832,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 91,
@@ -21374,7 +21846,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 8,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 92,
@@ -21387,7 +21860,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 5,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 93,
@@ -21400,7 +21874,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 94,
@@ -21413,7 +21888,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 95,
@@ -21426,7 +21902,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 8,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 96,
@@ -21439,7 +21916,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 97,
@@ -21452,7 +21930,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 98,
@@ -21465,7 +21944,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 99,
@@ -21478,7 +21958,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 3,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 100,
@@ -21491,7 +21972,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 10,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 101,
@@ -21504,7 +21986,8 @@
           "city_combat_proficiency": 10,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 102,
@@ -21517,7 +22000,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 103,
@@ -21530,7 +22014,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 1,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 104,
@@ -21543,7 +22028,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 105,
@@ -21556,7 +22042,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 106,
@@ -21569,7 +22056,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 107,
@@ -21582,7 +22070,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 108,
@@ -21595,7 +22084,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 109,
@@ -21608,7 +22098,8 @@
           "city_combat_proficiency": 4,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 110,
@@ -21621,7 +22112,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 111,
@@ -21634,7 +22126,8 @@
           "city_combat_proficiency": 6,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 4,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 112,
@@ -21647,7 +22140,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 113,
@@ -21660,7 +22154,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 6,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 114,
@@ -21673,7 +22168,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 4,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 115,
@@ -21686,7 +22182,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 116,
@@ -21699,7 +22196,8 @@
           "city_combat_proficiency": 2,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 117,
@@ -21712,7 +22210,8 @@
           "city_combat_proficiency": 5,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 118,
@@ -21725,7 +22224,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 119,
@@ -21738,7 +22238,8 @@
           "city_combat_proficiency": 3,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 120,
@@ -21751,7 +22252,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 121,
@@ -21764,7 +22266,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 122,
@@ -21777,7 +22280,8 @@
           "city_combat_proficiency": 1,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 123,
@@ -21790,7 +22294,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 8,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 124,
@@ -21803,7 +22308,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 0,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 125,
@@ -21816,7 +22322,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 1,
           "sea_combat_proficiency": 0,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         },
         {
           "id": 126,
@@ -21829,7 +22336,8 @@
           "city_combat_proficiency": 0,
           "land_combat_proficiency": 2,
           "sea_combat_proficiency": 2,
-          "suicide_on_faction_defeat": false
+          "suicide_on_faction_defeat": false,
+          "preferred_faction": null
         }
       ],
       "cities": [
