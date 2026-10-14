@@ -4,7 +4,7 @@ let unitLookup = new Map();
 let activeUnitGroup = null;
 let wdragonData = null;
 let wdragonChapter = 0;
-const wdragonTabs = {overview:'首頁', characters:'武將', cities:'城池', factions:'勢力', troops:'兵種', formulas:'公式', map:'地圖'};
+const wdragonTabs = {overview:'首頁', characters:'武將', cities:'城池', factions:'勢力', troops:'兵種', formulas:'公式', map:'地圖', editor:'劇本編輯器'};
 const wdragonView = {
   characters: {query:'', sorting:{key:'id', direction:1}, scrollLeft:0},
   cities: {query:'', sorting:{key:'id', direction:1}, scrollLeft:0},
@@ -138,7 +138,9 @@ function renderWdragon() {
   parent.dataset.wdPage = tab;
   const chapterControl = document.querySelector('#wd-chapter').parentElement;
   chapterControl.hidden = !['characters', 'cities', 'factions', 'map'].includes(tab);
-  if (tab === 'overview') {
+  if (tab === 'editor') {
+    WdragonEditor.render(parent);
+  } else if (tab === 'overview') {
     const figure = element('figure', undefined, 'title-art');
     const image = element('img'); image.src = 'assets/games/wdragon/title.png'; image.alt = '臥龍傳標題畫面';
     image.width = 640; image.height = 400; figure.append(image); parent.append(figure);
