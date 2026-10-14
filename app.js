@@ -566,3 +566,35 @@ async function loadData() {
   }
 }
 loadData();
+
+async function loadTerrainTables() {
+  const parent = document.getElementById('terrain-tables');
+  try {
+    const response = await fetch('assets/games/toco/data/terrain.json');
+    if (!response.ok) throw new Error('terrain');
+    for (const terrain of await response.json()) {
+      parent.append(element('h4', terrain.name + '地形耗點'));
+      const wrapper = element('div', undefined, 'table-scroll');
+      const table = element('table');
+      const head = element('tr');
+      ['圖塊', '地形', '地面', '飛行', '不可通行兵種'].forEach(name => head.append(element('th', name)));
+      const thead = element('thead'); thead.append(head); table.append(thead);
+      const body = element('tbody');
+      for (const row of terrain.rows) {
+        const line = element('tr');
+        const preview = element('td');
+        if (row.image) {
+          const image = element('img', undefined, 'terrain-preview');
+          image.src = row.image; image.alt = `${terrain.name} ${row.name}`;
+          image.width = 48; image.height = 48; image.loading = 'lazy';
+          preview.append(image);
+        } else preview.textContent = '無範例';
+        line.append(preview);
+        [row.name, row.ground === 99 ? '不可通行' : row.ground, row.flying === 99 ? '不可通行' : row.flying, row.blocked.join('、') || '無'].forEach(value => line.append(element('td', value)));
+        body.append(line);
+      }
+      table.append(body); wrapper.append(table); parent.append(wrapper);
+    }
+  } catch { parent.append(element('p', '地形表載入失敗。')); }
+}
+loadTerrainTables();

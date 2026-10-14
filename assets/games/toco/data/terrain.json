@@ -1,0 +1,224 @@
+[
+  {
+    "name": "野外",
+    "rows": [
+      {
+        "image": "assets/games/toco/terrain/0-1.png",
+        "name": "土地",
+        "ground": 3,
+        "flying": 2,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/0-2.png",
+        "name": "草地",
+        "ground": 3,
+        "flying": 2,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/0-3.png",
+        "name": "深草地",
+        "ground": 3,
+        "flying": 2,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/0-4.png",
+        "name": "樹林",
+        "ground": 4,
+        "flying": 3,
+        "blocked": [
+          "投擲系"
+        ]
+      },
+      {
+        "image": "assets/games/toco/terrain/0-5.png",
+        "name": "沙地",
+        "ground": 5,
+        "flying": 2,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/0-6.png",
+        "name": "小山",
+        "ground": 5,
+        "flying": 3,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/0-7.png",
+        "name": "河流",
+        "ground": 7,
+        "flying": 2,
+        "blocked": [
+          "投擲系"
+        ]
+      },
+      {
+        "image": "assets/games/toco/terrain/0-8.png",
+        "name": "橋樑",
+        "ground": 2,
+        "flying": 2,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/0-9.png",
+        "name": "魔法陣",
+        "ground": 5,
+        "flying": 3,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/0-10.png",
+        "name": "可飛行",
+        "ground": 99,
+        "flying": 2,
+        "blocked": [
+          "僧侶系",
+          "步兵系",
+          "射擊系",
+          "投擲系",
+          "術士系",
+          "騎兵系",
+          "指揮官"
+        ]
+      },
+      {
+        "image": "assets/games/toco/terrain/0-11.png",
+        "name": "攻佔地",
+        "ground": 1,
+        "flying": 1,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/0-12.png",
+        "name": "守護地",
+        "ground": 1,
+        "flying": 1,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/0-13.png",
+        "name": "不可走",
+        "ground": 99,
+        "flying": 99,
+        "blocked": []
+      }
+    ]
+  },
+  {
+    "name": "城內",
+    "rows": [
+      {
+        "image": "assets/games/toco/terrain/1-1.png",
+        "name": "土地",
+        "ground": 3,
+        "flying": 2,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/1-2.png",
+        "name": "草地",
+        "ground": 3,
+        "flying": 2,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/1-3.png",
+        "name": "河流",
+        "ground": 7,
+        "flying": 2,
+        "blocked": [
+          "投擲系"
+        ]
+      },
+      {
+        "image": "assets/games/toco/terrain/1-4.png",
+        "name": "道路",
+        "ground": 2,
+        "flying": 2,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/1-5.png",
+        "name": "橋樑",
+        "ground": 2,
+        "flying": 2,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/1-6.png",
+        "name": "城牆",
+        "ground": 6,
+        "flying": 3,
+        "blocked": [
+          "投擲系",
+          "騎兵系"
+        ]
+      },
+      {
+        "image": "assets/games/toco/terrain/1-7.png",
+        "name": "城樓",
+        "ground": 7,
+        "flying": 3,
+        "blocked": [
+          "投擲系",
+          "騎兵系"
+        ]
+      },
+      {
+        "image": "assets/games/toco/terrain/1-8.png",
+        "name": "樹林",
+        "ground": 4,
+        "flying": 3,
+        "blocked": [
+          "投擲系"
+        ]
+      },
+      {
+        "image": "assets/games/toco/terrain/1-9.png",
+        "name": "魔法陣",
+        "ground": 5,
+        "flying": 3,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/1-10.png",
+        "name": "可飛行",
+        "ground": 99,
+        "flying": 2,
+        "blocked": [
+          "僧侶系",
+          "步兵系",
+          "射擊系",
+          "投擲系",
+          "術士系",
+          "騎兵系",
+          "指揮官"
+        ]
+      },
+      {
+        "image": "assets/games/toco/terrain/1-11.png",
+        "name": "攻佔地",
+        "ground": 1,
+        "flying": 1,
+        "blocked": []
+      },
+      {
+        "image": null,
+        "name": "守護地",
+        "ground": 1,
+        "flying": 1,
+        "blocked": []
+      },
+      {
+        "image": "assets/games/toco/terrain/1-13.png",
+        "name": "不可走",
+        "ground": 99,
+        "flying": 99,
+        "blocked": []
+      }
+    ]
+  }
+]
