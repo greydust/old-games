@@ -1,0 +1,5415 @@
+{
+  "title": "title.png",
+  "units": [
+    {
+      "id": 1,
+      "name": "戰士",
+      "level": 1,
+      "hp": 20,
+      "hpGrowth": 6,
+      "mp": 0,
+      "mpGrowth": 0,
+      "attack": 10,
+      "attackGrowth": 3,
+      "defence": 3,
+      "defenceGrowth": 3,
+      "intelligence": 3,
+      "intelligenceGrowth": 2,
+      "luck": 4,
+      "hit": 75,
+      "evade": 2,
+      "skills": [],
+      "image": "units/01.png"
+    },
+    {
+      "id": 2,
+      "name": "鬥士",
+      "level": 1,
+      "hp": 24,
+      "hpGrowth": 8,
+      "mp": 4,
+      "mpGrowth": 2,
+      "attack": 12,
+      "attackGrowth": 4,
+      "defence": 4,
+      "defenceGrowth": 4,
+      "intelligence": 4,
+      "intelligenceGrowth": 2,
+      "luck": 4,
+      "hit": 80,
+      "evade": 3,
+      "skills": [
+        "致命一擊"
+      ],
+      "image": "units/02.png"
+    },
+    {
+      "id": 3,
+      "name": "盜賊",
+      "level": 1,
+      "hp": 12,
+      "hpGrowth": 4,
+      "mp": 4,
+      "mpGrowth": 2,
+      "attack": 6,
+      "attackGrowth": 2,
+      "defence": 6,
+      "defenceGrowth": 4,
+      "intelligence": 4,
+      "intelligenceGrowth": 2,
+      "luck": 6,
+      "hit": 80,
+      "evade": 3,
+      "skills": [
+        "盜取物品"
+      ],
+      "image": "units/03.png"
+    },
+    {
+      "id": 4,
+      "name": "忍者",
+      "level": 1,
+      "hp": 16,
+      "hpGrowth": 6,
+      "mp": 4,
+      "mpGrowth": 2,
+      "attack": 8,
+      "attackGrowth": 3,
+      "defence": 8,
+      "defenceGrowth": 5,
+      "intelligence": 4,
+      "intelligenceGrowth": 2,
+      "luck": 6,
+      "hit": 85,
+      "evade": 5,
+      "skills": [
+        "幻影斬",
+        "隱身",
+        "隱忍雷爆"
+      ],
+      "image": "units/04.png"
+    },
+    {
+      "id": 5,
+      "name": "僧侶",
+      "level": 1,
+      "hp": 16,
+      "hpGrowth": 6,
+      "mp": 5,
+      "mpGrowth": 3,
+      "attack": 8,
+      "attackGrowth": 3,
+      "defence": 3,
+      "defenceGrowth": 2,
+      "intelligence": 5,
+      "intelligenceGrowth": 3,
+      "luck": 8,
+      "hit": 65,
+      "evade": 0,
+      "skills": [
+        "治癒術",
+        "聖光術"
+      ],
+      "image": "units/05.png"
+    },
+    {
+      "id": 6,
+      "name": "法師",
+      "level": 1,
+      "hp": 12,
+      "hpGrowth": 4,
+      "mp": 6,
+      "mpGrowth": 4,
+      "attack": 6,
+      "attackGrowth": 2,
+      "defence": 4,
+      "defenceGrowth": 2,
+      "intelligence": 6,
+      "intelligenceGrowth": 4,
+      "luck": 6,
+      "hit": 60,
+      "evade": 0,
+      "skills": [
+        "火球術",
+        "轉移",
+        "點石成金術"
+      ],
+      "image": "units/06.png"
+    },
+    {
+      "id": 7,
+      "name": "祭司",
+      "level": 1,
+      "hp": 20,
+      "hpGrowth": 6,
+      "mp": 6,
+      "mpGrowth": 5,
+      "attack": 10,
+      "attackGrowth": 3,
+      "defence": 4,
+      "defenceGrowth": 2,
+      "intelligence": 6,
+      "intelligenceGrowth": 5,
+      "luck": 10,
+      "hit": 75,
+      "evade": 0,
+      "skills": [
+        "分解術",
+        "靈獸召喚",
+        "神恩術"
+      ],
+      "image": "units/07.png"
+    },
+    {
+      "id": 8,
+      "name": "聖武士",
+      "level": 1,
+      "hp": 24,
+      "hpGrowth": 10,
+      "mp": 6,
+      "mpGrowth": 3,
+      "attack": 12,
+      "attackGrowth": 5,
+      "defence": 6,
+      "defenceGrowth": 4,
+      "intelligence": 6,
+      "intelligenceGrowth": 3,
+      "luck": 8,
+      "hit": 80,
+      "evade": 5,
+      "skills": [
+        "聖劍斬",
+        "醫療術"
+      ],
+      "image": "units/08.png"
+    },
+    {
+      "id": 9,
+      "name": "地精",
+      "level": 1,
+      "hp": 16,
+      "hpGrowth": 6,
+      "mp": 2,
+      "mpGrowth": 2,
+      "attack": 8,
+      "attackGrowth": 3,
+      "defence": 6,
+      "defenceGrowth": 3,
+      "intelligence": 2,
+      "intelligenceGrowth": 2,
+      "luck": 4,
+      "hit": 75,
+      "evade": 2,
+      "skills": [
+        "盜取物品"
+      ],
+      "image": "units/09.png"
+    },
+    {
+      "id": 10,
+      "name": "獸人",
+      "level": 1,
+      "hp": 20,
+      "hpGrowth": 8,
+      "mp": 0,
+      "mpGrowth": 0,
+      "attack": 10,
+      "attackGrowth": 4,
+      "defence": 3,
+      "defenceGrowth": 2,
+      "intelligence": 3,
+      "intelligenceGrowth": 2,
+      "luck": 4,
+      "hit": 70,
+      "evade": 0,
+      "skills": [],
+      "image": "units/10.png"
+    },
+    {
+      "id": 11,
+      "name": "矮人",
+      "level": 1,
+      "hp": 24,
+      "hpGrowth": 10,
+      "mp": 5,
+      "mpGrowth": 3,
+      "attack": 12,
+      "attackGrowth": 5,
+      "defence": 3,
+      "defenceGrowth": 2,
+      "intelligence": 5,
+      "intelligenceGrowth": 3,
+      "luck": 6,
+      "hit": 70,
+      "evade": 0,
+      "skills": [
+        "飛鎚攻擊"
+      ],
+      "image": "units/11.png"
+    },
+    {
+      "id": 12,
+      "name": "精靈",
+      "level": 1,
+      "hp": 16,
+      "hpGrowth": 8,
+      "mp": 6,
+      "mpGrowth": 3,
+      "attack": 8,
+      "attackGrowth": 4,
+      "defence": 6,
+      "defenceGrowth": 3,
+      "intelligence": 6,
+      "intelligenceGrowth": 3,
+      "luck": 6,
+      "hit": 80,
+      "evade": 3,
+      "skills": [
+        "電擊",
+        "迷魂琴音"
+      ],
+      "image": "units/12.png"
+    },
+    {
+      "id": 13,
+      "name": "石像巨魔",
+      "level": 1,
+      "hp": 24,
+      "hpGrowth": 12,
+      "mp": 6,
+      "mpGrowth": 3,
+      "attack": 12,
+      "attackGrowth": 6,
+      "defence": 2,
+      "defenceGrowth": 3,
+      "intelligence": 6,
+      "intelligenceGrowth": 3,
+      "luck": 4,
+      "hit": 75,
+      "evade": 0,
+      "skills": [
+        "迴旋擊",
+        "再生"
+      ],
+      "image": "units/13.png"
+    },
+    {
+      "id": 14,
+      "name": "牛頭人",
+      "level": 1,
+      "hp": 32,
+      "hpGrowth": 14,
+      "mp": 4,
+      "mpGrowth": 2,
+      "attack": 16,
+      "attackGrowth": 7,
+      "defence": 4,
+      "defenceGrowth": 3,
+      "intelligence": 4,
+      "intelligenceGrowth": 2,
+      "luck": 4,
+      "hit": 70,
+      "evade": 0,
+      "skills": [
+        "巨角撞擊",
+        "破空斬"
+      ],
+      "image": "units/14.png"
+    },
+    {
+      "id": 15,
+      "name": "龍人",
+      "level": 1,
+      "hp": 24,
+      "hpGrowth": 12,
+      "mp": 6,
+      "mpGrowth": 3,
+      "attack": 12,
+      "attackGrowth": 6,
+      "defence": 6,
+      "defenceGrowth": 3,
+      "intelligence": 6,
+      "intelligenceGrowth": 3,
+      "luck": 6,
+      "hit": 80,
+      "evade": 2,
+      "skills": [
+        "狂龍擊",
+        "噴火"
+      ],
+      "image": "units/15.png"
+    },
+    {
+      "id": 16,
+      "name": "獨眼巨人",
+      "level": 1,
+      "hp": 36,
+      "hpGrowth": 16,
+      "mp": 2,
+      "mpGrowth": 2,
+      "attack": 18,
+      "attackGrowth": 8,
+      "defence": 4,
+      "defenceGrowth": 2,
+      "intelligence": 2,
+      "intelligenceGrowth": 2,
+      "luck": 4,
+      "hit": 70,
+      "evade": 0,
+      "skills": [
+        "投擲巨石",
+        "震地擊"
+      ],
+      "image": "units/16.png"
+    },
+    {
+      "id": 17,
+      "name": "野狼",
+      "level": 1,
+      "hp": 20,
+      "hpGrowth": 6,
+      "mp": 0,
+      "mpGrowth": 0,
+      "attack": 10,
+      "attackGrowth": 3,
+      "defence": 4,
+      "defenceGrowth": 3,
+      "intelligence": 2,
+      "intelligenceGrowth": 2,
+      "luck": 6,
+      "hit": 75,
+      "evade": 3,
+      "skills": [],
+      "image": "units/17.png"
+    },
+    {
+      "id": 18,
+      "name": "大猩猩",
+      "level": 1,
+      "hp": 16,
+      "hpGrowth": 6,
+      "mp": 4,
+      "mpGrowth": 2,
+      "attack": 8,
+      "attackGrowth": 3,
+      "defence": 4,
+      "defenceGrowth": 3,
+      "intelligence": 4,
+      "intelligenceGrowth": 2,
+      "luck": 6,
+      "hit": 70,
+      "evade": 2,
+      "skills": [
+        "鐵球投擲"
+      ],
+      "image": "units/18.png"
+    },
+    {
+      "id": 19,
+      "name": "地獄犬",
+      "level": 1,
+      "hp": 24,
+      "hpGrowth": 8,
+      "mp": 2,
+      "mpGrowth": 2,
+      "attack": 12,
+      "attackGrowth": 4,
+      "defence": 4,
+      "defenceGrowth": 3,
+      "intelligence": 2,
+      "intelligenceGrowth": 2,
+      "luck": 4,
+      "hit": 65,
+      "evade": 0,
+      "skills": [
+        "火炎攻擊"
+      ],
+      "image": "units/19.png"
+    },
+    {
+      "id": 20,
+      "name": "人面獅",
+      "level": 1,
+      "hp": 28,
+      "hpGrowth": 10,
+      "mp": 3,
+      "mpGrowth": 3,
+      "attack": 14,
+      "attackGrowth": 5,
+      "defence": 3,
+      "defenceGrowth": 2,
+      "intelligence": 3,
+      "intelligenceGrowth": 3,
+      "luck": 8,
+      "hit": 70,
+      "evade": 0,
+      "skills": [
+        "尾刺"
+      ],
+      "image": "units/20.png"
+    },
+    {
+      "id": 21,
+      "name": "獅鷲",
+      "level": 1,
+      "hp": 32,
+      "hpGrowth": 10,
+      "mp": 2,
+      "mpGrowth": 2,
+      "attack": 16,
+      "attackGrowth": 5,
+      "defence": 4,
+      "defenceGrowth": 3,
+      "intelligence": 2,
+      "intelligenceGrowth": 2,
+      "luck": 6,
+      "hit": 80,
+      "evade": 0,
+      "skills": [
+        "羽鏢"
+      ],
+      "image": "units/21.png"
+    },
+    {
+      "id": 22,
+      "name": "沙蟲",
+      "level": 1,
+      "hp": 36,
+      "hpGrowth": 12,
+      "mp": 3,
+      "mpGrowth": 3,
+      "attack": 18,
+      "attackGrowth": 6,
+      "defence": 3,
+      "defenceGrowth": 3,
+      "intelligence": 3,
+      "intelligenceGrowth": 3,
+      "luck": 4,
+      "hit": 65,
+      "evade": 0,
+      "skills": [
+        "鑽地攻擊"
+      ],
+      "image": "units/22.png"
+    },
+    {
+      "id": 23,
+      "name": "巨蛇",
+      "level": 1,
+      "hp": 40,
+      "hpGrowth": 16,
+      "mp": 2,
+      "mpGrowth": 2,
+      "attack": 20,
+      "attackGrowth": 8,
+      "defence": 2,
+      "defenceGrowth": 2,
+      "intelligence": 2,
+      "intelligenceGrowth": 2,
+      "luck": 6,
+      "hit": 30,
+      "evade": 2,
+      "skills": [
+        "毒氣攻擊",
+        "吞沒"
+      ],
+      "image": "units/23.png"
+    },
+    {
+      "id": 24,
+      "name": "龍",
+      "level": 1,
+      "hp": 40,
+      "hpGrowth": 20,
+      "mp": 6,
+      "mpGrowth": 3,
+      "attack": 20,
+      "attackGrowth": 10,
+      "defence": 4,
+      "defenceGrowth": 3,
+      "intelligence": 6,
+      "intelligenceGrowth": 3,
+      "luck": 6,
+      "hit": 80,
+      "evade": 0,
+      "skills": [
+        "噴火"
+      ],
+      "image": "units/24.png"
+    },
+    {
+      "id": 25,
+      "name": "骷髏兵",
+      "level": 1,
+      "hp": 20,
+      "hpGrowth": 6,
+      "mp": 2,
+      "mpGrowth": 2,
+      "attack": 10,
+      "attackGrowth": 3,
+      "defence": 4,
+      "defenceGrowth": 3,
+      "intelligence": 2,
+      "intelligenceGrowth": 2,
+      "luck": 2,
+      "hit": 70,
+      "evade": 0,
+      "skills": [],
+      "image": "units/25.png"
+    },
+    {
+      "id": 26,
+      "name": "僵屍",
+      "level": 1,
+      "hp": 24,
+      "hpGrowth": 8,
+      "mp": 2,
+      "mpGrowth": 2,
+      "attack": 12,
+      "attackGrowth": 4,
+      "defence": 2,
+      "defenceGrowth": 2,
+      "intelligence": 2,
+      "intelligenceGrowth": 2,
+      "luck": 2,
+      "hit": 60,
+      "evade": 0,
+      "skills": [
+        "頭斧迴旋斬",
+        "屍蟲攻擊"
+      ],
+      "image": "units/26.png"
+    },
+    {
+      "id": 27,
+      "name": "鬼魂",
+      "level": 1,
+      "hp": 16,
+      "hpGrowth": 6,
+      "mp": 6,
+      "mpGrowth": 3,
+      "attack": 8,
+      "attackGrowth": 3,
+      "defence": 6,
+      "defenceGrowth": 4,
+      "intelligence": 6,
+      "intelligenceGrowth": 3,
+      "luck": 4,
+      "hit": 75,
+      "evade": 5,
+      "skills": [
+        "靈體攻擊",
+        "毒蛛攻擊"
+      ],
+      "image": "units/27.png"
+    },
+    {
+      "id": 28,
+      "name": "惡靈",
+      "level": 1,
+      "hp": 32,
+      "hpGrowth": 12,
+      "mp": 3,
+      "mpGrowth": 2,
+      "attack": 16,
+      "attackGrowth": 6,
+      "defence": 2,
+      "defenceGrowth": 2,
+      "intelligence": 2,
+      "intelligenceGrowth": 2,
+      "luck": 2,
+      "hit": 65,
+      "evade": 0,
+      "skills": [
+        "肋骨刃",
+        "凍氣"
+      ],
+      "image": "units/28.png"
+    },
+    {
+      "id": 29,
+      "name": "吸血鬼",
+      "level": 1,
+      "hp": 24,
+      "hpGrowth": 10,
+      "mp": 8,
+      "mpGrowth": 4,
+      "attack": 12,
+      "attackGrowth": 5,
+      "defence": 4,
+      "defenceGrowth": 3,
+      "intelligence": 8,
+      "intelligenceGrowth": 4,
+      "luck": 6,
+      "hit": 75,
+      "evade": 3,
+      "skills": [
+        "巨大蝙蝠",
+        "吸血"
+      ],
+      "image": "units/29.png"
+    },
+    {
+      "id": 30,
+      "name": "惡魔",
+      "level": 1,
+      "hp": 36,
+      "hpGrowth": 12,
+      "mp": 4,
+      "mpGrowth": 3,
+      "attack": 18,
+      "attackGrowth": 6,
+      "defence": 4,
+      "defenceGrowth": 3,
+      "intelligence": 4,
+      "intelligenceGrowth": 3,
+      "luck": 4,
+      "hit": 85,
+      "evade": 0,
+      "skills": [
+        "魔咒",
+        "群魔亂舞"
+      ],
+      "image": "units/30.png"
+    },
+    {
+      "id": 31,
+      "name": "魔王",
+      "level": 1,
+      "hp": 4216,
+      "hpGrowth": 16,
+      "mp": 8,
+      "mpGrowth": 4,
+      "attack": 20,
+      "attackGrowth": 8,
+      "defence": 4,
+      "defenceGrowth": 4,
+      "intelligence": 8,
+      "intelligenceGrowth": 4,
+      "luck": 4,
+      "hit": 70,
+      "evade": 0,
+      "skills": [
+        "魔體轟",
+        "鬼哭神號"
+      ],
+      "image": "units/31.png"
+    },
+    {
+      "id": 32,
+      "name": "邪神",
+      "level": 1,
+      "hp": 8000,
+      "hpGrowth": 20,
+      "mp": 10,
+      "mpGrowth": 5,
+      "attack": 20,
+      "attackGrowth": 8,
+      "defence": 6,
+      "defenceGrowth": 4,
+      "intelligence": 10,
+      "intelligenceGrowth": 4,
+      "luck": 8,
+      "hit": 70,
+      "evade": 0,
+      "skills": [
+        "地獄爆炎",
+        "冰雪風暴",
+        "雷電怒濤"
+      ],
+      "image": "units/32.png"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "銅劍",
+      "type": 1,
+      "attack": 2,
+      "hit": 85,
+      "defence": 0,
+      "evade": 0,
+      "price": 20,
+      "kind": "裝備"
+    },
+    {
+      "id": 2,
+      "name": "鐵劍",
+      "type": 1,
+      "attack": 5,
+      "hit": 80,
+      "defence": 0,
+      "evade": 0,
+      "price": 80,
+      "kind": "裝備"
+    },
+    {
+      "id": 3,
+      "name": "白銀劍",
+      "type": 1,
+      "attack": 8,
+      "hit": 90,
+      "defence": 0,
+      "evade": 0,
+      "price": 200,
+      "kind": "裝備"
+    },
+    {
+      "id": 4,
+      "name": "魔法劍",
+      "type": 1,
+      "attack": 12,
+      "hit": 100,
+      "defence": 0,
+      "evade": 0,
+      "price": 500,
+      "kind": "裝備"
+    },
+    {
+      "id": 5,
+      "name": "火焰劍",
+      "type": 1,
+      "attack": 16,
+      "hit": 90,
+      "defence": 0,
+      "evade": 0,
+      "price": 1000,
+      "kind": "裝備"
+    },
+    {
+      "id": 6,
+      "name": "斬鐵劍",
+      "type": 1,
+      "attack": 20,
+      "hit": 120,
+      "defence": 0,
+      "evade": 0,
+      "price": 2500,
+      "kind": "裝備"
+    },
+    {
+      "id": 7,
+      "name": "聖劍",
+      "type": 1,
+      "attack": 25,
+      "hit": 90,
+      "defence": 2,
+      "evade": 0,
+      "price": 5600,
+      "kind": "裝備"
+    },
+    {
+      "id": 8,
+      "name": "邪劍",
+      "type": 1,
+      "attack": 28,
+      "hit": 90,
+      "defence": 0,
+      "evade": 0,
+      "price": 8000,
+      "kind": "裝備"
+    },
+    {
+      "id": 9,
+      "name": "龍神劍",
+      "type": 1,
+      "attack": 32,
+      "hit": 120,
+      "defence": 3,
+      "evade": 0,
+      "price": 12000,
+      "kind": "裝備"
+    },
+    {
+      "id": 10,
+      "name": "巨斧",
+      "type": 1,
+      "attack": 4,
+      "hit": 75,
+      "defence": 0,
+      "evade": 0,
+      "price": 100,
+      "kind": "裝備"
+    },
+    {
+      "id": 11,
+      "name": "戰斧",
+      "type": 1,
+      "attack": 9,
+      "hit": 70,
+      "defence": 0,
+      "evade": 0,
+      "price": 250,
+      "kind": "裝備"
+    },
+    {
+      "id": 12,
+      "name": "長戟",
+      "type": 1,
+      "attack": 15,
+      "hit": 80,
+      "defence": 0,
+      "evade": 0,
+      "price": 800,
+      "kind": "裝備"
+    },
+    {
+      "id": 13,
+      "name": "魔法斧",
+      "type": 1,
+      "attack": 24,
+      "hit": 90,
+      "defence": 0,
+      "evade": 0,
+      "price": 5000,
+      "kind": "裝備"
+    },
+    {
+      "id": 14,
+      "name": "雷神斧",
+      "type": 1,
+      "attack": 30,
+      "hit": 100,
+      "defence": 0,
+      "evade": 0,
+      "price": 10000,
+      "kind": "裝備"
+    },
+    {
+      "id": 15,
+      "name": "長棍",
+      "type": 1,
+      "attack": 1,
+      "hit": 80,
+      "defence": 0,
+      "evade": 0,
+      "price": 10,
+      "kind": "裝備"
+    },
+    {
+      "id": 16,
+      "name": "釘頭鎚",
+      "type": 1,
+      "attack": 4,
+      "hit": 75,
+      "defence": 0,
+      "evade": 0,
+      "price": 50,
+      "kind": "裝備"
+    },
+    {
+      "id": 17,
+      "name": "流星鎚",
+      "type": 1,
+      "attack": 7,
+      "hit": 70,
+      "defence": 0,
+      "evade": 0,
+      "price": 180,
+      "kind": "裝備"
+    },
+    {
+      "id": 18,
+      "name": "魔法杖",
+      "type": 1,
+      "attack": 12,
+      "hit": 85,
+      "defence": 0,
+      "evade": 2,
+      "price": 750,
+      "kind": "裝備"
+    },
+    {
+      "id": 19,
+      "name": "降魔杖",
+      "type": 1,
+      "attack": 16,
+      "hit": 90,
+      "defence": 0,
+      "evade": 3,
+      "price": 2000,
+      "kind": "裝備"
+    },
+    {
+      "id": 20,
+      "name": "光之杖",
+      "type": 1,
+      "attack": 24,
+      "hit": 100,
+      "defence": 3,
+      "evade": 5,
+      "price": 7500,
+      "kind": "裝備"
+    },
+    {
+      "id": 21,
+      "name": "布衣",
+      "type": 2,
+      "attack": 0,
+      "hit": 0,
+      "defence": 1,
+      "evade": 0,
+      "price": 80,
+      "kind": "裝備"
+    },
+    {
+      "id": 22,
+      "name": "旅行服",
+      "type": 2,
+      "attack": 0,
+      "hit": 0,
+      "defence": 2,
+      "evade": 0,
+      "price": 200,
+      "kind": "裝備"
+    },
+    {
+      "id": 23,
+      "name": "法師袍",
+      "type": 2,
+      "attack": 0,
+      "hit": 0,
+      "defence": 3,
+      "evade": 0,
+      "price": 500,
+      "kind": "裝備"
+    },
+    {
+      "id": 24,
+      "name": "妖精披風",
+      "type": 2,
+      "attack": 0,
+      "hit": 0,
+      "defence": 5,
+      "evade": 3,
+      "price": 2500,
+      "kind": "裝備"
+    },
+    {
+      "id": 25,
+      "name": "魔法袍",
+      "type": 2,
+      "attack": 1,
+      "hit": 0,
+      "defence": 7,
+      "evade": 2,
+      "price": 4000,
+      "kind": "裝備"
+    },
+    {
+      "id": 26,
+      "name": "神聖袍",
+      "type": 2,
+      "attack": 2,
+      "hit": 0,
+      "defence": 10,
+      "evade": 5,
+      "price": 8000,
+      "kind": "裝備"
+    },
+    {
+      "id": 27,
+      "name": "皮甲",
+      "type": 2,
+      "attack": 0,
+      "hit": 0,
+      "defence": 2,
+      "evade": 0,
+      "price": 250,
+      "kind": "裝備"
+    },
+    {
+      "id": 28,
+      "name": "鎖子甲",
+      "type": 2,
+      "attack": 0,
+      "hit": 0,
+      "defence": 4,
+      "evade": 0,
+      "price": 800,
+      "kind": "裝備"
+    },
+    {
+      "id": 29,
+      "name": "戰鬥護甲",
+      "type": 2,
+      "attack": 3,
+      "hit": 0,
+      "defence": 8,
+      "evade": 0,
+      "price": 2000,
+      "kind": "裝備"
+    },
+    {
+      "id": 30,
+      "name": "龍神甲",
+      "type": 2,
+      "attack": 0,
+      "hit": 0,
+      "defence": 12,
+      "evade": 5,
+      "price": 7500,
+      "kind": "裝備"
+    },
+    {
+      "id": 31,
+      "name": "鎧甲",
+      "type": 2,
+      "attack": 0,
+      "hit": 0,
+      "defence": 6,
+      "evade": -5,
+      "price": 1200,
+      "kind": "裝備"
+    },
+    {
+      "id": 32,
+      "name": "魔法鎧甲",
+      "type": 2,
+      "attack": 0,
+      "hit": 0,
+      "defence": 15,
+      "evade": -8,
+      "price": 10000,
+      "kind": "裝備"
+    },
+    {
+      "id": 33,
+      "name": "木盾",
+      "type": 3,
+      "attack": 0,
+      "hit": 0,
+      "defence": 1,
+      "evade": 0,
+      "price": 20,
+      "kind": "裝備"
+    },
+    {
+      "id": 34,
+      "name": "銅盾",
+      "type": 3,
+      "attack": 0,
+      "hit": 0,
+      "defence": 2,
+      "evade": 0,
+      "price": 80,
+      "kind": "裝備"
+    },
+    {
+      "id": 35,
+      "name": "鐵盾",
+      "type": 3,
+      "attack": 0,
+      "hit": 0,
+      "defence": 3,
+      "evade": 0,
+      "price": 250,
+      "kind": "裝備"
+    },
+    {
+      "id": 36,
+      "name": "魔法盾",
+      "type": 3,
+      "attack": 0,
+      "hit": 0,
+      "defence": 5,
+      "evade": 3,
+      "price": 1500,
+      "kind": "裝備"
+    },
+    {
+      "id": 37,
+      "name": "龍盾",
+      "type": 3,
+      "attack": 0,
+      "hit": 0,
+      "defence": 8,
+      "evade": 5,
+      "price": 4000,
+      "kind": "裝備"
+    },
+    {
+      "id": 38,
+      "name": "皮帽",
+      "type": 4,
+      "attack": 0,
+      "hit": 0,
+      "defence": 1,
+      "evade": 0,
+      "price": 30,
+      "kind": "裝備"
+    },
+    {
+      "id": 39,
+      "name": "妖精緞帶",
+      "type": 4,
+      "attack": 0,
+      "hit": 0,
+      "defence": 3,
+      "evade": 2,
+      "price": 400,
+      "kind": "裝備"
+    },
+    {
+      "id": 40,
+      "name": "天使光環",
+      "type": 4,
+      "attack": 0,
+      "hit": 0,
+      "defence": 5,
+      "evade": 3,
+      "price": 1800,
+      "kind": "裝備"
+    },
+    {
+      "id": 41,
+      "name": "鐵盔",
+      "type": 4,
+      "attack": 0,
+      "hit": 0,
+      "defence": 2,
+      "evade": 0,
+      "price": 80,
+      "kind": "裝備"
+    },
+    {
+      "id": 42,
+      "name": "魔法盔",
+      "type": 4,
+      "attack": 0,
+      "hit": 0,
+      "defence": 4,
+      "evade": 0,
+      "price": 800,
+      "kind": "裝備"
+    },
+    {
+      "id": 43,
+      "name": "魔法項鍊",
+      "type": 5,
+      "attack": 0,
+      "hit": 0,
+      "defence": 3,
+      "evade": 5,
+      "price": 2000,
+      "kind": "裝備"
+    },
+    {
+      "id": 44,
+      "name": "神聖護符",
+      "type": 5,
+      "attack": 5,
+      "hit": 0,
+      "defence": 5,
+      "evade": 10,
+      "price": 5000,
+      "kind": "裝備"
+    },
+    {
+      "id": 45,
+      "name": "布靴",
+      "type": 6,
+      "attack": 0,
+      "hit": 0,
+      "defence": 1,
+      "evade": 2,
+      "price": 50,
+      "kind": "裝備"
+    },
+    {
+      "id": 46,
+      "name": "皮靴",
+      "type": 6,
+      "attack": 0,
+      "hit": 0,
+      "defence": 2,
+      "evade": 3,
+      "price": 300,
+      "kind": "裝備"
+    },
+    {
+      "id": 47,
+      "name": "精靈靴",
+      "type": 6,
+      "attack": 0,
+      "hit": 0,
+      "defence": 3,
+      "evade": 5,
+      "price": 1200,
+      "kind": "裝備"
+    },
+    {
+      "id": 48,
+      "name": "疾走靴",
+      "type": 6,
+      "attack": 0,
+      "hit": 0,
+      "defence": 5,
+      "evade": 8,
+      "price": 4000,
+      "kind": "裝備"
+    },
+    {
+      "id": 49,
+      "name": "傷藥",
+      "type": 11,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 10,
+      "kind": "其他"
+    },
+    {
+      "id": 50,
+      "name": "回復劑",
+      "type": 11,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 50,
+      "kind": "其他"
+    },
+    {
+      "id": 51,
+      "name": "生命水",
+      "type": 11,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 200,
+      "kind": "其他"
+    },
+    {
+      "id": 52,
+      "name": "月光草",
+      "type": 12,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 30,
+      "kind": "其他"
+    },
+    {
+      "id": 53,
+      "name": "神聖水",
+      "type": 12,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 100,
+      "kind": "其他"
+    },
+    {
+      "id": 54,
+      "name": "肉塊",
+      "type": 13,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 50,
+      "kind": "其他"
+    },
+    {
+      "id": 55,
+      "name": "寶石",
+      "type": 13,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 200,
+      "kind": "其他"
+    },
+    {
+      "id": 56,
+      "name": "魔水晶",
+      "type": 13,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 1000,
+      "kind": "其他"
+    },
+    {
+      "id": 58,
+      "name": "瘟疫卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 500,
+      "image": "items/058.png",
+      "kind": "卡片",
+      "category": "領地類",
+      "effect": "可使指定領地守軍（除魔族外）之ＨＰ成為１／２"
+    },
+    {
+      "id": 59,
+      "name": "淨化卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 500,
+      "image": "items/059.png",
+      "kind": "卡片",
+      "category": "領地類",
+      "effect": "可使指定領地的魔族守軍之ＨＰ成為１／２"
+    },
+    {
+      "id": 60,
+      "name": "叛亂卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 2000,
+      "image": "items/060.png",
+      "kind": "卡片",
+      "category": "領地類",
+      "effect": "可使指定對象之某一領地叛變而成為中立，１／２機率成功"
+    },
+    {
+      "id": 61,
+      "name": "一步卡",
+      "type": 50,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 800,
+      "image": "items/061.png",
+      "kind": "卡片",
+      "category": "移動類",
+      "effect": "在地圖畫面上移動１步"
+    },
+    {
+      "id": 62,
+      "name": "兩步卡",
+      "type": 50,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 400,
+      "image": "items/062.png",
+      "kind": "卡片",
+      "category": "移動類",
+      "effect": "在地圖畫面上移動２步"
+    },
+    {
+      "id": 63,
+      "name": "三步卡",
+      "type": 50,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 200,
+      "image": "items/063.png",
+      "kind": "卡片",
+      "category": "移動類",
+      "effect": "在地圖畫面上移動３步"
+    },
+    {
+      "id": 64,
+      "name": "四步卡",
+      "type": 50,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 100,
+      "image": "items/064.png",
+      "kind": "卡片",
+      "category": "移動類",
+      "effect": "在地圖畫面上移動４步"
+    },
+    {
+      "id": 65,
+      "name": "五步卡",
+      "type": 50,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 300,
+      "image": "items/065.png",
+      "kind": "卡片",
+      "category": "移動類",
+      "effect": "在地圖畫面上移動５步"
+    },
+    {
+      "id": 66,
+      "name": "六步卡",
+      "type": 50,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 500,
+      "image": "items/066.png",
+      "kind": "卡片",
+      "category": "移動類",
+      "effect": "在地圖畫面上移動６步"
+    },
+    {
+      "id": 67,
+      "name": "任意步卡",
+      "type": 50,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 1000,
+      "image": "items/067.png",
+      "kind": "卡片",
+      "category": "移動類",
+      "effect": "可指定行進１－６格"
+    },
+    {
+      "id": 68,
+      "name": "倍速卡",
+      "type": 50,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 200,
+      "image": "items/068.png",
+      "kind": "卡片",
+      "category": "移動類",
+      "effect": "在地圖畫面上以兩倍速度移動"
+    },
+    {
+      "id": 69,
+      "name": "神行卡",
+      "type": 50,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 500,
+      "image": "items/069.png",
+      "kind": "卡片",
+      "category": "移動類",
+      "effect": "在地圖畫面上以三倍速度移動"
+    },
+    {
+      "id": 70,
+      "name": "轉移卡",
+      "type": 51,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 2000,
+      "image": "items/070.png",
+      "kind": "卡片",
+      "category": "移動類",
+      "effect": "在地圖畫面上移動至任一點（禁區除外）"
+    },
+    {
+      "id": 71,
+      "name": "吹跑卡",
+      "type": 51,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 200,
+      "image": "items/071.png",
+      "kind": "卡片",
+      "category": "移動類",
+      "effect": "將指定對象隨機移往地圖上某一處"
+    },
+    {
+      "id": 72,
+      "name": "詛咒卡",
+      "type": 52,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 500,
+      "image": "items/072.png",
+      "kind": "卡片",
+      "category": "移動類",
+      "effect": "在地圖畫面使指定對手無法移動１－３回合"
+    },
+    {
+      "id": 73,
+      "name": "戰神卡",
+      "type": 52,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 300,
+      "image": "items/073.png",
+      "kind": "卡片",
+      "category": "戰鬥類",
+      "effect": "在戰鬥畫面使用，可施展最強劍技（亂數決定目標）"
+    },
+    {
+      "id": 74,
+      "name": "火神卡",
+      "type": 52,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 300,
+      "image": "items/074.png",
+      "kind": "卡片",
+      "category": "戰鬥類",
+      "effect": "在戰鬥畫面使用，可施展最強火系法術（亂數決定目標）"
+    },
+    {
+      "id": 75,
+      "name": "冰神卡",
+      "type": 52,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 300,
+      "image": "items/075.png",
+      "kind": "卡片",
+      "category": "戰鬥類",
+      "effect": "在戰鬥畫面使用，可施展最強冰系法術"
+    },
+    {
+      "id": 76,
+      "name": "雷神卡",
+      "type": 52,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 300,
+      "image": "items/076.png",
+      "kind": "卡片",
+      "category": "戰鬥類",
+      "effect": "在戰鬥畫面使用，可施展最強雷系法術"
+    },
+    {
+      "id": 77,
+      "name": "風神卡",
+      "type": 52,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 100,
+      "image": "items/077.png",
+      "kind": "卡片",
+      "category": "戰鬥類",
+      "effect": "在戰鬥畫面使用，可100%順利逃脫"
+    },
+    {
+      "id": 78,
+      "name": "魅惑卡",
+      "type": 52,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 1000,
+      "image": "items/078.png",
+      "kind": "卡片",
+      "category": "戰鬥類",
+      "effect": "在戰鬥畫面使用，可使對方亂數一人加入\n(領地守軍無效,且隊伍內有空間)"
+    },
+    {
+      "id": 79,
+      "name": "回復卡",
+      "type": 53,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 400,
+      "image": "items/079.png",
+      "kind": "卡片",
+      "category": "回復類",
+      "effect": "在地圖及戰鬥畫面使用，可使所有部隊HP回復50%"
+    },
+    {
+      "id": 80,
+      "name": "神蹟卡",
+      "type": 53,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 1000,
+      "image": "items/080.png",
+      "kind": "卡片",
+      "category": "回復類",
+      "effect": "在地圖及戰鬥畫面使用，可使所有部隊HP全滿"
+    },
+    {
+      "id": 81,
+      "name": "聚氣卡",
+      "type": 53,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 800,
+      "image": "items/081.png",
+      "kind": "卡片",
+      "category": "回復類",
+      "effect": "在地圖及戰鬥畫面使用，可使所有部隊MP回復50%"
+    },
+    {
+      "id": 82,
+      "name": "月神卡",
+      "type": 53,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 2000,
+      "image": "items/082.png",
+      "kind": "卡片",
+      "category": "回復類",
+      "effect": "在地圖及戰鬥畫面使用，可使所有部隊MP全滿"
+    },
+    {
+      "id": 83,
+      "name": "平安卡",
+      "type": 53,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 500,
+      "image": "items/083.png",
+      "kind": "卡片",
+      "category": "防禦類",
+      "effect": "可免除領地之一次災難，用後即消失"
+    },
+    {
+      "id": 84,
+      "name": "防禦卡",
+      "type": 53,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 500,
+      "image": "items/084.png",
+      "kind": "卡片",
+      "category": "防禦類",
+      "effect": "可阻止對方使用卡片對我方或領地的一次攻擊"
+    },
+    {
+      "id": 85,
+      "name": "祝福卡",
+      "type": 53,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 200,
+      "image": "items/085.png",
+      "kind": "卡片",
+      "category": "防禦類",
+      "effect": "自動避開一次陷阱，用後即消失"
+    },
+    {
+      "id": 86,
+      "name": "英雄卡",
+      "type": 53,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 500,
+      "image": "items/086.png",
+      "kind": "卡片",
+      "category": "商店類",
+      "effect": "進入商店時全部半價，用後即消失"
+    },
+    {
+      "id": 87,
+      "name": "外賣卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 800,
+      "image": "items/087.png",
+      "kind": "卡片",
+      "category": "商店類",
+      "effect": "可在原處直接購買卡片"
+    },
+    {
+      "id": 88,
+      "name": "福袋卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 2000,
+      "image": "items/088.png",
+      "kind": "卡片",
+      "category": "特殊類",
+      "effect": "可增加１－５張卡片"
+    },
+    {
+      "id": 89,
+      "name": "傭兵卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 1000,
+      "image": "items/089.png",
+      "kind": "卡片",
+      "category": "特殊類",
+      "effect": "在地圖畫面使用，可將隊伍所剩空間填滿，但仍需付召募費"
+    },
+    {
+      "id": 90,
+      "name": "陷阱卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 500,
+      "image": "items/090.png",
+      "kind": "卡片",
+      "category": "特殊類",
+      "effect": "可在所在格處佈置陷阱，當其他人進入時立刻作用，使其造成１／２的\nＨＰ損傷"
+    },
+    {
+      "id": 91,
+      "name": "機運卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 100,
+      "image": "items/091.png",
+      "kind": "卡片",
+      "category": "特殊類",
+      "effect": "會發生以下事件\n1/16  半路遭竊:某一人錢財損失1/16 - 1/4(最低下限50元)\n1/16  拾獲寶物:某一人錢財增加50 - 1000元、寶物拾獲0 - 2 項\n1/ 4  遭遇怪物:某一人遭遇該地區之生物\n1/16  魔法傳送:某一人被傳送到除禁區外的任一處\n1/32  遇到陷阱:某一人停止1 回合、HP損失1/4 - 2/3、MP=0\n1/32  紮營休息:某一人停止1 回合、HP、MP全滿\n1/ 4  幸運降臨:某一人獲得1 張卡片\n1/ 4  不幸降臨:某一人失去1 張卡片\n1/16  遭到詛咒:某一人無法移動1 - 3 回合"
+    },
+    {
+      "id": 92,
+      "name": "小丑卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 500,
+      "image": "items/092.png",
+      "kind": "卡片",
+      "category": "特殊類",
+      "effect": "會出現某一種卡的效果，無法預料"
+    },
+    {
+      "id": 93,
+      "name": "天罰卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 1000,
+      "image": "items/093.png",
+      "kind": "卡片",
+      "category": "攻擊類",
+      "effect": "隨機給予一人１／８－１／２的金錢損失"
+    },
+    {
+      "id": 94,
+      "name": "平均卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 2000,
+      "image": "items/094.png",
+      "kind": "卡片"
+    },
+    {
+      "id": 95,
+      "name": "奪取卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 1000,
+      "image": "items/095.png",
+      "kind": "卡片",
+      "category": "攻擊類",
+      "effect": "可奪取對方之任一卡片"
+    },
+    {
+      "id": 96,
+      "name": "破壞卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 2000,
+      "image": "items/096.png",
+      "kind": "卡片",
+      "category": "攻擊類",
+      "effect": "可將指定對象之卡片消除一半"
+    },
+    {
+      "id": 97,
+      "name": "封印卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 800,
+      "image": "items/097.png",
+      "kind": "卡片",
+      "category": "攻擊類",
+      "effect": "可使指定對象３回合內無法使用卡片"
+    },
+    {
+      "id": 98,
+      "name": "交換卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 1500,
+      "image": "items/098.png",
+      "kind": "卡片",
+      "category": "領地類",
+      "effect": "可與指定對象交換除主領地外之任一城鎮及守軍"
+    },
+    {
+      "id": 99,
+      "name": "流星卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 1200,
+      "image": "items/099.png",
+      "kind": "卡片",
+      "category": "領地類",
+      "effect": "可使指定領地遭到重大損壞而降一級"
+    },
+    {
+      "id": 100,
+      "name": "腐朽卡",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 800,
+      "image": "items/100.png",
+      "kind": "卡片",
+      "category": "領地類",
+      "effect": "可使指定領地之城牆毀滅"
+    },
+    {
+      "id": 101,
+      "name": "神之草",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 0,
+      "kind": "其他"
+    },
+    {
+      "id": 102,
+      "name": "真實之珠",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 0,
+      "kind": "其他"
+    },
+    {
+      "id": 103,
+      "name": "沙漠地圖",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 0,
+      "kind": "其他"
+    },
+    {
+      "id": 104,
+      "name": "神殿之鑰",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 0,
+      "kind": "其他"
+    },
+    {
+      "id": 105,
+      "name": "神奇雕像",
+      "type": 0,
+      "attack": 0,
+      "hit": 0,
+      "defence": 0,
+      "evade": 0,
+      "price": 0,
+      "kind": "其他"
+    }
+  ],
+  "spells": [
+    {
+      "id": 1,
+      "name": "致命一擊",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 8
+    },
+    {
+      "id": 2,
+      "name": "盜取物品",
+      "type": 8,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 6
+    },
+    {
+      "id": 3,
+      "name": "幻影斬",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 8
+    },
+    {
+      "id": 4,
+      "name": "隱身",
+      "type": 8,
+      "target": 5,
+      "range": 2,
+      "animation": 0,
+      "mp": 6
+    },
+    {
+      "id": 5,
+      "name": "隱忍雷爆",
+      "type": 3,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 12
+    },
+    {
+      "id": 6,
+      "name": "治癒術",
+      "type": 10,
+      "target": 0,
+      "range": 1,
+      "animation": 0,
+      "mp": 3
+    },
+    {
+      "id": 7,
+      "name": "聖光術",
+      "type": 4,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 6
+    },
+    {
+      "id": 8,
+      "name": "火球術",
+      "type": 1,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 4
+    },
+    {
+      "id": 9,
+      "name": "轉移",
+      "type": 4,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 20
+    },
+    {
+      "id": 10,
+      "name": "點石成金術",
+      "type": 4,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 20
+    },
+    {
+      "id": 11,
+      "name": "分解術",
+      "type": 4,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 28
+    },
+    {
+      "id": 12,
+      "name": "靈獸召喚",
+      "type": 4,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 25
+    },
+    {
+      "id": 13,
+      "name": "神恩術",
+      "type": 10,
+      "target": 0,
+      "range": 0,
+      "animation": 0,
+      "mp": 20
+    },
+    {
+      "id": 14,
+      "name": "聖劍斬",
+      "type": 8,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 20
+    },
+    {
+      "id": 15,
+      "name": "醫療術",
+      "type": 10,
+      "target": 0,
+      "range": 0,
+      "animation": 0,
+      "mp": 12
+    },
+    {
+      "id": 16,
+      "name": "飛鎚攻擊",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 6
+    },
+    {
+      "id": 17,
+      "name": "電擊",
+      "type": 3,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 5
+    },
+    {
+      "id": 18,
+      "name": "迷魂琴音",
+      "type": 8,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 12
+    },
+    {
+      "id": 19,
+      "name": "迴旋擊",
+      "type": 8,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 5
+    },
+    {
+      "id": 20,
+      "name": "再生",
+      "type": 10,
+      "target": 0,
+      "range": 2,
+      "animation": 0,
+      "mp": 5
+    },
+    {
+      "id": 21,
+      "name": "巨角撞擊",
+      "type": 0,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 12
+    },
+    {
+      "id": 22,
+      "name": "破空斬",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 6
+    },
+    {
+      "id": 23,
+      "name": "狂龍擊",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 8
+    },
+    {
+      "id": 24,
+      "name": "噴火",
+      "type": 6,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 10
+    },
+    {
+      "id": 25,
+      "name": "投擲巨石",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 4
+    },
+    {
+      "id": 26,
+      "name": "震地擊",
+      "type": 0,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 8
+    },
+    {
+      "id": 27,
+      "name": "鐵球投擲",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 4
+    },
+    {
+      "id": 28,
+      "name": "火炎攻擊",
+      "type": 6,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 4
+    },
+    {
+      "id": 29,
+      "name": "尾刺",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 3
+    },
+    {
+      "id": 30,
+      "name": "羽鏢",
+      "type": 0,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 6
+    },
+    {
+      "id": 31,
+      "name": "鑽地攻擊",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 6
+    },
+    {
+      "id": 32,
+      "name": "毒氣攻擊",
+      "type": 5,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 12
+    },
+    {
+      "id": 33,
+      "name": "吞沒",
+      "type": 8,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 8
+    },
+    {
+      "id": 34,
+      "name": "噴火",
+      "type": 6,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 9
+    },
+    {
+      "id": 35,
+      "name": "頭斧迴旋斬",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 4
+    },
+    {
+      "id": 36,
+      "name": "屍蟲攻擊",
+      "type": 5,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 4
+    },
+    {
+      "id": 37,
+      "name": "靈體攻擊",
+      "type": 4,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 6
+    },
+    {
+      "id": 38,
+      "name": "毒蛛攻擊",
+      "type": 5,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 6
+    },
+    {
+      "id": 39,
+      "name": "肋骨刃",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 6
+    },
+    {
+      "id": 40,
+      "name": "凍氣",
+      "type": 7,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 8
+    },
+    {
+      "id": 41,
+      "name": "巨大蝙蝠",
+      "type": 0,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 12
+    },
+    {
+      "id": 42,
+      "name": "吸血",
+      "type": 8,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 8
+    },
+    {
+      "id": 43,
+      "name": "魔咒",
+      "type": 4,
+      "target": 1,
+      "range": 1,
+      "animation": 0,
+      "mp": 10
+    },
+    {
+      "id": 44,
+      "name": "群魔亂舞",
+      "type": 0,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 12
+    },
+    {
+      "id": 45,
+      "name": "魔體轟",
+      "type": 4,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 20
+    },
+    {
+      "id": 46,
+      "name": "鬼哭神號",
+      "type": 4,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 40
+    },
+    {
+      "id": 47,
+      "name": "地獄爆炎",
+      "type": 6,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 25
+    },
+    {
+      "id": 48,
+      "name": "冰雪風暴",
+      "type": 7,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 20
+    },
+    {
+      "id": 49,
+      "name": "雷電怒濤",
+      "type": 3,
+      "target": 1,
+      "range": 0,
+      "animation": 0,
+      "mp": 20
+    },
+    {
+      "id": 51,
+      "name": "爆音擊",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 1,
+      "mp": 5
+    },
+    {
+      "id": 52,
+      "name": "破空刃",
+      "type": 0,
+      "target": 1,
+      "range": 0,
+      "animation": 2,
+      "mp": 8
+    },
+    {
+      "id": 53,
+      "name": "龍神斬",
+      "type": 0,
+      "target": 1,
+      "range": 1,
+      "animation": 3,
+      "mp": 15
+    },
+    {
+      "id": 54,
+      "name": "熾焰閃",
+      "type": 1,
+      "target": 1,
+      "range": 1,
+      "animation": 1,
+      "mp": 5
+    },
+    {
+      "id": 55,
+      "name": "炎龍破",
+      "type": 1,
+      "target": 1,
+      "range": 0,
+      "animation": 4,
+      "mp": 12
+    },
+    {
+      "id": 56,
+      "name": "冰霜箭",
+      "type": 2,
+      "target": 1,
+      "range": 1,
+      "animation": 5,
+      "mp": 4
+    },
+    {
+      "id": 57,
+      "name": "暴風雪",
+      "type": 2,
+      "target": 1,
+      "range": 0,
+      "animation": 6,
+      "mp": 15
+    },
+    {
+      "id": 58,
+      "name": "狂雷擊",
+      "type": 3,
+      "target": 1,
+      "range": 0,
+      "animation": 7,
+      "mp": 8
+    },
+    {
+      "id": 59,
+      "name": "天雷轟",
+      "type": 3,
+      "target": 1,
+      "range": 0,
+      "animation": 8,
+      "mp": 20
+    },
+    {
+      "id": 60,
+      "name": "治癒",
+      "type": 10,
+      "target": 0,
+      "range": 1,
+      "animation": 1,
+      "mp": 4
+    },
+    {
+      "id": 61,
+      "name": "醫療",
+      "type": 10,
+      "target": 0,
+      "range": 0,
+      "animation": 9,
+      "mp": 8
+    },
+    {
+      "id": 62,
+      "name": "回復",
+      "type": 10,
+      "target": 0,
+      "range": 0,
+      "animation": 4,
+      "mp": 12
+    },
+    {
+      "id": 63,
+      "name": "神恩",
+      "type": 10,
+      "target": 0,
+      "range": 0,
+      "animation": 1,
+      "mp": 20
+    },
+    {
+      "id": 64,
+      "name": "解毒",
+      "type": 10,
+      "target": 5,
+      "range": 1,
+      "animation": 0,
+      "mp": 3
+    },
+    {
+      "id": 65,
+      "name": "解麻",
+      "type": 10,
+      "target": 5,
+      "range": 1,
+      "animation": 0,
+      "mp": 3
+    },
+    {
+      "id": 66,
+      "name": "倍力",
+      "type": 10,
+      "target": 5,
+      "range": 1,
+      "animation": 50,
+      "mp": 5
+    },
+    {
+      "id": 67,
+      "name": "必中",
+      "type": 10,
+      "target": 5,
+      "range": 1,
+      "animation": 50,
+      "mp": 5
+    },
+    {
+      "id": 68,
+      "name": "鐵壁",
+      "type": 10,
+      "target": 5,
+      "range": 1,
+      "animation": 50,
+      "mp": 5
+    },
+    {
+      "id": 69,
+      "name": "虛幻",
+      "type": 10,
+      "target": 5,
+      "range": 1,
+      "animation": 50,
+      "mp": 5
+    },
+    {
+      "id": 70,
+      "name": "神力",
+      "type": 10,
+      "target": 5,
+      "range": 1,
+      "animation": 50,
+      "mp": 15
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "name": "第一章  邪惡領主",
+      "introduction": "第一章  邪惡領主\n                                                   \n      為了統一阿吉達平原，必須打敗這區域中最強\n      的沙拔特領主。不過傳說他是不死之身的吸血\n      鬼所化身，會使用幻術來迷惑敵人，因此正面\n      挑戰是不會有勝算的。\n\n      \n      \n              提示：請幫助有需要的人",
+      "heroes": [
+        {
+          "id": 0,
+          "name": "希洛",
+          "level": 1,
+          "hp": 36,
+          "hpGrowth": 14,
+          "mp": 8,
+          "mpGrowth": 5,
+          "strength": 18,
+          "strengthGrowth": 7,
+          "dexterity": 10,
+          "dexterityGrowth": 6,
+          "intelligence": 8,
+          "intelligenceGrowth": 5,
+          "luck": 8,
+          "hit": 101,
+          "evade": 16,
+          "attack": 26,
+          "defence": 10,
+          "gold": 2000,
+          "troops": [
+            {
+              "name": "戰士",
+              "level": 3
+            },
+            {
+              "name": "戰士",
+              "level": 3
+            },
+            {
+              "name": "法師",
+              "level": 2
+            },
+            {
+              "name": "僧侶",
+              "level": 2
+            }
+          ],
+          "spells": [
+            {
+              "name": "爆音擊",
+              "level": 3
+            },
+            {
+              "name": "必中",
+              "level": 5
+            },
+            {
+              "name": "破空刃",
+              "level": 10
+            },
+            {
+              "name": "倍力",
+              "level": 12
+            },
+            {
+              "name": "龍神斬",
+              "level": 25
+            },
+            {
+              "name": "治癒",
+              "level": 8
+            }
+          ],
+          "image": "heroes/0.png"
+        },
+        {
+          "id": 1,
+          "name": "明",
+          "level": 1,
+          "hp": 48,
+          "hpGrowth": 19,
+          "mp": 0,
+          "mpGrowth": 0,
+          "strength": 24,
+          "strengthGrowth": 10,
+          "dexterity": 6,
+          "dexterityGrowth": 4,
+          "intelligence": 6,
+          "intelligenceGrowth": 4,
+          "luck": 6,
+          "hit": 90,
+          "evade": 20,
+          "attack": 37,
+          "defence": 9,
+          "gold": 2000,
+          "troops": [
+            {
+              "name": "獸人",
+              "level": 2
+            },
+            {
+              "name": "獸人",
+              "level": 2
+            },
+            {
+              "name": "地精",
+              "level": 3
+            },
+            {
+              "name": "地精",
+              "level": 3
+            }
+          ],
+          "spells": [],
+          "image": "heroes/1.png"
+        },
+        {
+          "id": 2,
+          "name": "凱麗",
+          "level": 1,
+          "hp": 32,
+          "hpGrowth": 10,
+          "mp": 12,
+          "mpGrowth": 8,
+          "strength": 16,
+          "strengthGrowth": 5,
+          "dexterity": 8,
+          "dexterityGrowth": 5,
+          "intelligence": 12,
+          "intelligenceGrowth": 8,
+          "luck": 6,
+          "hit": 92,
+          "evade": 20,
+          "attack": 21,
+          "defence": 16,
+          "gold": 2000,
+          "troops": [
+            {
+              "name": "鬼魂",
+              "level": 2
+            },
+            {
+              "name": "僵屍",
+              "level": 3
+            },
+            {
+              "name": "骷髏兵",
+              "level": 3
+            },
+            {
+              "name": "骷髏兵",
+              "level": 3
+            }
+          ],
+          "spells": [
+            {
+              "name": "熾焰閃",
+              "level": 1
+            },
+            {
+              "name": "冰霜箭",
+              "level": 3
+            },
+            {
+              "name": "狂雷擊",
+              "level": 5
+            },
+            {
+              "name": "鐵壁",
+              "level": 8
+            },
+            {
+              "name": "炎龍破",
+              "level": 12
+            },
+            {
+              "name": "倍力",
+              "level": 15
+            },
+            {
+              "name": "暴風雪",
+              "level": 18
+            },
+            {
+              "name": "天雷轟",
+              "level": 25
+            },
+            {
+              "name": "神力",
+              "level": 32
+            },
+            {
+              "name": "醫療",
+              "level": 18
+            }
+          ],
+          "image": "heroes/2.png"
+        },
+        {
+          "id": 3,
+          "name": "雪莉",
+          "level": 1,
+          "hp": 36,
+          "hpGrowth": 12,
+          "mp": 10,
+          "mpGrowth": 6,
+          "strength": 18,
+          "strengthGrowth": 6,
+          "dexterity": 8,
+          "dexterityGrowth": 6,
+          "intelligence": 10,
+          "intelligenceGrowth": 6,
+          "luck": 10,
+          "hit": 93,
+          "evade": 17,
+          "attack": 24,
+          "defence": 13,
+          "gold": 2000,
+          "troops": [
+            {
+              "name": "戰士",
+              "level": 3
+            },
+            {
+              "name": "戰士",
+              "level": 3
+            },
+            {
+              "name": "僧侶",
+              "level": 2
+            },
+            {
+              "name": "僧侶",
+              "level": 2
+            }
+          ],
+          "spells": [
+            {
+              "name": "治癒",
+              "level": 1
+            },
+            {
+              "name": "虛幻",
+              "level": 5
+            },
+            {
+              "name": "醫療",
+              "level": 8
+            },
+            {
+              "name": "狂雷擊",
+              "level": 10
+            },
+            {
+              "name": "解麻",
+              "level": 12
+            },
+            {
+              "name": "鐵壁",
+              "level": 15
+            },
+            {
+              "name": "回復",
+              "level": 18
+            },
+            {
+              "name": "神力",
+              "level": 24
+            },
+            {
+              "name": "神恩",
+              "level": 30
+            },
+            {
+              "name": "天雷轟",
+              "level": 36
+            }
+          ],
+          "image": "heroes/3.png"
+        }
+      ],
+      "cities": [
+        {
+          "id": 1,
+          "name": "魔法城",
+          "x": 5,
+          "y": 6,
+          "level": 4,
+          "gold": 500,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 2,
+          "name": "卡拉亞",
+          "x": 7,
+          "y": 10,
+          "level": 2,
+          "gold": 300,
+          "type": 1,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 3,
+          "name": "西達",
+          "x": 15,
+          "y": 4,
+          "level": 2,
+          "gold": 200,
+          "type": 2,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 4,
+          "name": "巴索多",
+          "x": 13,
+          "y": 12,
+          "level": 1,
+          "gold": 150,
+          "type": 3,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 5,
+          "name": "吉羅米",
+          "x": 7,
+          "y": 16,
+          "level": 1,
+          "gold": 100,
+          "type": 4,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 6,
+          "name": "沙多克",
+          "x": 13,
+          "y": 16,
+          "level": 3,
+          "gold": 350,
+          "type": 2,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 7,
+          "name": "休里",
+          "x": 19,
+          "y": 16,
+          "level": 3,
+          "gold": 400,
+          "type": 1,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 8,
+          "name": "波德拉",
+          "x": 9,
+          "y": 20,
+          "level": 1,
+          "gold": 100,
+          "type": 2,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 9,
+          "name": "雅矢",
+          "x": 7,
+          "y": 24,
+          "level": 1,
+          "gold": 150,
+          "type": 1,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 10,
+          "name": "灰熊鎮",
+          "x": 17,
+          "y": 22,
+          "level": 2,
+          "gold": 200,
+          "type": 2,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 11,
+          "name": "索克拿",
+          "x": 12,
+          "y": 27,
+          "level": 1,
+          "gold": 100,
+          "type": 2,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 12,
+          "name": "南方鎮",
+          "x": 9,
+          "y": 32,
+          "level": 2,
+          "gold": 250,
+          "type": 1,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 13,
+          "name": "獸王堡",
+          "x": 15,
+          "y": 32,
+          "level": 4,
+          "gold": 500,
+          "type": 2,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 14,
+          "name": "迷特羅",
+          "x": 19,
+          "y": 32,
+          "level": 2,
+          "gold": 200,
+          "type": 4,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 15,
+          "name": "湖邊村",
+          "x": 25,
+          "y": 29,
+          "level": 1,
+          "gold": 100,
+          "type": 3,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 16,
+          "name": "坎瓦",
+          "x": 31,
+          "y": 26,
+          "level": 1,
+          "gold": 100,
+          "type": 4,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 17,
+          "name": "隆達亞",
+          "x": 35,
+          "y": 26,
+          "level": 3,
+          "gold": 400,
+          "type": 1,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 18,
+          "name": "舒格羅",
+          "x": 34,
+          "y": 32,
+          "level": 2,
+          "gold": 250,
+          "type": 3,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 19,
+          "name": "英雄堡",
+          "x": 41,
+          "y": 30,
+          "level": 4,
+          "gold": 500,
+          "type": 1,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 20,
+          "name": "迪瑪",
+          "x": 43,
+          "y": 20,
+          "level": 2,
+          "gold": 200,
+          "type": 2,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 21,
+          "name": "哈亞薩",
+          "x": 37,
+          "y": 20,
+          "level": 1,
+          "gold": 150,
+          "type": 4,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 22,
+          "name": "得爾德",
+          "x": 30,
+          "y": 18,
+          "level": 2,
+          "gold": 200,
+          "type": 1,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 23,
+          "name": "培雷",
+          "x": 26,
+          "y": 22,
+          "level": 3,
+          "gold": 400,
+          "type": 3,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 24,
+          "name": "中央城",
+          "x": 25,
+          "y": 16,
+          "level": 4,
+          "gold": 800,
+          "type": 1,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 25,
+          "name": "西家村",
+          "x": 21,
+          "y": 10,
+          "level": 1,
+          "gold": 100,
+          "type": 1,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 26,
+          "name": "東家村",
+          "x": 25,
+          "y": 10,
+          "level": 1,
+          "gold": 100,
+          "type": 4,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 27,
+          "name": "巴答蒙",
+          "x": 30,
+          "y": 10,
+          "level": 1,
+          "gold": 100,
+          "type": 1,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 28,
+          "name": "基努",
+          "x": 29,
+          "y": 4,
+          "level": 2,
+          "gold": 250,
+          "type": 4,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 29,
+          "name": "天門殿",
+          "x": 35,
+          "y": 4,
+          "level": 4,
+          "gold": 500,
+          "type": 1,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 30,
+          "name": "羅梅姆",
+          "x": 43,
+          "y": 4,
+          "level": 2,
+          "gold": 200,
+          "type": 3,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 31,
+          "name": "尼依",
+          "x": 35,
+          "y": 14,
+          "level": 3,
+          "gold": 400,
+          "type": 2,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 32,
+          "name": "夢幻城",
+          "x": 42,
+          "y": 10,
+          "level": 3,
+          "gold": 400,
+          "type": 2,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        }
+      ],
+      "map": "maps/1.png",
+      "miniature": "maps/1-small.png",
+      "width": 49,
+      "height": 36,
+      "endings": [
+        "憑著出神入化的劍技及部下的擁護，劍聖希洛\n      終於擊敗了其他對手，奪得了這個地區的統治\n      權。但是想要完成統一大陸的霸業，還得繼續\n      戰鬥下去哦！",
+        "擊倒最後的邪惡－邪神之後，劍聖希洛已經完\n    成了其先祖的遺志，將邪惡的勢力驅離了卡瓦大\n    陸。\n      在強大的實力及日益高漲的聲望之下，劍聖希\n    洛終於統一了整個卡瓦大陸，再度建立更強盛壯\n    大的新王國，使得卡瓦大陸的紛爭至此告一段落\n    ，人類也從此能獲得安和樂利的日子。"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "第二章  山中廢墟",
+      "introduction": "第二章  山中廢墟\n\n      為了征服大陸，需要大量的軍費，而傳說山中\n      廢墟埋藏著大批寶藏。但是通往廢墟的入口已\n      經被封住了，據說只有精靈長老及矮人王才能\n      打開入口。\n\n          提示：得幫助矮人或精靈之其中一族",
+      "heroes": [
+        {
+          "id": 0,
+          "name": "希洛",
+          "level": 10,
+          "hp": 36,
+          "hpGrowth": 14,
+          "mp": 8,
+          "mpGrowth": 5,
+          "strength": 18,
+          "strengthGrowth": 7,
+          "dexterity": 10,
+          "dexterityGrowth": 6,
+          "intelligence": 8,
+          "intelligenceGrowth": 5,
+          "luck": 8,
+          "hit": 101,
+          "evade": 16,
+          "attack": 26,
+          "defence": 10,
+          "gold": 5000,
+          "troops": [
+            {
+              "name": "戰士",
+              "level": 8
+            },
+            {
+              "name": "戰士",
+              "level": 8
+            },
+            {
+              "name": "法師",
+              "level": 8
+            },
+            {
+              "name": "僧侶",
+              "level": 8
+            }
+          ],
+          "spells": [
+            {
+              "name": "爆音擊",
+              "level": 3
+            },
+            {
+              "name": "必中",
+              "level": 5
+            },
+            {
+              "name": "破空刃",
+              "level": 10
+            },
+            {
+              "name": "倍力",
+              "level": 12
+            },
+            {
+              "name": "龍神斬",
+              "level": 25
+            },
+            {
+              "name": "治癒",
+              "level": 8
+            }
+          ],
+          "image": "heroes/0.png"
+        },
+        {
+          "id": 1,
+          "name": "明",
+          "level": 10,
+          "hp": 48,
+          "hpGrowth": 19,
+          "mp": 0,
+          "mpGrowth": 0,
+          "strength": 24,
+          "strengthGrowth": 10,
+          "dexterity": 6,
+          "dexterityGrowth": 4,
+          "intelligence": 6,
+          "intelligenceGrowth": 4,
+          "luck": 6,
+          "hit": 90,
+          "evade": 20,
+          "attack": 37,
+          "defence": 9,
+          "gold": 5000,
+          "troops": [
+            {
+              "name": "獸人",
+              "level": 8
+            },
+            {
+              "name": "獸人",
+              "level": 8
+            },
+            {
+              "name": "獸人",
+              "level": 8
+            },
+            {
+              "name": "獸人",
+              "level": 8
+            }
+          ],
+          "spells": [],
+          "image": "heroes/1.png"
+        },
+        {
+          "id": 2,
+          "name": "凱麗",
+          "level": 10,
+          "hp": 32,
+          "hpGrowth": 10,
+          "mp": 12,
+          "mpGrowth": 8,
+          "strength": 16,
+          "strengthGrowth": 5,
+          "dexterity": 8,
+          "dexterityGrowth": 5,
+          "intelligence": 12,
+          "intelligenceGrowth": 8,
+          "luck": 6,
+          "hit": 92,
+          "evade": 20,
+          "attack": 21,
+          "defence": 16,
+          "gold": 5000,
+          "troops": [
+            {
+              "name": "惡靈",
+              "level": 8
+            },
+            {
+              "name": "鬼魂",
+              "level": 8
+            },
+            {
+              "name": "僵屍",
+              "level": 8
+            },
+            {
+              "name": "僵屍",
+              "level": 8
+            }
+          ],
+          "spells": [
+            {
+              "name": "熾焰閃",
+              "level": 1
+            },
+            {
+              "name": "冰霜箭",
+              "level": 3
+            },
+            {
+              "name": "狂雷擊",
+              "level": 5
+            },
+            {
+              "name": "鐵壁",
+              "level": 8
+            },
+            {
+              "name": "炎龍破",
+              "level": 12
+            },
+            {
+              "name": "倍力",
+              "level": 15
+            },
+            {
+              "name": "暴風雪",
+              "level": 18
+            },
+            {
+              "name": "天雷轟",
+              "level": 25
+            },
+            {
+              "name": "神力",
+              "level": 32
+            },
+            {
+              "name": "醫療",
+              "level": 18
+            }
+          ],
+          "image": "heroes/2.png"
+        },
+        {
+          "id": 3,
+          "name": "雪莉",
+          "level": 10,
+          "hp": 36,
+          "hpGrowth": 12,
+          "mp": 10,
+          "mpGrowth": 6,
+          "strength": 18,
+          "strengthGrowth": 6,
+          "dexterity": 8,
+          "dexterityGrowth": 6,
+          "intelligence": 10,
+          "intelligenceGrowth": 6,
+          "luck": 10,
+          "hit": 93,
+          "evade": 17,
+          "attack": 24,
+          "defence": 13,
+          "gold": 5000,
+          "troops": [
+            {
+              "name": "戰士",
+              "level": 8
+            },
+            {
+              "name": "戰士",
+              "level": 8
+            },
+            {
+              "name": "僧侶",
+              "level": 8
+            },
+            {
+              "name": "僧侶",
+              "level": 8
+            }
+          ],
+          "spells": [
+            {
+              "name": "治癒",
+              "level": 1
+            },
+            {
+              "name": "虛幻",
+              "level": 5
+            },
+            {
+              "name": "醫療",
+              "level": 8
+            },
+            {
+              "name": "狂雷擊",
+              "level": 10
+            },
+            {
+              "name": "解麻",
+              "level": 12
+            },
+            {
+              "name": "鐵壁",
+              "level": 15
+            },
+            {
+              "name": "回復",
+              "level": 18
+            },
+            {
+              "name": "神力",
+              "level": 24
+            },
+            {
+              "name": "神恩",
+              "level": 30
+            },
+            {
+              "name": "天雷轟",
+              "level": 36
+            }
+          ],
+          "image": "heroes/3.png"
+        }
+      ],
+      "cities": [
+        {
+          "id": 1,
+          "name": "波克斯",
+          "x": 8,
+          "y": 4,
+          "level": 2,
+          "gold": 250,
+          "type": 5,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 2,
+          "name": "卡沙",
+          "x": 3,
+          "y": 6,
+          "level": 2,
+          "gold": 200,
+          "type": 5,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 3,
+          "name": "尼德恩",
+          "x": 6,
+          "y": 10,
+          "level": 2,
+          "gold": 300,
+          "type": 5,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 4,
+          "name": "方拿諾",
+          "x": 4,
+          "y": 14,
+          "level": 2,
+          "gold": 200,
+          "type": 5,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 5,
+          "name": "矮人城",
+          "x": 8,
+          "y": 14,
+          "level": 4,
+          "gold": 500,
+          "type": 5,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 6,
+          "name": "坎尼",
+          "x": 14,
+          "y": 14,
+          "level": 3,
+          "gold": 400,
+          "type": 5,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 7,
+          "name": "尤利斯",
+          "x": 8,
+          "y": 18,
+          "level": 1,
+          "gold": 100,
+          "type": 5,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 8,
+          "name": "山達拉",
+          "x": 12,
+          "y": 22,
+          "level": 2,
+          "gold": 200,
+          "type": 5,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 9,
+          "name": "波羅多",
+          "x": 8,
+          "y": 26,
+          "level": 2,
+          "gold": 250,
+          "type": 5,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 10,
+          "name": "卡哇亞",
+          "x": 12,
+          "y": 28,
+          "level": 2,
+          "gold": 200,
+          "type": 5,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 11,
+          "name": "史貝得",
+          "x": 18,
+          "y": 24,
+          "level": 3,
+          "gold": 400,
+          "type": 5,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 12,
+          "name": "拉修尼",
+          "x": 20,
+          "y": 28,
+          "level": 3,
+          "gold": 450,
+          "type": 5,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 13,
+          "name": "幻術堡",
+          "x": 6,
+          "y": 32,
+          "level": 4,
+          "gold": 500,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 14,
+          "name": "巨魔城",
+          "x": 16,
+          "y": 32,
+          "level": 4,
+          "gold": 500,
+          "type": 2,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 15,
+          "name": "山中廢墟",
+          "x": 22,
+          "y": 4,
+          "level": 4,
+          "gold": 500,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 16,
+          "name": "依尼亞",
+          "x": 34,
+          "y": 8,
+          "level": 2,
+          "gold": 200,
+          "type": 6,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 17,
+          "name": "蘭達",
+          "x": 42,
+          "y": 10,
+          "level": 2,
+          "gold": 250,
+          "type": 6,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 18,
+          "name": "亞吉",
+          "x": 40,
+          "y": 14,
+          "level": 2,
+          "gold": 200,
+          "type": 6,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 19,
+          "name": "精靈城",
+          "x": 36,
+          "y": 14,
+          "level": 4,
+          "gold": 500,
+          "type": 6,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 20,
+          "name": "海德特",
+          "x": 32,
+          "y": 18,
+          "level": 1,
+          "gold": 150,
+          "type": 6,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 21,
+          "name": "蒙多羅",
+          "x": 26,
+          "y": 16,
+          "level": 3,
+          "gold": 400,
+          "type": 6,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 22,
+          "name": "波瓦",
+          "x": 34,
+          "y": 22,
+          "level": 2,
+          "gold": 250,
+          "type": 6,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 23,
+          "name": "米阿斯",
+          "x": 40,
+          "y": 18,
+          "level": 2,
+          "gold": 200,
+          "type": 6,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 24,
+          "name": "貝爾",
+          "x": 39,
+          "y": 26,
+          "level": 2,
+          "gold": 200,
+          "type": 6,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 25,
+          "name": "迪亞勒",
+          "x": 33,
+          "y": 28,
+          "level": 2,
+          "gold": 250,
+          "type": 6,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 26,
+          "name": "哈達",
+          "x": 26,
+          "y": 24,
+          "level": 3,
+          "gold": 350,
+          "type": 6,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 27,
+          "name": "芬里西",
+          "x": 24,
+          "y": 28,
+          "level": 3,
+          "gold": 400,
+          "type": 6,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 28,
+          "name": "騎士堡",
+          "x": 28,
+          "y": 32,
+          "level": 4,
+          "gold": 500,
+          "type": 1,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 29,
+          "name": "神聖城",
+          "x": 38,
+          "y": 32,
+          "level": 4,
+          "gold": 500,
+          "type": 1,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 30,
+          "name": "依里娃",
+          "x": 22,
+          "y": 19,
+          "level": 4,
+          "gold": 500,
+          "type": 2,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        }
+      ],
+      "map": "maps/2.png",
+      "miniature": "maps/2-small.png",
+      "width": 48,
+      "height": 36,
+      "endings": [
+        "憑著無堅不摧的怪力及部下的擁護，獸人王明終於\n    擊敗了其他對手，奪得了這個地區的統治權。但是\n    想要完成統一大陸的霸業，還得繼續戰鬥下去哦！",
+        "打倒了邪神之後，回到卡瓦大陸的獸人王明，再\n    也沒有人能夠與其相抗衡，而他也成了卡瓦大陸上\n    最強的實力者。\n      為了獸人族的發展，獸人王明繼續率領著屬下的\n    軍隊，四處征討殘餘的敵對勢力。在壓倒性的軍力\n    之下，人類大部份被消滅殆盡而紛紛歸降。至此強\n    大的獸人帝國也就此建立在卡瓦大陸上，統治著其\n    它種族。"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "第三章  沙漠神殿",
+      "introduction": "第三章  沙漠神殿\n\n      在獲知沙漠神殿藏有究極武器之後，各路人馬\n      紛紛來到羅尼沙漠，準備找尋隱藏在沙漠中的\n      秘密神殿，以獲得究極武器來征服大陸，不過\n      該神殿乃龍人族之聖地，所以會遭到相當的阻\n      擾。\n\n      提示：神殿中有龍人族的守護神看守，實力不\n      足前勿強行進入",
+      "heroes": [
+        {
+          "id": 0,
+          "name": "希洛",
+          "level": 20,
+          "hp": 36,
+          "hpGrowth": 14,
+          "mp": 8,
+          "mpGrowth": 5,
+          "strength": 18,
+          "strengthGrowth": 7,
+          "dexterity": 10,
+          "dexterityGrowth": 6,
+          "intelligence": 8,
+          "intelligenceGrowth": 5,
+          "luck": 8,
+          "hit": 101,
+          "evade": 16,
+          "attack": 26,
+          "defence": 10,
+          "gold": 10000,
+          "troops": [
+            {
+              "name": "戰士",
+              "level": 18
+            },
+            {
+              "name": "戰士",
+              "level": 18
+            },
+            {
+              "name": "祭司",
+              "level": 12
+            },
+            {
+              "name": "法師",
+              "level": 15
+            }
+          ],
+          "spells": [
+            {
+              "name": "爆音擊",
+              "level": 3
+            },
+            {
+              "name": "必中",
+              "level": 5
+            },
+            {
+              "name": "破空刃",
+              "level": 10
+            },
+            {
+              "name": "倍力",
+              "level": 12
+            },
+            {
+              "name": "龍神斬",
+              "level": 25
+            },
+            {
+              "name": "治癒",
+              "level": 8
+            }
+          ],
+          "image": "heroes/0.png"
+        },
+        {
+          "id": 1,
+          "name": "明",
+          "level": 20,
+          "hp": 48,
+          "hpGrowth": 19,
+          "mp": 0,
+          "mpGrowth": 0,
+          "strength": 24,
+          "strengthGrowth": 10,
+          "dexterity": 6,
+          "dexterityGrowth": 4,
+          "intelligence": 6,
+          "intelligenceGrowth": 4,
+          "luck": 6,
+          "hit": 90,
+          "evade": 20,
+          "attack": 37,
+          "defence": 9,
+          "gold": 10000,
+          "troops": [
+            {
+              "name": "牛頭人",
+              "level": 15
+            },
+            {
+              "name": "石像巨魔",
+              "level": 15
+            },
+            {
+              "name": "地精",
+              "level": 18
+            },
+            {
+              "name": "地精",
+              "level": 18
+            }
+          ],
+          "spells": [],
+          "image": "heroes/1.png"
+        },
+        {
+          "id": 2,
+          "name": "凱麗",
+          "level": 20,
+          "hp": 32,
+          "hpGrowth": 10,
+          "mp": 12,
+          "mpGrowth": 8,
+          "strength": 16,
+          "strengthGrowth": 5,
+          "dexterity": 8,
+          "dexterityGrowth": 5,
+          "intelligence": 12,
+          "intelligenceGrowth": 8,
+          "luck": 6,
+          "hit": 92,
+          "evade": 20,
+          "attack": 21,
+          "defence": 16,
+          "gold": 10000,
+          "troops": [
+            {
+              "name": "吸血鬼",
+              "level": 15
+            },
+            {
+              "name": "惡靈",
+              "level": 18
+            },
+            {
+              "name": "鬼魂",
+              "level": 15
+            },
+            {
+              "name": "鬼魂",
+              "level": 15
+            }
+          ],
+          "spells": [
+            {
+              "name": "熾焰閃",
+              "level": 1
+            },
+            {
+              "name": "冰霜箭",
+              "level": 3
+            },
+            {
+              "name": "狂雷擊",
+              "level": 5
+            },
+            {
+              "name": "鐵壁",
+              "level": 8
+            },
+            {
+              "name": "炎龍破",
+              "level": 12
+            },
+            {
+              "name": "倍力",
+              "level": 15
+            },
+            {
+              "name": "暴風雪",
+              "level": 18
+            },
+            {
+              "name": "天雷轟",
+              "level": 25
+            },
+            {
+              "name": "神力",
+              "level": 32
+            },
+            {
+              "name": "醫療",
+              "level": 18
+            }
+          ],
+          "image": "heroes/2.png"
+        },
+        {
+          "id": 3,
+          "name": "雪莉",
+          "level": 20,
+          "hp": 36,
+          "hpGrowth": 12,
+          "mp": 10,
+          "mpGrowth": 6,
+          "strength": 18,
+          "strengthGrowth": 6,
+          "dexterity": 8,
+          "dexterityGrowth": 6,
+          "intelligence": 10,
+          "intelligenceGrowth": 6,
+          "luck": 10,
+          "hit": 93,
+          "evade": 17,
+          "attack": 24,
+          "defence": 13,
+          "gold": 10000,
+          "troops": [
+            {
+              "name": "聖武士",
+              "level": 12
+            },
+            {
+              "name": "戰士",
+              "level": 18
+            },
+            {
+              "name": "僧侶",
+              "level": 18
+            },
+            {
+              "name": "僧侶",
+              "level": 18
+            }
+          ],
+          "spells": [
+            {
+              "name": "治癒",
+              "level": 1
+            },
+            {
+              "name": "虛幻",
+              "level": 5
+            },
+            {
+              "name": "醫療",
+              "level": 8
+            },
+            {
+              "name": "狂雷擊",
+              "level": 10
+            },
+            {
+              "name": "解麻",
+              "level": 12
+            },
+            {
+              "name": "鐵壁",
+              "level": 15
+            },
+            {
+              "name": "回復",
+              "level": 18
+            },
+            {
+              "name": "神力",
+              "level": 24
+            },
+            {
+              "name": "神恩",
+              "level": 30
+            },
+            {
+              "name": "天雷轟",
+              "level": 36
+            }
+          ],
+          "image": "heroes/3.png"
+        }
+      ],
+      "cities": [
+        {
+          "id": 1,
+          "name": "龍人神殿",
+          "x": 4,
+          "y": 4,
+          "level": 4,
+          "gold": 500,
+          "type": 17,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 2,
+          "name": "克羅多",
+          "x": 10,
+          "y": 4,
+          "level": 3,
+          "gold": 400,
+          "type": 7,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 3,
+          "name": "卡沃拿",
+          "x": 14,
+          "y": 4,
+          "level": 3,
+          "gold": 350,
+          "type": 7,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 4,
+          "name": "多里卡",
+          "x": 18,
+          "y": 8,
+          "level": 2,
+          "gold": 300,
+          "type": 7,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 5,
+          "name": "龍人城",
+          "x": 8,
+          "y": 10,
+          "level": 4,
+          "gold": 500,
+          "type": 7,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 6,
+          "name": "西魯巴",
+          "x": 6,
+          "y": 16,
+          "level": 3,
+          "gold": 400,
+          "type": 7,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 7,
+          "name": "特魯斯",
+          "x": 18,
+          "y": 14,
+          "level": 3,
+          "gold": 350,
+          "type": 7,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 8,
+          "name": "達可",
+          "x": 12,
+          "y": 20,
+          "level": 3,
+          "gold": 400,
+          "type": 7,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 9,
+          "name": "萊特",
+          "x": 4,
+          "y": 24,
+          "level": 2,
+          "gold": 250,
+          "type": 4,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 10,
+          "name": "哈卡麻",
+          "x": 8,
+          "y": 32,
+          "level": 2,
+          "gold": 200,
+          "type": 1,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 11,
+          "name": "西米",
+          "x": 14,
+          "y": 26,
+          "level": 2,
+          "gold": 250,
+          "type": 2,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 12,
+          "name": "魯思迪",
+          "x": 24,
+          "y": 24,
+          "level": 2,
+          "gold": 200,
+          "type": 3,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 13,
+          "name": "妖術城",
+          "x": 24,
+          "y": 30,
+          "level": 4,
+          "gold": 500,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 14,
+          "name": "狄拉莫",
+          "x": 32,
+          "y": 32,
+          "level": 2,
+          "gold": 200,
+          "type": 3,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 15,
+          "name": "默利石",
+          "x": 40,
+          "y": 32,
+          "level": 2,
+          "gold": 200,
+          "type": 3,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 16,
+          "name": "巴瓦那",
+          "x": 42,
+          "y": 26,
+          "level": 2,
+          "gold": 200,
+          "type": 3,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 17,
+          "name": "聖光堡",
+          "x": 36,
+          "y": 26,
+          "level": 4,
+          "gold": 500,
+          "type": 1,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 18,
+          "name": "萊特姆",
+          "x": 38,
+          "y": 20,
+          "level": 2,
+          "gold": 250,
+          "type": 3,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 19,
+          "name": "霸王城",
+          "x": 40,
+          "y": 16,
+          "level": 4,
+          "gold": 500,
+          "type": 2,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 20,
+          "name": "悠魯",
+          "x": 38,
+          "y": 12,
+          "level": 2,
+          "gold": 200,
+          "type": 4,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 21,
+          "name": "勇者城",
+          "x": 42,
+          "y": 6,
+          "level": 4,
+          "gold": 500,
+          "type": 1,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 22,
+          "name": "馬沙",
+          "x": 34,
+          "y": 8,
+          "level": 2,
+          "gold": 200,
+          "type": 2,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 23,
+          "name": "特迪斯",
+          "x": 26,
+          "y": 4,
+          "level": 2,
+          "gold": 250,
+          "type": 1,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 24,
+          "name": "艾斯卡",
+          "x": 26,
+          "y": 16,
+          "level": 2,
+          "gold": 250,
+          "type": 3,
+          "wall": 0,
+          "river": 0,
+          "troops": []
+        }
+      ],
+      "map": "maps/3.png",
+      "miniature": "maps/3-small.png",
+      "width": 48,
+      "height": 36,
+      "endings": [
+        "憑著威力驚人的法術及部下的擁護，大法師凱麗終\n    於擊敗了其他對手，奪得了這個地區的統治權。但\n    是想要完成統一大陸的霸業，還得繼續戰鬥下去哦\n    ！",
+        "擊敗了邪神之後，魔族再也沒有能與大法師凱麗\n    相爭的對手了，所以她也就順理成章地成為魔族的\n    新統治者。\n    \n      得到魔族的霸權之後，大法師便開始進行征服卡\n    瓦大陸的計畫。在無人能夠與其對抗的情形下，卡\n    瓦大陸陷入了更混亂的境界，而要讓大陸上的種族\n    完全消滅，使魔族取而代之的情形也就不遠了。"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "第四章  魔島之行",
+      "introduction": "第四章  魔島之行\n\n      為了完全統一大陸，必須除去可能的最大威脅\n      ，也就是帕迪島上的魔王。不過魔王由於尚未\n      完全回復，所以在魔宮大門施了禁咒，以防止\n      其它人闖入。\n\n        提示：海邊的某個城鎮有人兜售重要物品",
+      "heroes": [
+        {
+          "id": 0,
+          "name": "希洛",
+          "level": 30,
+          "hp": 36,
+          "hpGrowth": 14,
+          "mp": 8,
+          "mpGrowth": 5,
+          "strength": 18,
+          "strengthGrowth": 7,
+          "dexterity": 10,
+          "dexterityGrowth": 6,
+          "intelligence": 8,
+          "intelligenceGrowth": 5,
+          "luck": 8,
+          "hit": 101,
+          "evade": 16,
+          "attack": 26,
+          "defence": 10,
+          "gold": 20000,
+          "troops": [
+            {
+              "name": "聖武士",
+              "level": 25
+            },
+            {
+              "name": "聖武士",
+              "level": 18
+            },
+            {
+              "name": "祭司",
+              "level": 12
+            },
+            {
+              "name": "法師",
+              "level": 15
+            }
+          ],
+          "spells": [
+            {
+              "name": "爆音擊",
+              "level": 3
+            },
+            {
+              "name": "必中",
+              "level": 5
+            },
+            {
+              "name": "破空刃",
+              "level": 10
+            },
+            {
+              "name": "倍力",
+              "level": 12
+            },
+            {
+              "name": "龍神斬",
+              "level": 25
+            },
+            {
+              "name": "治癒",
+              "level": 8
+            }
+          ],
+          "image": "heroes/0.png"
+        },
+        {
+          "id": 1,
+          "name": "明",
+          "level": 30,
+          "hp": 48,
+          "hpGrowth": 19,
+          "mp": 0,
+          "mpGrowth": 0,
+          "strength": 24,
+          "strengthGrowth": 10,
+          "dexterity": 6,
+          "dexterityGrowth": 4,
+          "intelligence": 6,
+          "intelligenceGrowth": 4,
+          "luck": 6,
+          "hit": 90,
+          "evade": 20,
+          "attack": 37,
+          "defence": 9,
+          "gold": 20000,
+          "troops": [
+            {
+              "name": "獨眼巨人",
+              "level": 24
+            },
+            {
+              "name": "牛頭人",
+              "level": 25
+            },
+            {
+              "name": "牛頭人",
+              "level": 25
+            }
+          ],
+          "spells": [],
+          "image": "heroes/1.png"
+        },
+        {
+          "id": 2,
+          "name": "凱麗",
+          "level": 30,
+          "hp": 32,
+          "hpGrowth": 10,
+          "mp": 12,
+          "mpGrowth": 8,
+          "strength": 16,
+          "strengthGrowth": 5,
+          "dexterity": 8,
+          "dexterityGrowth": 5,
+          "intelligence": 12,
+          "intelligenceGrowth": 8,
+          "luck": 6,
+          "hit": 92,
+          "evade": 20,
+          "attack": 21,
+          "defence": 16,
+          "gold": 20000,
+          "troops": [
+            {
+              "name": "惡魔",
+              "level": 20
+            },
+            {
+              "name": "吸血鬼",
+              "level": 25
+            },
+            {
+              "name": "惡靈",
+              "level": 28
+            },
+            {
+              "name": "惡靈",
+              "level": 28
+            }
+          ],
+          "spells": [
+            {
+              "name": "熾焰閃",
+              "level": 1
+            },
+            {
+              "name": "冰霜箭",
+              "level": 3
+            },
+            {
+              "name": "狂雷擊",
+              "level": 5
+            },
+            {
+              "name": "鐵壁",
+              "level": 8
+            },
+            {
+              "name": "炎龍破",
+              "level": 12
+            },
+            {
+              "name": "倍力",
+              "level": 15
+            },
+            {
+              "name": "暴風雪",
+              "level": 18
+            },
+            {
+              "name": "天雷轟",
+              "level": 25
+            },
+            {
+              "name": "神力",
+              "level": 32
+            },
+            {
+              "name": "醫療",
+              "level": 18
+            }
+          ],
+          "image": "heroes/2.png"
+        },
+        {
+          "id": 3,
+          "name": "雪莉",
+          "level": 30,
+          "hp": 36,
+          "hpGrowth": 12,
+          "mp": 10,
+          "mpGrowth": 6,
+          "strength": 18,
+          "strengthGrowth": 6,
+          "dexterity": 8,
+          "dexterityGrowth": 6,
+          "intelligence": 10,
+          "intelligenceGrowth": 6,
+          "luck": 10,
+          "hit": 93,
+          "evade": 17,
+          "attack": 24,
+          "defence": 13,
+          "gold": 20000,
+          "troops": [
+            {
+              "name": "聖武士",
+              "level": 25
+            },
+            {
+              "name": "戰士",
+              "level": 28
+            },
+            {
+              "name": "祭司",
+              "level": 20
+            },
+            {
+              "name": "祭司",
+              "level": 20
+            }
+          ],
+          "spells": [
+            {
+              "name": "治癒",
+              "level": 1
+            },
+            {
+              "name": "虛幻",
+              "level": 5
+            },
+            {
+              "name": "醫療",
+              "level": 8
+            },
+            {
+              "name": "狂雷擊",
+              "level": 10
+            },
+            {
+              "name": "解麻",
+              "level": 12
+            },
+            {
+              "name": "鐵壁",
+              "level": 15
+            },
+            {
+              "name": "回復",
+              "level": 18
+            },
+            {
+              "name": "神力",
+              "level": 24
+            },
+            {
+              "name": "神恩",
+              "level": 30
+            },
+            {
+              "name": "天雷轟",
+              "level": 36
+            }
+          ],
+          "image": "heroes/3.png"
+        }
+      ],
+      "cities": [
+        {
+          "id": 1,
+          "name": "魔王城",
+          "x": 13,
+          "y": 6,
+          "level": 4,
+          "gold": 500,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 2,
+          "name": "左衛城",
+          "x": 6,
+          "y": 6,
+          "level": 4,
+          "gold": 450,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 3,
+          "name": "右衛城",
+          "x": 20,
+          "y": 6,
+          "level": 4,
+          "gold": 450,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 4,
+          "name": "渥德羅",
+          "x": 18,
+          "y": 10,
+          "level": 4,
+          "gold": 400,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 5,
+          "name": "瑪德羅",
+          "x": 8,
+          "y": 10,
+          "level": 4,
+          "gold": 400,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 6,
+          "name": "迪斯",
+          "x": 7,
+          "y": 14,
+          "level": 4,
+          "gold": 400,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 7,
+          "name": "達克",
+          "x": 11,
+          "y": 16,
+          "level": 4,
+          "gold": 450,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 8,
+          "name": "班拿亞",
+          "x": 16,
+          "y": 16,
+          "level": 4,
+          "gold": 450,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 9,
+          "name": "亞格尼",
+          "x": 20,
+          "y": 16,
+          "level": 4,
+          "gold": 400,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 10,
+          "name": "莫里",
+          "x": 18,
+          "y": 20,
+          "level": 3,
+          "gold": 300,
+          "type": 3,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 11,
+          "name": "魯那",
+          "x": 12,
+          "y": 20,
+          "level": 3,
+          "gold": 300,
+          "type": 3,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 12,
+          "name": "坎德恩",
+          "x": 5,
+          "y": 24,
+          "level": 3,
+          "gold": 350,
+          "type": 1,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 13,
+          "name": "王者堡",
+          "x": 8,
+          "y": 30,
+          "level": 4,
+          "gold": 500,
+          "type": 1,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 14,
+          "name": "艾德亞",
+          "x": 15,
+          "y": 26,
+          "level": 3,
+          "gold": 300,
+          "type": 1,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 15,
+          "name": "帝王城",
+          "x": 26,
+          "y": 30,
+          "level": 4,
+          "gold": 500,
+          "type": 2,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 16,
+          "name": "豪克",
+          "x": 26,
+          "y": 26,
+          "level": 3,
+          "gold": 300,
+          "type": 2,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 17,
+          "name": "雷亞",
+          "x": 26,
+          "y": 20,
+          "level": 4,
+          "gold": 500,
+          "type": 3,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 18,
+          "name": "巴薩尼",
+          "x": 26,
+          "y": 8,
+          "level": 3,
+          "gold": 350,
+          "type": 3,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 19,
+          "name": "宏多拉",
+          "x": 32,
+          "y": 10,
+          "level": 3,
+          "gold": 300,
+          "type": 4,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 20,
+          "name": "亞瓦",
+          "x": 36,
+          "y": 6,
+          "level": 3,
+          "gold": 350,
+          "type": 4,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 21,
+          "name": "黑暗城",
+          "x": 40,
+          "y": 6,
+          "level": 4,
+          "gold": 500,
+          "type": 4,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 22,
+          "name": "班思",
+          "x": 40,
+          "y": 14,
+          "level": 3,
+          "gold": 400,
+          "type": 4,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 23,
+          "name": "巴斯萊",
+          "x": 36,
+          "y": 14,
+          "level": 4,
+          "gold": 450,
+          "type": 1,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 24,
+          "name": "拉利法",
+          "x": 32,
+          "y": 14,
+          "level": 3,
+          "gold": 300,
+          "type": 2,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 25,
+          "name": "神之城",
+          "x": 40,
+          "y": 20,
+          "level": 4,
+          "gold": 500,
+          "type": 1,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 26,
+          "name": "海邊城",
+          "x": 41,
+          "y": 30,
+          "level": 4,
+          "gold": 450,
+          "type": 1,
+          "wall": 1,
+          "river": 1,
+          "troops": []
+        },
+        {
+          "id": 27,
+          "name": "莫拉克",
+          "x": 37,
+          "y": 30,
+          "level": 3,
+          "gold": 300,
+          "type": 1,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        },
+        {
+          "id": 28,
+          "name": "薩瓦特",
+          "x": 33,
+          "y": 26,
+          "level": 3,
+          "gold": 350,
+          "type": 2,
+          "wall": 1,
+          "river": 0,
+          "troops": []
+        }
+      ],
+      "map": "maps/4.png",
+      "miniature": "maps/4-small.png",
+      "width": 48,
+      "height": 36,
+      "endings": [
+        "憑著堅誠無比的信心及部下的擁護，大祭司雪莉終\n    於擊敗了其他對手，奪得了這個地區的統治權。但\n    是想要完成統一大陸的霸業，還得繼續戰鬥下去哦\n    ！",
+        "擊敗了邪神後，大祭司雪莉終於消滅了邪惡的根\n    源，使得神的意志再也不會遭到邪惡勢力所阻擾。\n    \n      在無比的信心及堅強的實力下，卡瓦大陸終於恢\n    復了和平。在大祭司雪莉率領的天門教統治之下，\n    整個大陸建立起了相當嚴格的宗教治國制度，至此\n    天門教的教義便廣泛地宣揚在整個卡瓦大陸上。"
+      ]
+    }
+  ],
+  "dialogue": [
+    "注音：",
+    "使用風神卡失敗！",
+    "魅惑敵人失敗！",
+    "不要殺我，我不玩了！",
+    "沒問題！",
+    "．．．能考慮別的嗎？",
+    "我不會加入立場不同的隊伍的！",
+    "你根本沒有容納我的空間！",
+    "沒什麼好說的！",
+    "『對對碰』遊戲結束，\n可是你一組都碰不上，\n所以沒有任何獎品。",
+    "你所投注的一二名皆中了",
+    "得獎金 15000元",
+    "你所投注的中了",
+    "得獎金 2500元",
+    "你的投注輸了",
+    "失去賭金 500元",
+    "請派參加擂台賽代表",
+    "請重新調動兵力！",
+    "對不起，\n你的錢不夠擴充此城！",
+    "老人：『英明的領主啊！我的孫女生了\n        重病，只有神之草才能醫好他\n        ，您是否可以幫我呢？我會獻\n        給您相當寶貴的物品。",
+    "太感謝您了！",
+    "請您再考慮一下吧！\n這物品可是相當重要的。",
+    "老人：『請您一定要找神之草，才能解\n        救我的孫女啊！』",
+    "老人：『太好了！這是真實之珠，可以\n        破除邪惡的幻法，對你將有極\n        大的助益。』",
+    "矮人王：『偉大的領主啊！您是否可以\n幫我們矮人族一個忙？東方的精靈族與\n我們是世仇，如果您能幫我們消滅精靈\n族的話，我們將會重重酬謝你的！』",
+    "請您再考慮一下吧！\n",
+    "精靈長老：『偉大的領主啊！您是否可\n以幫我們精靈族一個忙？西方的矮人族\n與我們是世仇，如果您能幫我們消滅矮\n人族的話，我們將會重重酬謝你的！』",
+    "『請您再多加努力吧！』",
+    "矮人王：『多謝您的幫忙，讓我們除去\n了宿敵！這是我們的鎮族之寶－魔法項\n鍊，就請您收下吧！此外通往山中廢墟\n的要道，我們也會為您打開的。』",
+    "精靈長老：『多謝您的幫忙，讓我們除\n去了宿敵！這是我們的鎮族之寶－精靈\n靴，就請您收下吧！此外通往山中廢墟\n的要道，我們也會為您打開的。』",
+    "石像巨魔：『任何人都不准通過！快滾回\n去！』",
+    "石像巨魔：『很好！別再來了！』",
+    "石像巨魔：『找死！』",
+    "當你進入廢棄的大廳之後，除了發現大量\n寶藏之外，還看到了一個相當巨大的水晶\n球，上面顯現著在一片沙漠上的神殿外觀\n。水晶球下的台座刻著一段文字：",
+    "『為了避免過大的力量所導致的毀滅，我\n  們將最強的武器放在羅尼沙漠上的龍人\n  神殿，以避免此處的慘劇再度發生。』",
+    "商人：『要買神奇雕像嗎？它可是霸主不\n可或缺的至寶哦！只要１０００００元，\n夠便宜吧！』",
+    "商人：『真是感謝！』",
+    "商人：『等你有錢時再來吧！』",
+    "商人：『沒有它是無法進入魔宮的！再考\n慮看看吧！』",
+    "是否攻打『中央城』？",
+    "沙拔特：『哼哼．．．你想對抗我？真\n是不自量力！",
+    "沙拔特：『啊！這是什麼．．．我的分\n身幻法被解除了！",
+    "沙拔特：『哦．．．不要殺我，我將告\n      訴你一個消息．．．在希亞山脈\n      的廢墟中有相當龐大的寶藏，可\n      讓你獲得巨大的財富．．．』",
+    "巨龍：『你們也是來妄想得到最強的武\n器嗎？真是一群傻瓜！』",
+    "當你接近魔宮大門時，無論使用何種方法\n，都無法再近前一步。",
+    "當你接近魔宮大門時，身上的神奇雕像\n發出強烈的光芒，解除了魔宮大門的封\n禁咒。",
+    "魔王：『嘿嘿．．．看來你們倒有兩把\n刷子．．．不過也到此為止了！』",
+    "邪神：『你們剛才所擊倒的魔王，不過\n只是我的一個部下罷了，我才是真正魔\n界的統治者！",
+    "不過再讓你們這樣下去，將來會對我造\n成莫大的威脅，所以今天我就得把你們\n除去！』",
+    "請選擇取出進度！",
+    "請選擇儲存進度！",
+    "是否離開遊戲？",
+    "突發事件！！！",
+    "電腦",
+    "玩者",
+    "失誤",
+    "痲痺",
+    "無效",
+    "盜取",
+    "倍力",
+    "必中",
+    "鐵壁",
+    "虛幻",
+    "神力",
+    "解毒",
+    "解麻",
+    "轉移",
+    "成金",
+    "分解",
+    "即死",
+    "選擇『流星卡』攻擊的領地！",
+    "選擇『瘟疫卡』攻擊的領地！",
+    "選擇『淨化卡』攻擊的領地！",
+    "選擇『叛亂卡』攻擊的領地！",
+    "選擇我方欲交換的領地！",
+    "選擇敵方欲交換的領地！",
+    "交換完成！",
+    "離開",
+    "請調整音樂音量！",
+    "請調整音效音量！",
+    "是否把動畫關掉？",
+    "是否把動畫打開？",
+    "近身隨從",
+    "客人，你是一個大英雄，\n今天我就給你打五折！",
+    "客人要離開了嗎？",
+    "商人：『沒錢別來搗亂！』",
+    "商人：『你的物品已經滿了哦！』",
+    "商人：『太感謝了！請看還有什麼需要\n的？』",
+    "已沒有空缺容納新人。",
+    "村落",
+    "鄉鎮",
+    "城市",
+    "城堡",
+    "劍聖",
+    "獸王",
+    "法師",
+    "祭司",
+    "人類",
+    "類人",
+    "獸類",
+    "魔族",
+    "獸人",
+    "邪惡領主",
+    "山中廢墟",
+    "沙漠神殿",
+    "魔島之行",
+    "不要做無謂的戰鬥，讓我們和平相處吧！",
+    "我們並無惡意，讓我們坐下來談談吧！",
+    "你竟敢與我對抗？我會讓你死得很慘的！",
+    "別不自量力了！你以為能敵得過我嗎？",
+    "為了表示誠意，我願意送你一些禮物。",
+    "你要什麼呢？",
+    "你想要很多錢嗎？加入我的部隊吧！",
+    "幫助我恢復整個大陸的和平好嗎？",
+    "有沒有最新消息。",
+    "可否給我一些訊息？",
+    "嗯．．．好吧！",
+    "說得沒錯，有什麼事嗎？",
+    "哼！",
+    "呸！看你就不順眼！",
+    "投降！不要殺我！",
+    "不敢不敢！求求你放過我吧！",
+    "口出狂言！受死吧！",
+    "那就來試試看吧！",
+    "肚子餓了！給我一塊肉吧！",
+    "你有亮晶晶的寶石嗎？",
+    "我很喜歡魔水晶哦！你可以給我嗎？",
+    "這主意不錯，就讓我為你效勞吧！",
+    "那以後就請你多關照了！",
+    "就憑你，還早呢！",
+    "我怎麼能相信你是否有此誠意？",
+    "．．．再讓我看看你的條件吧！",
+    "聽說神之草只生長在山洞中。",
+    "在『沙多里』的老人擁有真實之珠。",
+    "有個老者需要神之草來醫治他的隱疾。",
+    "只有真實之珠才能對抗吸血鬼的幻術。",
+    "據說『中央城』的領主是吸血鬼化身。",
+    "矮人族及精靈族有不共戴天之仇。",
+    "只要消滅其中一族，另一族必會協助。",
+    "山中廢墟中有許多隱藏的寶藏。",
+    "山中廢墟的要道有石像巨魔看守著。",
+    "廢墟通常是魔族的棲息地。",
+    "沙漠中有不少巨大的沙虫出沒。",
+    "沙漠神殿是龍人族的聖地。",
+    "聽說沙漠神殿中藏有天下無敵的武器。",
+    "謠傳沙漠神殿中有條巨大的火龍看守著。",
+    "一般人是無法進入魔宮的。",
+    "只有神奇雕像才能解除魔宮大門的禁咒。",
+    "神奇雕像聽說在某個沿海的領地內。",
+    "有個商人出售神奇雕像，但非常昂貴。",
+    "魔王具有非常強大的實力，別去招惹他。",
+    "聽說魔王背後還有更強大的指使者。",
+    "瘟疫卡",
+    "淨化卡"
+  ],
+  "art": [
+    {
+      "category": "結局",
+      "index": 1,
+      "image": "art/結局-1.png"
+    },
+    {
+      "category": "結局",
+      "index": 2,
+      "image": "art/結局-2.png"
+    },
+    {
+      "category": "結局",
+      "index": 3,
+      "image": "art/結局-3.png"
+    },
+    {
+      "category": "結局",
+      "index": 4,
+      "image": "art/結局-4.png"
+    },
+    {
+      "category": "劇情",
+      "index": 1,
+      "image": "art/劇情-1.png"
+    },
+    {
+      "category": "劇情",
+      "index": 2,
+      "image": "art/劇情-2.png"
+    },
+    {
+      "category": "劇情",
+      "index": 3,
+      "image": "art/劇情-3.png"
+    },
+    {
+      "category": "劇情",
+      "index": 4,
+      "image": "art/劇情-4.png"
+    },
+    {
+      "category": "劇情",
+      "index": 5,
+      "image": "art/劇情-5.png"
+    },
+    {
+      "category": "劇情",
+      "index": 6,
+      "image": "art/劇情-6.png"
+    },
+    {
+      "category": "劇情",
+      "index": 7,
+      "image": "art/劇情-7.png"
+    },
+    {
+      "category": "劇情",
+      "index": 8,
+      "image": "art/劇情-8.png"
+    },
+    {
+      "category": "劇情",
+      "index": 9,
+      "image": "art/劇情-9.png"
+    },
+    {
+      "category": "劇情",
+      "index": 10,
+      "image": "art/劇情-10.png"
+    },
+    {
+      "category": "劇情",
+      "index": 11,
+      "image": "art/劇情-11.png"
+    },
+    {
+      "category": "劇情",
+      "index": 12,
+      "image": "art/劇情-12.png"
+    },
+    {
+      "category": "劇情",
+      "index": 13,
+      "image": "art/劇情-13.png"
+    },
+    {
+      "category": "劇情",
+      "index": 14,
+      "image": "art/劇情-14.png"
+    },
+    {
+      "category": "劇情",
+      "index": 15,
+      "image": "art/劇情-15.png"
+    },
+    {
+      "category": "劇情",
+      "index": 16,
+      "image": "art/劇情-16.png"
+    },
+    {
+      "category": "劇情",
+      "index": 17,
+      "image": "art/劇情-17.png"
+    },
+    {
+      "category": "勝利",
+      "index": 1,
+      "image": "art/勝利-1.png"
+    },
+    {
+      "category": "勝利",
+      "index": 2,
+      "image": "art/勝利-2.png"
+    },
+    {
+      "category": "勝利",
+      "index": 4,
+      "image": "art/勝利-4.png"
+    }
+  ]
+}

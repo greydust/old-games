@@ -16,13 +16,15 @@ function renderPage() {
   const isGame = hash.startsWith('#toco') || ['#units-section', '#stages-section'].includes(hash);
   const isWdragon = hash === '#wdragon' || hash.startsWith('#wdragon/');
   const isHr = hash === '#hr' || hash.startsWith('#hr/');
+  const isEmoney = hash === '#emoney' || hash.startsWith('#emoney/');
   const tab = hash === '#toco/enemies' ? 'enemies' : hash === '#toco/formulas' ? 'formulas' : hash === '#toco/skills' ? 'skills' : hash === '#toco/units' || hash === '#units-section' ? 'units' : hash === '#toco/stages' || hash === '#stages-section' ? 'stages' : 'overview';
-  document.getElementById('home').hidden = isGame || isWdragon || isHr;
+  document.getElementById('home').hidden = isGame || isWdragon || isHr || isEmoney;
+  document.getElementById('emoney').hidden = !isEmoney;
   document.getElementById('hr').hidden = !isHr;
   document.getElementById('toco').hidden = !isGame;
   document.getElementById('wdragon').hidden = !isWdragon;
   document.querySelectorAll('[data-page]').forEach(link => {
-    if (link.dataset.page === (isHr ? 'hr' : isWdragon ? 'wdragon' : isGame ? 'toco' : 'home')) link.setAttribute('aria-current', 'page');
+    if (link.dataset.page === (isEmoney ? 'emoney' : isHr ? 'hr' : isWdragon ? 'wdragon' : isGame ? 'toco' : 'home')) link.setAttribute('aria-current', 'page');
     else link.removeAttribute('aria-current');
   });
   document.querySelectorAll('[data-tab]').forEach(link => {
@@ -33,6 +35,7 @@ function renderPage() {
   document.title = isGame ? '灰灰的老遊戲資料館 · 精靈幻界 · ' + ({overview:'首頁', units:'兵種', stages:'關卡', enemies:'敵人', skills:'技能', formulas:'公式'}[tab]) : '灰灰的老遊戲資料館';
   if (isWdragon) renderWdragon();
   if (isHr) window.renderHr();
+  if (isEmoney) window.renderEmoney();
   if (target?.startsWith('unit-')) {
     const family = document.getElementById(target)?.closest('[data-unit-group]');
     if (family) selectUnitGroup(family.dataset.unitGroup);
