@@ -4,11 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#14151a">
-  <meta name="description" content="探索精靈幻界與臥龍傳的武將、城池、兵種及原始地圖。">
+  <meta name="description" content="精靈幻界、臥龍傳與高報酬戰將的遊戲資料。">
   <title>灰灰的老遊戲資料館</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="assets/games/wdragon/editor.css?v=59a327a28497">
   <script src="assets/games/wdragon/editor.js?v=59a327a28497" defer></script>
+  <script src="assets/games/hr/hr.js" defer></script>
+  <script src="assets/select-menu.js" defer></script>
   <script src="app.js" defer></script>
 </head>
 <body>
@@ -16,15 +18,18 @@
     <nav aria-label="主要導覽">
       <a class="nav-link" href="#home" data-page="home"><span aria-hidden="true">⌂</span>首頁</a>
       <p class="nav-label">遊戲</p>
+      <a class="nav-link" href="#hr" data-page="hr"><span class="game-dot" aria-hidden="true"></span>高報酬戰將</a>
       <a class="nav-link" href="#wdragon" data-page="wdragon"><span class="game-dot" aria-hidden="true"></span>臥龍傳</a>
       <a class="nav-link" href="#toco" data-page="toco"><span class="game-dot" aria-hidden="true"></span>精靈幻界</a>
     </nav>
   </aside>
   <main id="main">
     <section id="home" aria-label="首頁">
+      <a class="game-card" href="#hr"><div class="cover"><img src="assets/games/hr/h-txt.png" alt="高報酬戰將標題畫面" width="640" height="480"></div><div class="card-info"><div><h3>高報酬戰將</h3></div><span class="card-arrow" aria-label="查看遊戲">↗</span></div></a>
       <a class="game-card" href="#wdragon"><div class="cover"><img src="assets/games/wdragon/title.png" alt="臥龍傳標題畫面" width="640" height="400"></div><div class="card-info"><div><h3>臥龍傳</h3></div><span class="card-arrow" aria-label="查看遊戲">↗</span></div></a>
       <a class="game-card" href="#toco"><div class="cover"><img src="assets/games/toco/title.png" alt="精靈幻界原始遊戲標題畫面" width="640" height="349"></div><div class="card-info"><div><h3>精靈幻界</h3></div><span class="card-arrow" aria-label="查看遊戲">↗</span></div></a>
     </section>
+    <section id="hr" aria-label="高報酬戰將" hidden><nav class="game-tabs" aria-label="高報酬戰將分頁"><a href="#hr" data-hr-tab="overview">首頁</a><a href="#hr/heroes" data-hr-tab="heroes">我方</a><a href="#hr/troops" data-hr-tab="troops">兵種</a><a href="#hr/enemies" data-hr-tab="enemies">敵方</a><a href="#hr/armies" data-hr-tab="armies">部隊編成</a><a href="#hr/equipment" data-hr-tab="equipment">物品裝備</a><a href="#hr/formations" data-hr-tab="formations">陣形</a><a href="#hr/factions" data-hr-tab="factions">勢力</a><a href="#hr/goods" data-hr-tab="goods">交易品</a><a href="#hr/quests" data-hr-tab="quests">任務事件</a><a href="#hr/countries" data-hr-tab="countries">國家</a><a href="#hr/locations" data-hr-tab="locations">據點</a><a href="#hr/maps" data-hr-tab="maps">地圖</a><a href="#hr/dialogue" data-hr-tab="dialogue">對話</a><a href="#hr/formulas" data-hr-tab="formulas">公式</a><a href="#hr/endings" data-hr-tab="endings">結局</a></nav><div id="hr-content" class="data-section"></div></section>
     <section id="toco" aria-label="精靈幻界" hidden>
       <nav class="game-tabs" aria-label="精靈幻界分頁"><a href="#toco" data-tab="overview">首頁</a><a href="#toco/units" data-tab="units">兵種</a><a href="#toco/enemies" data-tab="enemies">敵人</a><a href="#toco/stages" data-tab="stages">關卡</a><a href="#toco/skills" data-tab="skills">技能</a><a href="#toco/formulas" data-tab="formulas">公式</a></nav>
       <div id="panel-overview" data-panel="overview">

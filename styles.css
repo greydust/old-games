@@ -24,3 +24,74 @@
 
 .map-unit{filter:none}.map-unit>img{filter:drop-shadow(0 1px 1px #000)}
 .terrain-preview{display:block;width:48px;height:48px;object-fit:contain;image-rendering:pixelated;background:#101017}
+
+/* High Reward */
+#hr input[type="search"] { display:block; width:min(100%,32rem); margin:10px 0 20px; padding:12px 14px; background:var(--panel,#202127); color:inherit; border:1px solid #45464e; border-radius:6px; }
+#hr select { max-width:100%; margin:0 12px 18px 0; }
+#hr p { white-space:pre-line; line-height:1.8; }
+.hr-title { display:block; width:min(100%,960px); height:auto; image-rendering:pixelated; margin:auto; }
+.hr-face { width:64px; height:80px; object-fit:cover; image-rendering:pixelated; }
+.hr-profile-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr)); gap:24px; }
+.hr-profile { border:1px solid #3b3c43; padding:24px; min-width:0; border-radius:8px; }
+.hr-profile .hr-face { float:left; margin-right:18px; }
+.hr-profile .wd-table-scroll { clear:both; padding-top:16px; }
+.hr-profile-text { margin:24px 0; padding:16px; border:1px solid #3b3c43; border-radius:8px; }
+.hr-profile-text img { float:left; width:min(40%,240px); margin:20px 24px 16px 0; image-rendering:pixelated; }
+.hr-profile-text::after { content:''; display:block; clear:both; }
+.hr-map { margin:0; overflow:auto; }
+.hr-map img { width:960px; max-width:none; image-rendering:pixelated; }
+.hr-dialogues p { border-bottom:1px solid #34353d; padding:16px 0; }
+.hr-gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr)); gap:24px; }
+.hr-gallery img { width:100%; image-rendering:pixelated; }
+#hr .formula-card pre { white-space:pre-wrap; overflow-wrap:anywhere; }
+@media(max-width:700px) { .hr-map img { width:640px; } .hr-profile { padding:16px; } }
+.hr-item { width:48px; height:48px; object-fit:contain; image-rendering:pixelated; }
+.hr-formation-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px; }
+.hr-formation-grid svg { display:block; width:100%; max-width:360px; }
+#hr .game-tabs { flex-wrap:wrap; }
+.hr-stats { clear:both; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; padding-top:18px; margin-bottom:0; }
+.hr-stats div { padding:10px; border-radius:5px; background:#24252c; }
+.hr-stats dt { font-size:12px; color:#bdb6a5; }
+.hr-stats dd { margin:5px 0 0; font-variant-numeric:tabular-nums; }
+.hr-credits { display:block; width:320px; max-width:100%; margin:24px auto; image-rendering:pixelated; }
+.hr-opening { max-width:960px; margin:28px auto; }
+.hr-opening p { text-align:center; }
+
+.hr-unit { width:64px; height:64px; object-fit:contain; image-rendering:pixelated; }
+.hr-trade-controls { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-bottom:16px; }
+.hr-trade-controls input { width:100px; }
+.hr-quest-dialogue { min-width:200px; max-width:480px; }
+.hr-quest-dialogue p { white-space:pre-line; }
+
+#hr .wd-table td { max-width:360px; white-space:normal; }
+.hr-trade-controls { font-size:14px; }
+.hr-trade-controls select, .hr-trade-controls input { font:inherit; padding:8px; background:#202127; color:var(--text); border:1px solid var(--line); border-radius:5px; }
+
+.hr-market-picker { position:relative; flex:1 1 320px; min-width:0; }
+.hr-trading-field { flex:0 0 110px; }
+#hr .hr-trade-controls label { margin:0 0 8px; }
+#hr-market { position:relative; display:block; width:100%; min-height:40px; padding:10px 36px 10px 12px; text-align:left; font:inherit; color:var(--text); background:#202127; border:1px solid var(--line); border-radius:5px; cursor:pointer; }
+#hr-market::after { content:'⌄'; position:absolute; right:12px; }
+.hr-market-options { position:absolute; top:100%; left:0; right:0; z-index:20; max-height:300px; overflow:auto; padding:4px; background:#202127; border:1px solid #45464e; border-radius:5px; box-shadow:0 8px 24px #0008; }
+.hr-market-options[hidden] { display:none; }
+.hr-market-options button { box-sizing:border-box; display:block; width:100%; margin:0; padding:9px 10px; border:0; border-radius:3px; text-align:left; font:inherit; color:var(--text); background:transparent; cursor:pointer; }
+.hr-market-options button[aria-selected="true"] { background:#393a40; color:#fff; }
+.hr-market-options button:hover, .hr-market-options button:focus { background:#514937; color:#fff; outline:none; }
+#hr-market:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+
+/* Consistent full-width options for every native single-select on the site. */
+.site-select { position:relative; display:inline-block; width:100%; max-width:480px; min-width:0; vertical-align:middle; }
+select.site-select-native { display:none !important; }
+.site-select > button { display:block; box-sizing:border-box; width:100%; min-height:40px; padding:10px 36px 10px 12px; position:relative; text-align:left; font:inherit; color:var(--text); background:#202127; border:1px solid var(--line); border-radius:5px; cursor:pointer; }
+.site-select > button::after { content:'⌄'; position:absolute; right:12px; }
+.site-select > button:disabled { opacity:.5; cursor:default; }
+.site-select > button:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+.site-select-options { position:absolute; top:100%; left:0; right:0; z-index:100; box-sizing:border-box; max-height:300px; overflow:auto; padding:4px; background:#202127; border:1px solid #45464e; border-radius:5px; box-shadow:0 8px 24px #0008; }
+.site-select-options[hidden] { display:none; }
+.site-select-options > button { display:block; box-sizing:border-box; width:100%; margin:0; padding:9px 10px; border:0; border-radius:3px; text-align:left; white-space:normal; font:inherit; color:var(--text); background:transparent; cursor:pointer; }
+.site-select-options > button[aria-selected="true"] { background:#393a40; color:#fff; }
+.site-select-options > button:hover, .site-select-options > button:focus { background:#514937; color:#fff; outline:none; }
+.site-select-options > button:disabled { opacity:.5; cursor:default; }
+#hr .site-select { max-width:100%; margin:0 12px 18px 0; }
+.wd-controls > .site-select { width:auto; flex:1 1 200px; }
+.wd-editor .site-select { min-width:7em; }
