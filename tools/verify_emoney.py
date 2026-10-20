@@ -5,12 +5,18 @@ from pathlib import Path
 from PIL import Image
 from extract_emoney import SOURCE,LOCAL,WEB,image
 from emoney_resources import cmp,animation
+from emoney_tables import heroes
 from unpack_emoney import sha,read_archive,write_json
 from export_emoney import read_json,raw
 
 
 def verify():
     inventory=read_json(LOCAL/'inventory.json')
+    identity=read_json(LOCAL/'source_identity.json')
+    assert identity['source']=='local/binary/emoney'
+    assert identity['archive_sha256']==sha((SOURCE/'MONEY.DDT').read_bytes())
+    assert identity['archive_sha256']=='69efe37ef41f6c02095dbe2e21d95097f1e91384d6294d7ed7f1eab6ff1985b0'
+    assert identity['executable_sha256']=='d05606d0c4d552681e804e77943cdf5d956fb569313131beb1da7d6f1b944a6f'
     for row in inventory:
         original=(SOURCE/row['file']).read_bytes()
         assert sha(original)==row['sha256'],row['file']
@@ -19,6 +25,10 @@ def verify():
     palette=bytes(v*4 for v in (SOURCE/'PAL1.TAB').read_bytes())
     for manifest in sorted((LOCAL/'versions').rglob('manifest.json')):
         report=read_json(manifest);version=manifest.parent.relative_to(LOCAL/'versions').as_posix()
+        if version=='main':
+            for r in report['entries']:
+                if r['name'].endswith('.CHR'):
+                    assert [h['profession'] for h in heroes(raw(r,version))]==[1,2,4,3]
         original=(SOURCE/report['source']).read_bytes();header,entries=read_archive(original)
         rebuilt=(manifest.parent/'index.bin').read_bytes()
         decoded=read_json(manifest.parent/'decoded.json')
@@ -83,6 +93,8 @@ def verify():
     assert web['units'][0]['name']=='戰士' and web['units'][0]['hp']==20
     assert web['units'][-1]['name']=='邪神' and web['units'][-1]['hp']==8000
     assert next(r for r in web['spells'] if r['name']=='轉移')['mp']==20
+    assert '山中廢墟中有釵h隱藏的寶藏。（文字待確認）' in web['dialogue']
+    assert '山中廢墟中有許多隱藏的寶藏。' not in web['dialogue']
     assert all(len(c['heroes'])==4 for c in web['chapters'])
     assert [c['heroes'][0]['level'] for c in web['chapters']]==[1,10,20,30]
     def visit(value):

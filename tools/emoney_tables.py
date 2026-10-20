@@ -37,7 +37,8 @@ def monsters(data):
 
 
 def heroes(data):
-    return [dict(id=i,name=string(r[4:14]),**{k:integer(r,o) for k,o in HERO_FIELDS.items()},
+    return [dict(id=i,name=string(r[4:14]),profession=integer(r,14),
+                 **{k:integer(r,o) for k,o in HERO_FIELDS.items()},
                  troops=[dict(id=integer(r,255+j*4),level=integer(r,271+j*4)) for j in range(4)],
                  spells=[r[131+j]+50 for j in range(10) if r[131+j]],
                  spellLevels=[r[141+j] for j in range(10) if r[131+j]])

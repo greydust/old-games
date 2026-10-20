@@ -1,12 +1,37 @@
 # 魔島大富翁（emoney）解析記錄
 
+## 2026-10-20：來源版本更正
+
+使用者確認先前的 `emoney` 是他人修改過的版本，現已移為 `local/binary/emoney2/`；現在的 `local/binary/emoney/` 才是使用者指定的原始版。網站及預設重建入口已改以後者為唯一來源，不混入修訂版文字或設定。
+
+當前來源識別：
+
+- 原始版 DDT SHA-256：`69efe37ef41f6c02095dbe2e21d95097f1e91384d6294d7ed7f1eab6ff1985b0`。
+- 原始版 EXE SHA-256：`d05606d0c4d552681e804e77943cdf5d956fb569313131beb1da7d6f1b944a6f`，567140 bytes。
+- 修訂版 emoney2 根目錄 DDT SHA-256：`64180337ac05e51589bfbc88802c99a7fa5d1ea1fe71d76e43d03a4ab51c5473`；EXE SHA-256：`2b72bb668c0a7e002c0199df9dfa3c1f7b0194dec2084831abdeff93df39b7e2`。
+- 舊解包成果已整體保留於 `local/extracted/emoney2/`，原始版重新產生於乾淨的 `local/extracted/emoney/`。來源身份以 `source_identity.json` 記錄；重建時若 DDT/EXE 身份變更即拒絕覆寫，避免保留了其他版本的舊索引或字型快取。
+- 當前原始版共有81個檔案、1份DDT、673個資源槽位。已完成全部資源重建驗證、媒體解碼及字型 round-trip；公開具名項目數仍為32兵種、104物品、69技能、4章。
+
+比對工具 `python tools/compare_emoney_versions.py` 只讀取兩份原始目錄，完整差異保存於本機 `version_comparison_emoney2.json`：
+
+- DDT 索引、名稱、位址及段長一致，只有5段、共9 bytes不同。
+- ATTYPE.DAT 第75筆 `dm02` 的記錄+43（檔內4768）原始值20、修訂值8；完整用途尚未追完，不由單一值推定修正效果。
+- 四章 CHR 的凱麗、雪莉各有記錄+14不同：原始值分別4、3，修訂值分別3、4。姓名、能力、技能及隨從等已公開欄位相同；此欄位完整用途尚待追蹤。
+- 原始程式 `0x39542–0x39559` 與 `0x1c0da–0x1c0eb` 以人物索引+1組合肖像檔名，並非直接用 CHR+14。不能因為此欄位互換就交換網站肖像。
+- 兵種、物品、技能、地圖圖塊和領地等其他段均逐byte相同，所以切回原始版後，多數公開數值及圖片保持相同是預期結果。
+- 修訂版RLE例程 `0x2e07e–0x2e0fc` 的127 bytes，在原始程式 `0x2de66–0x2dee4` 完全一致；共用圖片解碼器經原始版全資源重新驗證通過。
+- 原始EXE的初始化資料物件從檔內 `0x7f800` 開始，修訂版為 `0x7fa00`，不能共用硬編碼範圍。現由 LE 標頭、物件表及頁表取得字串資料區。
+- 原始程式含「山中廢墟中有釵h隱藏的寶藏。」；修訂版改為「山中廢墟中有許多隱藏的寶藏。」。原始句雖可嚴格CP950解碼，仍有明顯字詞異常，網站保留原始句並加「文字待確認」，不默默採用修訂文字。
+
+下方原有解析紀錄中，三份資料包、95檔案與6份EXE的統計屬於現在的 emoney2 歷史批次；標示的程式偏移亦以該批根目錄EXE為準。格式結論已用當前原始版重新驗證，但不可將歷史位址直接當成原始版位址。
+
 ## 重建與驗證
 
 完整重建入口為 `python tools/rebuild_emoney.py`，需要 Pillow。只拆容器可執行不需外部套件的 `python tools/unpack_emoney.py`。原始目錄 `local/binary/emoney/` 僅讀取；解包、原樣副本與驗證輸出到 `local/extracted/emoney/`，網站資料與圖片輸出到 `assets/games/emoney/`。
 
 本機已使用 Codex 內附 Python 3 與 Pillow 12.3.0 完成重建。也可依序執行 `extract_emoney.py`、`export_emoney.py`、`verify_emoney.py`。網站建置為 `npm run build`。
 
-`inventory.json` 記錄全部 95 個原始檔案的大小與 SHA-256。各版本 `manifest.json` 保存資源索引、位址、長度及 SHA-256。解包後從磁碟重新讀取索引及全部段，串接後與原資料包逐位元組比較；三份資料包均通過。這是容器拆分驗證，不代表各資源已解碼或規則已還原。
+當前 `inventory.json` 記錄81個原始檔案的大小與SHA-256；歷史 emoney2 的95檔清單另存其解包目錄。各版本 `manifest.json` 保存資源索引、位址、長度及 SHA-256。解包後從磁碟重新讀取索引及全部段，串接後與原資料包逐位元組比較。這是容器拆分驗證，不代表各資源已解碼或規則已還原。
 
 ## 已確認：MONEY.DDT
 
@@ -35,7 +60,7 @@
 
 ## 已確認：圖片壓縮與圖像索引
 
-以下指令依根目錄 MONEY.EXE 的檔案位址 `0x2e07e–0x2e0fc` 確認。這些位址是檔案偏移，不是 LE 邏輯位址。反組譯保存在本機 `analysis/money.dis`。
+以下指令初次依現為 emoney2 的根目錄 MONEY.EXE 檔案位址 `0x2e07e–0x2e0fc` 確認，舊反組譯在 `local/extracted/emoney2/analysis/money.dis`；當前原始版相同例程位於 `0x2de66–0x2dee4`，反組譯在 `local/extracted/emoney/original.dis`。這些位址是檔案偏移，不是 LE 邏輯位址。
 
 - CMP 首四 bytes 為 little-endian uint16 寬、高，後續為逐列指令。
 - `0 n`：透明略過 n pixels；`1 n c`：重複顏色 c 共 n pixels；`2 n`：原樣 n bytes。

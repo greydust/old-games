@@ -17,6 +17,26 @@ LOCAL = ROOT / 'local/extracted/emoney'
 WEB = ROOT / 'assets/games/emoney'
 
 
+def initialized_object(data, index=1):
+    """Return an LE object's initialized bytes without assuming EXE file offsets."""
+    header=struct.unpack_from('<I',data,60)[0]
+    if data[header:header+2]!=b'LE':raise ValueError('Expected LE executable')
+    objects,count,pages=struct.unpack_from('<III',data,header+64)
+    if index>=count:raise ValueError('Missing LE object')
+    size,base,flags,first,length,_=struct.unpack_from('<6I',data,header+objects+24*index)
+    page_size=struct.unpack_from('<I',data,header+40)[0]
+    start=struct.unpack_from('<I',data,header+128)[0]
+    physical=[]
+    for i in range(first-1,first-1+length):
+        page=data[header+pages+i*4:header+pages+i*4+4]
+        if len(page)!=4 or page[3]!=0:raise ValueError('Unsupported LE page')
+        physical.append(int.from_bytes(page[:3],'big'))
+    if physical!=list(range(physical[0],physical[0]+length)):
+        raise ValueError('Non-contiguous initialized object')
+    offset=start+(physical[0]-1)*page_size
+    return offset,data[offset:offset+length*page_size]
+
+
 def image(width, height, pixels, alpha, palette):
     im = Image.frombytes('P', (width, height), bytes(pixels))
     im.putpalette(palette)
@@ -235,6 +255,13 @@ def decode_archive(version, records, palette, cache):
 
 
 def main():
+    identity=dict(source=SOURCE.relative_to(ROOT).as_posix(),
+                  archive_sha256=sha((SOURCE/'MONEY.DDT').read_bytes()),
+                  executable_sha256=sha((SOURCE/'MONEY.EXE').read_bytes()))
+    identity_path=LOCAL/'source_identity.json'
+    if identity_path.exists() and json.loads(identity_path.read_text('utf-8'))!=identity:
+        raise ValueError('Source version changed: preserve old extraction in a separate directory before rebuilding')
+    write_json(identity_path,identity)
     extract(SOURCE,LOCAL)
     WEB.mkdir(parents=True,exist_ok=True)
     palette = bytes(v*4 for v in (SOURCE/'PAL1.TAB').read_bytes())

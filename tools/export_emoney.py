@@ -5,7 +5,7 @@ import shutil
 import struct
 from pathlib import Path
 from PIL import Image, ImageDraw
-from extract_emoney import ROOT,SOURCE,LOCAL,WEB,sheet,text_resource
+from extract_emoney import ROOT,SOURCE,LOCAL,WEB,sheet,text_resource,initialized_object
 from emoney_tables import structure,monsters,heroes,items,spells,cities,integer,string
 from unpack_emoney import write_json,sha
 
@@ -139,6 +139,9 @@ def export_web():
         prefix=f'MAP{chapter:02d}'
         hero=heroes(raw(resources[prefix+'.CHR']))
         for r in hero:
+            # +14 differs between releases; portraits use actor index instead.
+            # Retain the field in private tables until all consumers are traced.
+            r.pop('profession')
             r['image']=publish(f"FACE{r['id']+1:02d}00.CMP",f"heroes/{r['id']}.png")
             r['troops']=[dict(name=units[t['id']-1]['name'],level=t['level']) for t in r['troops'] if t['id']]
             r['spells']=[dict(name=skills[s],level=lv) for s,lv in zip(r['spells'],r.pop('spellLevels'))]
@@ -168,8 +171,8 @@ def export_web():
                              endings=[text_resource(raw(resources[f'MISS{ending}{chapter}.DAT'])).strip() for ending in (1,2)]))
     # All Chinese display strings from the initialized data object, strict decoding only.
     exe=(SOURCE/'MONEY.EXE').read_bytes();dialogue=[];evidence=[]
-    pos=0x7fa00
-    for value in exe[pos:0x87a00].split(b'\0'):
+    pos,initialized=initialized_object(exe)
+    for value in initialized.split(b'\0'):
         text=text_resource(value)
         if text and re.search('[\u4e00-\u9fff]',text):
             if not re.search('[\u4e00-\u9fff]',text[:2]) and sum('\u4e00'<=c<='\u9fff' for c in text)<3:
@@ -178,7 +181,10 @@ def export_web():
             # Single Han characters can come from numeric tables. Format templates
             # require runtime substitutions and are not public dialogue paragraphs.
             if len(text.strip())>=2 and not re.search(r'%[-+ #0-9.]*[a-zA-Z]',text) and text not in dialogue:
-                dialogue.append(text)
+                if text=='山中廢墟中有釵h隱藏的寶藏。':
+                    dialogue.append(text+'（文字待確認）')
+                else:
+                    dialogue.append(text)
         pos+=len(value)+1
     write_json(LOCAL/'analysis/display_strings.json',evidence)
     # Original chapter art, endings and story panels contain game text and images.
