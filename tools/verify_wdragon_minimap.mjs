@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {readFile,writeFile} from 'node:fs/promises';
+await import('./wdragon_editor.js');
+const {WorldMap,Scenario,buildMinimap,mapArchive}=globalThis.WdragonEditor;
+const r=path=>readFile(path),base='assets/games/wdragon/';
+const [icon,mdl,palette,map,scenario,expected]=await Promise.all([r(base+'minimap-icons.dat'),r(base+'minimap-tiles.dat'),r(base+'minimap-palette.dat'),r('local/extracted/WDRAGON/aram/MMAP.MAP'),r('local/extracted/WDRAGON/aram/SINARIO.DAT'),r('local/extracted/WDRAGON/aram/ICONGRF.DAT')]);
+const world=new WorldMap(map),output=buildMinimap(world,icon,mdl,palette);
+assert.deepEqual(output,new Uint8Array(expected));
+assert.deepEqual(output.subarray(0,0x6700),new Uint8Array(icon.subarray(0,0x6700)));
+assert.deepEqual(output.subarray(0x9700),new Uint8Array(icon.subarray(0x9700)));
+assert.deepEqual(new Scenario(scenario).validate(world),[]);
+const changed=new WorldMap(map);changed.tiles[0]=196;const updated=buildMinimap(changed,icon,mdl,palette);assert.notDeepEqual(updated,output);
+assert.throws(()=>buildMinimap(world,new Uint8Array(),mdl,palette));
+await writeFile('local/extracted/WDRAGON/minimap-fix/editor-download.zip',mapArchive([['MMAP.MAP',map],['ICONGRF.DAT',output],['SINARIO.DAT',scenario]]));
+console.log('Minimap matches verified ARAM bitmap; terrain changes update output; other interface bytes preserved; scenario validates.');

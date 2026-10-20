@@ -1,0 +1,17 @@
+.wd-editor [aria-invalid="true"] { border: 2px solid #ef6464; background: #421e26; color: #fff; outline-color: #ff7373; }
+.wd-editor-errors { max-height: 18rem; overflow: auto; color: #ffaaa5; }
+.wd-editor-errors:empty { display: none; }
+.wd-editor-errors button { color: inherit; text-align: left; }
+.wd-editor input:not([type="file"]), .wd-editor select { padding: .35rem; border-radius: .25rem; }
+.wd-editor details { margin: .75rem 0; }
+.wd-editor canvas { cursor: crosshair; }
+.wd-editor .wd-table select { min-width: 9rem; width: auto; max-width: 15rem; }
+.wd-editor .wd-table input:not([type="number"]) { width: 9rem; }
+.wd-editor .wd-table-scroll { max-height: 70vh; overflow: auto; }
+.wd-editor .wd-table thead { position: sticky; top: 0; z-index: 1; }
+.wd-controls select, .wd-editor select { color-scheme: dark; background-color: #202127; color: #eee; }
+.wd-controls select { width: auto; min-width: 8rem; max-width: min(100%, 32rem); flex: 0 1 auto; }
+.wd-controls select option, .wd-editor select option { background-color: #202127; color: #eee; }
+.wd-controls select option:checked, .wd-editor select option:checked { background-color: #403b31; color: #fff; }
+.wd-editor-map { height: 65vh; min-height: 18rem; max-height: 48rem; border: 1px solid var(--line); overscroll-behavior: contain; }
+.wd-editor-map canvas { touch-action: none; }

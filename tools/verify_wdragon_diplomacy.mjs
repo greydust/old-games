@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+await import('./wdragon_editor.js');
+const source=await readFile('local/extracted/WDRAGON/aram-backup/20261020-011053/SINARIO.DAT');
+const fresh=()=>new WdragonEditor.Scenario(source);
+const ki=await readFile('local/extracted/WDRAGON/ki-load.bin');
+assert.equal(ki.subarray(0x57a2,0x57b0).toString('hex'),'b1163bf774488a7d2a80ffff7440');
+let m=fresh(),a=m.address(0,'factions',2);m.bytes[a]=0;m.bytes[a+42]=0;
+assert.equal(m.clearInactiveDiplomacy(),1);assert.equal(m.bytes[a+42],255);assert.equal(m.clearInactiveDiplomacy(),0);
+m=fresh();const envoy=3,p=m.address(0,'characters',envoy),target=m.address(0,'factions',2);m.bytes[target+42]=envoy;m.bytes[p+23]=3;m.bytes[p+26]=50;m.remove(0,'factions',2);assert.equal(m.bytes[target+42],255);assert.equal(m.bytes[p+23],0);assert.equal(m.bytes[p+26],0);
+m=fresh();m.bytes[target+42]=envoy;m.bytes[p+23]=3;m.bytes[p+28]=1;m.remove(0,'factions',1);assert.equal(m.bytes[target+42],255);
+m=fresh();m.bytes[target+42]=envoy;m.remove(0,'characters',envoy);assert.equal(m.bytes[target+42],255);
+m=fresh();m.remove(0,'factions',2);const id=m.add(0,'factions');assert.equal(m.bytes[m.address(0,'factions',id)+42],255);
+console.log('Confirmed monthly loop scans 22 slots without active flag check; tested sentinel repair, faction/character deletion cleanup and new faction initialization.');
